@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDD.Api", "TGDD.Api\TGDD.Api.csproj", "{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDD.Models", "TGDD.Models\TGDD.Models.csproj", "{EEB86CC6-987F-407B-B0B4-28FAC948D13C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDD.Web", "TGDD.Web\TGDD.Web.csproj", "{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB86CC6-987F-407B-B0B4-28FAC948D13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB86CC6-987F-407B-B0B4-28FAC948D13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB86CC6-987F-407B-B0B4-28FAC948D13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB86CC6-987F-407B-B0B4-28FAC948D13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5FBB6E2-DA8E-4E48-B963-A69E8D6E6228}
+	EndGlobalSection
+EndGlobal

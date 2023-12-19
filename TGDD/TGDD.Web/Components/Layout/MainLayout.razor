@@ -1,0 +1,47 @@
+﻿
+@inherits LayoutComponentBase
+@inject ShoppingCartState ShoppingCartState
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <NavLink type="button" class="nav-link" href="ShoppingCart">
+                <FluentIcon Value="@(new Icons.Filled.Size24.Cart())" Color="@Color.Neutral" />
+                <span class="position-absolute  translate-middle badge rounded-pill bg-danger">
+                    @shoppingCartItemsCount
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+            </NavLink>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+@code{
+
+    private int shoppingCartItemsCount = 0;
+
+    protected override void OnInitialized()
+    {
+        ShoppingCartState.OnChange += StateHasChanged;
+        shoppingCartItemsCount = ShoppingCartState.ShoppingCartItems.Count();
+    }
+   
+    public void Dispose()
+    {
+        ShoppingCartState.OnChange -= StateHasChanged;
+    }
+    
+}

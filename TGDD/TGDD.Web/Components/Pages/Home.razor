@@ -1,0 +1,55 @@
+﻿@page "/"
+@* @inherits ProductsBase *@
+@inject NavigationManager NavigationManager
+@inject IProductService ProductService
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+
+<PageTitle>Home</PageTitle>
+
+
+@if (Products != null)
+{
+    <FluentGrid Justify="JustifyContent.Center">
+
+        @foreach (var product in Products)
+        {
+            <FluentGridItem xs="12" sm="6" md="3" Justify="JustifyContent.Center">
+                <FluentCard class="text-center product-info product-container">
+                    <div @onclick="()=>NavigateToDetailPage(product.Id)">
+                        <img class="card-img-top w-30 img-fluid" src="@product.ImageURL" alt="..." />
+                        <p class="m-2">@product.Name</p>
+                        <strong class="m-2 price">
+                            <span class="text-muted">@product.Price.ToString("C")</span>
+                        </strong>
+
+                        <FluentButton OnClick="()=> NavigateToDetailPage(product.Id)"
+                                      IconStart="@(new Icons.Regular.Size24.Cart())" class="d-block">
+                            Mua Ngay
+                        </FluentButton>
+                    </div>
+                </FluentCard>
+            </FluentGridItem>
+        }
+
+    </FluentGrid>
+}
+else
+{
+    <h2>Loading</h2>
+}
+
+
+@code {
+    private IEnumerable<ProductDto> Products { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Task.Delay(100);
+        Products = await ProductService.GetItems();
+    }
+
+    private void NavigateToDetailPage(int id)
+    {
+        NavigationManager.NavigateTo($"/Detail/{id}");
+    }
+}

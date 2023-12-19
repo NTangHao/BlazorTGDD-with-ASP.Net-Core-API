@@ -1,0 +1,109 @@
+﻿@page "/ShoppingCart"
+@inject IProductService ProductService
+@inject IShoppingCartService ShoppingCartService
+@inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService
+@inject ShoppingCartState shoppingCartState
+@inject IJSRuntime JSRuntime
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+<h3>ShoppingCart</h3>
+
+
+
+@if (shoppingCartState.ShoppingCartItems == null)
+{
+   <h1>No Item In Cart</h1>
+}
+
+else
+{
+    <h3 class="mb-5">Shopping Cart</h3>
+    @if (shoppingCartState.ShoppingCartItems.Count() > 0)
+    {
+      <div class = "row mb-5">
+        <div class ="col-md-9">
+                @foreach (var item in shoppingCartState.ShoppingCartItems)
+            {
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <img src="@item.ProductImageURL" width="300" class="img-thumbnail">
+                    </div>
+                    <div class = "col-md-8">
+                        <h5>@item.ProductName</h5>
+                        <div class="mb-4">@item.ProductDescription</div>
+                        <span>
+                             Price: <b>@item.Price.ToString("C")</b>
+                            <input @oninput = "()=>UpdateQty_Input(item.Id)"
+                            type="number" @bind="@item.Qty" />
+                            <button data-itemId="@item.Id" class="btn btn-info btn-sm update-qty"
+                                @onclick="(() => UpdateQtyCartItem_Click(item.Id, item.Qty))"
+                            >Update Qty</button>
+                        </span>
+                        <div>
+                                <button data-itemId="@item.Id" class="btn btn-danger btn-sm update-qty"
+                                        @onclick="(() => DeleteCartItem_Click(item))">
+                                    Delete
+                                </button>
+                        </div>
+                    </div>
+
+                </div>
+            }
+        </div>
+        <div class="col-md-3">
+            <h5>Cart Summary</h5>
+            <div class="mt-2">
+                @* <div>Total - (@TotalQuantity items)&nbsp;<b>@TotalPrice</b></div> *@
+                    <div>@TotalPrice</div>
+                <a href="Checkout" class="btn btn-success">
+                    <span class="oi oi-credit-card"></span>&nbsp; Proceed to Checkout 
+                </a>
+            </div>
+        </div>
+        </div>
+    }
+    else
+    {
+        <h4>There are currently no items in your shopping cart</h4>
+        
+    }
+
+}
+
+@code {
+
+
+    List<CartItemDto> cartlist { get; set; }
+
+    private decimal TotalPrice { get; set; }
+
+    protected override void OnInitialized()
+    {
+        shoppingCartState.OnChange += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        shoppingCartState.OnChange -= StateHasChanged;
+    }
+
+    protected async Task DeleteCartItem_Click(CartItemDto cartItem)
+    {
+        if (await JSRuntime.InvokeAsync<bool>("confirm", $"Remove {cartItem.ProductName} from the order?"))
+        {
+            await InvokeAsync(() => { shoppingCartState.RemoveFromCartList(cartItem); });
+
+        }
+        StateHasChanged();
+    }
+    protected async Task UpdateQty_Input(int id)
+    {
+        // await MakeUpdateQtyButtonVisible(id, true);
+    }
+
+
+    protected async Task UpdateQtyCartItem_Click(int id, int qty)
+    {
+       
+
+    }
+}

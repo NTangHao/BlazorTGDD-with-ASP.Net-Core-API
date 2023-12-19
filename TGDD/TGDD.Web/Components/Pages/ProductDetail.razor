@@ -1,0 +1,80 @@
+@page "/Detail/{Id:int}"
+@inject NavigationManager NavigationManager
+@inject IProductService ProductService
+@inject IShoppingCartService ShoppingCartService
+@inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService 
+@inject ShoppingCartState shoppingCartState
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+
+
+@if(Product != null)
+{
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img class="img-fluid" src="@Product.ImageURL">
+        </div>
+        <div class="col-md-6">
+            <h3>@Product?.Name</h3>
+            <p class="mb-4">@Product.Description</p>
+            <p class="mb-4">
+                <b>
+                    @Product.Price.ToString("C")&nbsp;(@Product.Qty items in stock)
+                </b>
+            </p>
+            <div>
+                <button @onclick="() => (AddToCart_Click(new CartItemToAddDto{
+                    CartId = 1,
+                    ProductId = Product.Id,
+                    Qty = 1
+                }))" 
+                class="btn btn-success">
+
+                    <b>Add to Cart</b>
+                </button>
+            </div>
+        </div>
+
+    </div>
+}
+
+@code {
+    public ProductDto Product { get; set; }
+
+    private List<CartItemDto> ShoppingCartItems { get; set; }
+    [Parameter]
+    public int Id { get; set; }
+    string[] arrImage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
+        Product = await ProductService.GetItem(Id);
+
+    }
+
+    protected async Task AddToCart_Click(CartItemToAddDto cartItemToAddDto)
+    {
+        try
+        {
+            // var cartItemDto = await ShoppingCartService.AddItem(cartItemToAddDto);
+
+            // if (cartItemDto != null)
+            // {
+            //     ShoppingCartItems.Add(cartItemDto);
+            //     await ManageCartItemsLocalStorageService.SaveCollection(ShoppingCartItems);
+            // }
+            await InvokeAsync(() => { shoppingCartState.AddToCartList(cartItemToAddDto); });
+            NavigationManager.NavigateTo("/ShoppingCart");
+        }
+        catch (Exception)
+        {
+
+            //Log Exception
+        }
+    }
+
+	// public async Task AddProduct(Product product)
+	// {
+	// 	await InvokeAsync(() => { OrderState.AddProductToOrder(product);});
+	// }
+}
