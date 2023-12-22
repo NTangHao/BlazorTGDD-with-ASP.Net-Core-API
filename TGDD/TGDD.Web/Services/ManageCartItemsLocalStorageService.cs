@@ -20,29 +20,31 @@ namespace TGDD.Web.Services
 
         public async Task<List<CartItemDto>> GetCollection()
         {
+            // Lấy ra khỏi localStorage nếu ko có thì gọi api đưa vào 
             return await this.localStorageService.GetItemAsync<List<CartItemDto>>(key)
                     ?? await AddCollection();
         }
 
         public async Task RemoveCollection()
         {
-           await this.localStorageService.RemoveItemAsync(key);
+            await this.localStorageService.RemoveItemAsync(key);
         }
 
         public async Task SaveCollection(List<CartItemDto> cartItemDtos)
         {
-            await this.localStorageService.SetItemAsync(key,cartItemDtos);
+            await this.localStorageService.SetItemAsync(key, cartItemDtos);
         }
 
         private async Task<List<CartItemDto>> AddCollection()
         {
             var shoppingCartCollection = await this.shoppingCartService.GetItems(1);
 
-            if(shoppingCartCollection != null)
+            if (shoppingCartCollection != null)
             {
+                // Đưa vào localStorage
                 await this.localStorageService.SetItemAsync(key, shoppingCartCollection);
             }
-            
+
             return shoppingCartCollection;
 
         }

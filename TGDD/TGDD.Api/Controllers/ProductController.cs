@@ -7,20 +7,26 @@ namespace TGDD.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize] 
     public class ProductController : ControllerBase
     {
         private readonly IProductRepository productRepository;
+        private readonly ILogger<ProductController> _logger;
 
-        public ProductController(IProductRepository productRepository)
+
+        public ProductController(IProductRepository productRepository, ILogger<ProductController> logger)
         {
             this.productRepository = productRepository;
+            _logger = logger;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDto>>> GetItems()
         {
+            _logger.LogInformation("Make call to product list");
             try
             {
+                //throw new NotImplementedException("Error in GetItems");
                 var products = await this.productRepository.GetItems();
 
 
@@ -36,8 +42,9 @@ namespace TGDD.Api.Controllers
                 }
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                _logger.LogError(ex, "Error in GetItems test");
                 return StatusCode(StatusCodes.Status500InternalServerError,
                                 "Error retrieving data from the database");
 

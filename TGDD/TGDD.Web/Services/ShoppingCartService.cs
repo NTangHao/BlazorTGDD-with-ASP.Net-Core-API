@@ -1,15 +1,14 @@
 ﻿using Newtonsoft.Json;
+using System.Text;
 using TGDD.Models.Dtos;
 using TGDD.Web.Services.Contracts;
-using System.Net.Http.Json;
-using System.Text;
 
 namespace TGDD.Web.Services
 {
     public class ShoppingCartService : IShoppingCartService
     {
         private readonly HttpClient httpClient;
-        
+
         public event Action<int> OnShoppingCartChanged;
 
         public ShoppingCartService(HttpClient httpClient)
@@ -21,8 +20,8 @@ namespace TGDD.Web.Services
         {
             try
             {
-                var response = await httpClient.PostAsJsonAsync<CartItemToAddDto>("api/ShoppingCart",cartItemToAddDto);
-               
+                var response = await httpClient.PostAsJsonAsync<CartItemToAddDto>("api/ShoppingCart", cartItemToAddDto);
+
                 if (response.IsSuccessStatusCode)
                 {
                     if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
@@ -30,7 +29,7 @@ namespace TGDD.Web.Services
                         return default(CartItemDto);
                     }
 
-                    var test = await response.Content.ReadFromJsonAsync<CartItemDto>();
+                    //var test = await response.Content.ReadFromJsonAsync<CartItemDto>();
                     return await response.Content.ReadFromJsonAsync<CartItemDto>();
 
                 }
@@ -76,7 +75,7 @@ namespace TGDD.Web.Services
                 if (response.IsSuccessStatusCode)
                 {
                     if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
-                    {   
+                    {
                         return Enumerable.Empty<CartItemDto>().ToList();
                     }
                     return await response.Content.ReadFromJsonAsync<List<CartItemDto>>();
@@ -86,7 +85,7 @@ namespace TGDD.Web.Services
                     var message = await response.Content.ReadAsStringAsync();
                     throw new Exception($"Http status code: {response.StatusCode} Message: {message}");
                 }
-                
+
             }
             catch (Exception)
             {
@@ -102,6 +101,7 @@ namespace TGDD.Web.Services
                 OnShoppingCartChanged.Invoke(totalQty);
             }
         }
+        // Update Quantity CartList
 
         public async Task<CartItemDto> UpdateQty(CartItemQtyUpdateDto cartItemQtyUpdateDto)
         {
@@ -112,7 +112,7 @@ namespace TGDD.Web.Services
 
                 var response = await httpClient.PatchAsync($"api/ShoppingCart/{cartItemQtyUpdateDto.CartItemId}", content);
 
-                if(response.IsSuccessStatusCode)
+                if (response.IsSuccessStatusCode)
                 {
                     return await response.Content.ReadFromJsonAsync<CartItemDto>();
                 }
@@ -125,5 +125,7 @@ namespace TGDD.Web.Services
                 throw;
             }
         }
+
+
     }
 }

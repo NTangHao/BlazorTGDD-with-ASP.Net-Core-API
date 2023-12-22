@@ -2,13 +2,17 @@
 @* @inherits ProductsBase *@
 @inject NavigationManager NavigationManager
 @inject IProductService ProductService
+@inject IShoppingCartService ShoppingCartService
+@inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService
 @rendermode @(new InteractiveServerRenderMode(prerender: false))
 
 <PageTitle>Home</PageTitle>
 
 
+
 @if (Products != null)
 {
+    
     <FluentGrid Justify="JustifyContent.Center">
 
         @foreach (var product in Products)
@@ -38,18 +42,30 @@ else
     <h2>Loading</h2>
 }
 
-
 @code {
     private IEnumerable<ProductDto> Products { get; set; }
-
+    private IEnumerable<CartItemDto> ShoppingCartItems { get; set; }
     protected override async Task OnInitializedAsync()
     {
-        Task.Delay(100);
+        await ClearLocalStorage();
         Products = await ProductService.GetItems();
+
+        ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
+
+        // Shoot Event to get total quantity cart
+        var totalQty = ShoppingCartItems.Sum(i => i.Qty);
+        ShoppingCartService.RaiseEventOnShoppingCartChanged(totalQty);
     }
 
     private void NavigateToDetailPage(int id)
     {
         NavigationManager.NavigateTo($"/Detail/{id}");
+    }
+
+    
+    private async Task ClearLocalStorage()
+    {
+        await ManageCartItemsLocalStorageService.RemoveCollection();
+        
     }
 }

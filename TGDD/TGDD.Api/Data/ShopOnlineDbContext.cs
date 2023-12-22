@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using TGDD.Api.Entities;
 
 namespace TGDD.Api.Data
 {
-    public class ShopOnlineDbContext : DbContext
+    public class ShopOnlineDbContext : IdentityDbContext<IdentityUser>
     {
         public ShopOnlineDbContext(DbContextOptions<ShopOnlineDbContext> options) : base(options)
         {
@@ -102,8 +104,8 @@ namespace TGDD.Api.Data
                 CategoryId = 3
 
             });
-          
-           
+
+
             //Add Product Categories
             modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
             {

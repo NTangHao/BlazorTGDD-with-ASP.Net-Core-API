@@ -1,9 +1,9 @@
-@page "/Detail/{Id:int}"
+﻿@page "/Detail/{Id:int}"
 @inject NavigationManager NavigationManager
 @inject IProductService ProductService
 @inject IShoppingCartService ShoppingCartService
 @inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService 
-@inject ShoppingCartState shoppingCartState
+@inject IJSRuntime JS
 @rendermode @(new InteractiveServerRenderMode(prerender: false))
 
 
@@ -47,8 +47,10 @@
 
     protected override async Task OnInitializedAsync()
     {
-        ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
+
         Product = await ProductService.GetItem(Id);
+        ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
+
 
     }
 
@@ -56,19 +58,20 @@
     {
         try
         {
-            // var cartItemDto = await ShoppingCartService.AddItem(cartItemToAddDto);
+            var cartItemDto = await ShoppingCartService.AddItem(cartItemToAddDto);
+            if (cartItemDto != null)
+            {
+                ShoppingCartItems.Add(cartItemDto);
+                // Lưu vào localstorage
+                await ManageCartItemsLocalStorageService.SaveCollection(ShoppingCartItems);
+            }
 
-            // if (cartItemDto != null)
-            // {
-            //     ShoppingCartItems.Add(cartItemDto);
-            //     await ManageCartItemsLocalStorageService.SaveCollection(ShoppingCartItems);
-            // }
-            await InvokeAsync(() => { shoppingCartState.AddToCartList(cartItemToAddDto); });
             NavigationManager.NavigateTo("/ShoppingCart");
+            StateHasChanged();
         }
-        catch (Exception)
+        catch (Exception ex)
         {
-
+            JS.InvokeVoidAsync("console.log", ex.Message);
             //Log Exception
         }
     }

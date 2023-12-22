@@ -1,13 +1,18 @@
 ﻿
 @inherits LayoutComponentBase
-@inject ShoppingCartState ShoppingCartState
+@implements IDisposable
+@inject NavigationManager NavigationManager
+@inject IProductService ProductService
+@inject IShoppingCartService ShoppingCartService
+@inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService
 <div class="page">
     <div class="sidebar">
-        <NavMenu />
+        <NavMenu />       
     </div>
-
+    
     <main>
-        <div class="top-row px-4">
+        <LoginDisplay></LoginDisplay>
+        <div class="top-row px-4 float-end bg-transparent border-0">
             <NavLink type="button" class="nav-link" href="ShoppingCart">
                 <FluentIcon Value="@(new Icons.Filled.Size24.Cart())" Color="@Color.Neutral" />
                 <span class="position-absolute  translate-middle badge rounded-pill bg-danger">
@@ -29,19 +34,25 @@
     <a class="dismiss">🗙</a>
 </div>
 
-@code{
-
+@code {
     private int shoppingCartItemsCount = 0;
+    private IEnumerable<CartItemDto> ShoppingCartItems { get; set; }
+
 
     protected override void OnInitialized()
-    {
-        ShoppingCartState.OnChange += StateHasChanged;
-        shoppingCartItemsCount = ShoppingCartState.ShoppingCartItems.Count();
+    { 
+        ShoppingCartService.OnShoppingCartChanged += ShoppingCartChanged;
+        // ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
     }
-   
-    public void Dispose()
+
+    private void ShoppingCartChanged(int totalQty)
     {
-        ShoppingCartState.OnChange -= StateHasChanged;
+        shoppingCartItemsCount = totalQty;
+        StateHasChanged();
     }
-    
+
+    void IDisposable.Dispose()
+    {
+        ShoppingCartService.OnShoppingCartChanged -= ShoppingCartChanged;
+    }
 }
