@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDD.Models", "TGDD.Models\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDD.Web", "TGDD.Web\TGDD.Web.csproj", "{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGDD.AppHost", "TGDD.AppHost\TGDD.AppHost.csproj", "{8DFAEC23-2667-40F4-8206-BCAFC46591F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDD.ServiceDefaults", "TGDD.ServiceDefaults\TGDD.ServiceDefaults.csproj", "{C9AAD924-4B7C-4ADB-A00C-D3F64606B9D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DFAEC23-2667-40F4-8206-BCAFC46591F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DFAEC23-2667-40F4-8206-BCAFC46591F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DFAEC23-2667-40F4-8206-BCAFC46591F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DFAEC23-2667-40F4-8206-BCAFC46591F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AAD924-4B7C-4ADB-A00C-D3F64606B9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AAD924-4B7C-4ADB-A00C-D3F64606B9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AAD924-4B7C-4ADB-A00C-D3F64606B9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AAD924-4B7C-4ADB-A00C-D3F64606B9D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

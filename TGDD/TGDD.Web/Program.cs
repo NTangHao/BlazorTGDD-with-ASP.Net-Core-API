@@ -9,11 +9,19 @@ using TGDD.Web.Services.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7136/") });
 
+// Configure the HTTP request pipeline for this blazor app
+
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5282") });
+
+//Configure the HTTP request pipeline aspire for this blazor app
+
+builder.Services.AddHttpClient<ProductServiceClient>(client => client.BaseAddress = new("http://tgddapi"));
 
 //Add Authentication State
 
@@ -55,6 +63,8 @@ builder.Services.AddServerSideBlazor().AddCircuitOptions(options => { options.De
 // set up authorization
 builder.Services.AddAuthorizationCore();
 var app = builder.Build();
+
+app.MapDefaultEndpoints();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

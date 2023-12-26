@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TGDD.Api\TGDD.Api.csproj" />
     <ProjectReference Include="..\TGDD.Models\TGDD.Models.csproj" />
+    <ProjectReference Include="..\TGDD.ServiceDefaults\TGDD.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>

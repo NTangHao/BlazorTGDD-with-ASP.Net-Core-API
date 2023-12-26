@@ -2,6 +2,7 @@
 @* @inherits ProductsBase *@
 @inject NavigationManager NavigationManager
 @inject IProductService ProductService
+@inject ProductServiceClient ProductServiceClient
 @inject IShoppingCartService ShoppingCartService
 @inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService
 @rendermode @(new InteractiveServerRenderMode(prerender: false))
@@ -50,7 +51,9 @@ else
     protected override async Task OnInitializedAsync()
     {
         await ClearLocalStorage();
-        Products = await ProductService.GetItems();
+        // Products = await ProductService.GetItems();
+        Products = await ProductServiceClient.GetItems();
+
         if (authenticationState is not null)
         {
             var authState = await authenticationState;

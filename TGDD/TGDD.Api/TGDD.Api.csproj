@@ -33,6 +33,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TGDD.Models\TGDD.Models.csproj" />
+    <ProjectReference Include="..\TGDD.ServiceDefaults\TGDD.ServiceDefaults.csproj" />
   </ItemGroup>
 
   <ItemGroup>
