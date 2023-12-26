@@ -30,6 +30,7 @@ namespace TGDD.Web.Services
             {
                 UserName = registerModel.Email
             };
+
             var result = await _httpClient.PostAsJsonAsync("api/accounts", registerModel);
             var userResult = await _httpClient.PostAsJsonAsync("api/users", user);
 

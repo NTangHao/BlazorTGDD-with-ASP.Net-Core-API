@@ -43,18 +43,31 @@ else
 }
 
 @code {
+    [CascadingParameter]
+    private Task<AuthenticationState>? authenticationState { get; set; }
     private IEnumerable<ProductDto> Products { get; set; }
     private IEnumerable<CartItemDto> ShoppingCartItems { get; set; }
     protected override async Task OnInitializedAsync()
     {
         await ClearLocalStorage();
         Products = await ProductService.GetItems();
+        if (authenticationState is not null)
+        {
+            var authState = await authenticationState;
+            var user = authState?.User;
 
-        ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
+            if (user?.Identity is not null && user.Identity.IsAuthenticated)
+            {
+                ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection(user.Identity.Name);
+                // Shoot Event to get total quantity cart
+                var totalQty = ShoppingCartItems.Sum(i => i.Qty);
+                ShoppingCartService.RaiseEventOnShoppingCartChanged(totalQty);
+            }
+        }
+        StateHasChanged();
+       
 
-        // Shoot Event to get total quantity cart
-        var totalQty = ShoppingCartItems.Sum(i => i.Qty);
-        ShoppingCartService.RaiseEventOnShoppingCartChanged(totalQty);
+        
     }
 
     private void NavigateToDetailPage(int id)

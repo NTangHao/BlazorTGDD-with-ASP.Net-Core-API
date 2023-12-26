@@ -19,7 +19,7 @@ builder.Services.AddSwaggerGen();
 
 // Add Serilog service
 
-//ctx : configuration file, lc : log configuration
+//ctx : context, lc : log configuration
 builder.Host.UseSerilog((ctx, lc) =>
     lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration)
 );

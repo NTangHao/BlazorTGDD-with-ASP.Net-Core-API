@@ -1,13 +1,26 @@
 ﻿@page "/logout"
 @inject IAuthService AuthService
 @inject NavigationManager NavigationManager
-
+@inject IShoppingCartService ShoppingCartService
+@inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService
 @code {
 
     protected override async Task OnInitializedAsync()
     {
         await AuthService.Logout();
+        await ClearLocalStorage();
+        CartChanged();
         NavigationManager.NavigateTo("/");
     }
 
+    private async Task ClearLocalStorage()
+    {
+        await ManageCartItemsLocalStorageService.RemoveCollection();
+
+    }
+    private void CartChanged()
+    {
+        
+        ShoppingCartService.RaiseEventOnShoppingCartChanged(0);
+    }
 }

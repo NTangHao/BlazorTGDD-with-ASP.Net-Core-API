@@ -1,9 +1,12 @@
 ﻿@page "/Detail/{Id:int}"
+@using TGDD.Api.Entities
 @inject NavigationManager NavigationManager
 @inject IProductService ProductService
 @inject IShoppingCartService ShoppingCartService
+@inject ICartService CartService
 @inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService 
 @inject IJSRuntime JS
+
 @rendermode @(new InteractiveServerRenderMode(prerender: false))
 
 
@@ -22,15 +25,34 @@
                 </b>
             </p>
             <div>
-                <button @onclick="() => (AddToCart_Click(new CartItemToAddDto{
-                    CartId = 1,
+                <AuthorizeView>
+                    <Authorized>
+                        <button @onclick="() => (AddToCart_Click(new CartItemToAddDto{
+                            CartId = (int)cart?.Id,
+                            ProductId = Product.Id,
+                            Qty = 1
+                        }))" 
+                        class="btn btn-success">
+
+                            <b>Add to Cart</b>
+                        </button>
+                    </Authorized>
+                    <NotAuthorized>
+                        <a href="/login" class="btn btn-success">
+                            <b>Add to Cart</b>
+                        </a>
+                    </NotAuthorized>
+                </AuthorizeView>
+                @* <button @onclick="() => (AddToCart_Click(new CartItemToAddDto{
+                    CartId = (int)cart?.Id,
                     ProductId = Product.Id,
                     Qty = 1
                 }))" 
                 class="btn btn-success">
 
                     <b>Add to Cart</b>
-                </button>
+                </button> *@
+                <div>@authMessage</div>
             </div>
         </div>
 
@@ -38,8 +60,13 @@
 }
 
 @code {
-    public ProductDto Product { get; set; }
 
+    [CascadingParameter]
+    private Task<AuthenticationState>? authenticationState { get; set; }
+    public ProductDto Product { get; set; }
+    private string authMessage = "The user is NOT authenticated.";
+    private Cart cart { get; set; }
+    private User usercart { get; set; }
     private List<CartItemDto> ShoppingCartItems { get; set; }
     [Parameter]
     public int Id { get; set; }
@@ -47,27 +74,70 @@
 
     protected override async Task OnInitializedAsync()
     {
+        try      
+        {
+            if (authenticationState is not null)
+            {
+                var authState = await authenticationState;
+                var user = authState?.User;
+                
+                if (user?.Identity is not null && user.Identity.IsAuthenticated)
+                {
+                    authMessage = $"{user.Identity.Name} is authenticated.";
+                    usercart= await CartService.GetUserByName(user.Identity.Name);
+                    cart = await CartService.GetCartByUserID(usercart.Id);
+                    ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection(user.Identity.Name);
+                }
+                
+                
+            }
 
-        Product = await ProductService.GetItem(Id);
-        ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
+            Product = await ProductService.GetItem(Id);
+            
 
 
+        }
+        catch (Exception ex)
+        {
+            JS.InvokeVoidAsync("console.log", ex.Message);
+            //Log Exception
+        }
     }
 
     protected async Task AddToCart_Click(CartItemToAddDto cartItemToAddDto)
     {
         try
         {
-            var cartItemDto = await ShoppingCartService.AddItem(cartItemToAddDto);
-            if (cartItemDto != null)
-            {
-                ShoppingCartItems.Add(cartItemDto);
-                // Lưu vào localstorage
-                await ManageCartItemsLocalStorageService.SaveCollection(ShoppingCartItems);
-            }
 
-            NavigationManager.NavigateTo("/ShoppingCart");
-            StateHasChanged();
+            if (authenticationState is not null)
+            {
+                var authState = await authenticationState;
+                var user = authState?.User;
+                if (user?.Identity is not null && user.Identity.IsAuthenticated)
+                {
+
+                    var cartItemDto = await ShoppingCartService.AddItem(cartItemToAddDto);
+                    if (cartItemDto != null)
+                    {
+                        ShoppingCartItems.Add(cartItemDto);
+                        // Lưu vào localstorage
+                        await ManageCartItemsLocalStorageService.SaveCollection(ShoppingCartItems);
+                    }
+
+                    NavigationManager.NavigateTo("/ShoppingCart");
+                    StateHasChanged();
+                }
+                else
+                {
+                    NavigationManager.NavigateTo("/login");
+                }
+
+            }
+           
+                
+            
+
+            
         }
         catch (Exception ex)
         {

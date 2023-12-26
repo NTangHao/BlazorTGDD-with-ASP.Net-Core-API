@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TGDD.Api.Data;
 using TGDD.Api.Entities;
@@ -29,7 +24,7 @@ namespace TGDD.Api.Controllers
         }
 
         // GET: api/Users/5
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<User>> GetUser(int id)
         {
             var user = await _context.Users.FindAsync(id);
@@ -42,8 +37,22 @@ namespace TGDD.Api.Controllers
             return user;
         }
 
+        //GET: api/Users/name
+        [HttpGet("{name}")]
+        public async Task<ActionResult<User>> GetUserByName(string name)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(x => x.UserName == name);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return user;
+        }
+
         // PUT: api/Users/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUser(int id, User user)
         {
@@ -74,7 +83,7 @@ namespace TGDD.Api.Controllers
         }
 
         // POST: api/Users
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {

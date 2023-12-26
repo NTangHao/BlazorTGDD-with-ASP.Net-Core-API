@@ -8,7 +8,10 @@
 
 @if (ShoppingCartItems == null)
 {
-    <h1>Loading</h1>
+    <h1>You need to Login</h1>
+    <a href="/login" class="btn btn-success">
+        <b>Back To Login</b>
+    </a>
 }
 else
 {
@@ -73,6 +76,8 @@ else
 }
 
 @code{
+    [CascadingParameter]
+    private Task<AuthenticationState>? authenticationState { get; set; }
     private List<CartItemDto> ShoppingCartItems { get; set; }
     private int TotalQuantity { get; set; }
     private decimal TotalPrice { get; set; }
@@ -82,8 +87,20 @@ else
 
         try
         {
-            ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
-            CartChanged();
+            if (authenticationState is not null)
+            {
+                var authState = await authenticationState;
+                var user = authState?.User;
+
+                if (user?.Identity is not null && user.Identity.IsAuthenticated)
+                {
+                    ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection(user.Identity.Name);
+                    CartChanged();
+                }
+            }
+
+            
+            
 
         }
         catch (Exception ex)

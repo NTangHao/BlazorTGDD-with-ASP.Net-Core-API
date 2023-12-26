@@ -1,5 +1,6 @@
 ﻿@page "/register"
 @inject IAuthService AuthService
+@inject ICartService CartService 
 @inject NavigationManager NavigationManager
 @using TGDD.Api.Entities
 <h1>Register</h1>
@@ -46,6 +47,7 @@
     private RegisterModel RegisterModel = new RegisterModel();
     private bool ShowErrors;
     private IEnumerable<string>? Errors;
+    private User user { get; set; }
 
     private async Task HandleRegistration()
     {
@@ -55,6 +57,10 @@
 
         if (result.Successful)
         {
+            user = await CartService.GetUserByName(RegisterModel.Email);
+            // debug here and see if user is null
+            var cartResult= await CartService.AddItem(user.Id);          
+
             NavigationManager.NavigateTo("/login");
         }
         else

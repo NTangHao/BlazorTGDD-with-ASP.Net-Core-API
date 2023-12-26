@@ -3,52 +3,44 @@
   "WorkspaceRootPath": "C:\\Blazor Learning\\Microservices\\TGDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.api\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.api\\repositories\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\repositories\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\components\\pages\\productdetail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\components\\pages\\productdetail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.api\\extensions\\dtoconversions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\extensions\\dtoconversions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\services\\managecartitemslocalstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\services\\managecartitemslocalstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\services\\contracts\\imanagecartitemslocalstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\services\\contracts\\imanagecartitemslocalstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\components\\pages\\shoppingcart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\components\\pages\\shoppingcart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,159 +58,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "TGDD.Api\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "TGDD.Api\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAAB8AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-22T07:35:51.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "TGDD.Api\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "TGDD.Api\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-22T07:34:17.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "TGDD.Api\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "TGDD.Api\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwCQAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-22T07:33:04.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "TGDD.Api\\appsettings.json",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\appsettings.json",
-              "RelativeToolTip": "TGDD.Api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2023-12-22T09:09:02.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Register.razor",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Pages\\Register.razor",
-              "RelativeDocumentMoniker": "TGDD.Web\\Components\\Pages\\Register.razor",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Pages\\Register.razor",
-              "RelativeToolTip": "TGDD.Web\\Components\\Pages\\Register.razor",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADUAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2023-12-22T07:36:20.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Program.cs",
-              "RelativeDocumentMoniker": "TGDD.Api\\Program.cs",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Program.cs",
-              "RelativeToolTip": "TGDD.Api\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-22T08:33:10.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "TGDD.Api\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "TGDD.Api\\Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-22T09:58:36.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShoppingCartRepository.cs",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Repositories\\ShoppingCartRepository.cs",
-              "RelativeDocumentMoniker": "TGDD.Api\\Repositories\\ShoppingCartRepository.cs",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Repositories\\ShoppingCartRepository.cs",
-              "RelativeToolTip": "TGDD.Api\\Repositories\\ShoppingCartRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-22T09:58:35.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "TGDD.Web\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Services\\AuthService.cs",
-              "RelativeToolTip": "TGDD.Web\\Services\\AuthService.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAywCoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-22T07:41:44.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Program.cs",
               "RelativeDocumentMoniker": "TGDD.Web\\Program.cs",
               "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Program.cs",
               "RelativeToolTip": "TGDD.Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADEAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-22T08:32:59.202Z",
+              "WhenOpened": "2023-12-26T03:41:15.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DtoConversions.cs",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Extensions\\DtoConversions.cs",
-              "RelativeDocumentMoniker": "TGDD.Api\\Extensions\\DtoConversions.cs",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Extensions\\DtoConversions.cs",
-              "RelativeToolTip": "TGDD.Api\\Extensions\\DtoConversions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "TGDD.Web\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\_Imports.razor",
+              "RelativeToolTip": "TGDD.Web\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-26T03:35:39.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Logout.razor",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Pages\\Logout.razor",
+              "RelativeDocumentMoniker": "TGDD.Web\\Components\\Pages\\Logout.razor",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Pages\\Logout.razor",
+              "RelativeToolTip": "TGDD.Web\\Components\\Pages\\Logout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-26T02:35:00.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "TGDD.Web\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "TGDD.Web\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-26T02:31:02.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "TGDD.Web\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "TGDD.Web\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-26T02:18:32.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDetail.razor",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Pages\\ProductDetail.razor",
+              "RelativeDocumentMoniker": "TGDD.Web\\Components\\Pages\\ProductDetail.razor",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Pages\\ProductDetail.razor",
+              "RelativeToolTip": "TGDD.Web\\Components\\Pages\\ProductDetail.razor",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHYAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-25T10:23:11.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageCartItemsLocalStorageService.cs",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Services\\ManageCartItemsLocalStorageService.cs",
+              "RelativeDocumentMoniker": "TGDD.Web\\Services\\ManageCartItemsLocalStorageService.cs",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Services\\ManageCartItemsLocalStorageService.cs",
+              "RelativeToolTip": "TGDD.Web\\Services\\ManageCartItemsLocalStorageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-22T07:33:34.713Z",
+              "WhenOpened": "2023-12-25T10:17:44.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IManageCartItemsLocalStorageService.cs",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Services\\Contracts\\IManageCartItemsLocalStorageService.cs",
+              "RelativeDocumentMoniker": "TGDD.Web\\Services\\Contracts\\IManageCartItemsLocalStorageService.cs",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Services\\Contracts\\IManageCartItemsLocalStorageService.cs",
+              "RelativeToolTip": "TGDD.Web\\Services\\Contracts\\IManageCartItemsLocalStorageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-25T10:17:38.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShoppingCart.razor",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Pages\\ShoppingCart.razor",
+              "RelativeDocumentMoniker": "TGDD.Web\\Components\\Pages\\ShoppingCart.razor",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Pages\\ShoppingCart.razor",
+              "RelativeToolTip": "TGDD.Web\\Components\\Pages\\ShoppingCart.razor",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-25T10:09:09.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AccountsController.cs",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Controllers\\AccountsController.cs",
-              "RelativeDocumentMoniker": "TGDD.Api\\Controllers\\AccountsController.cs",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Api\\Controllers\\AccountsController.cs",
-              "RelativeToolTip": "TGDD.Api\\Controllers\\AccountsController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAtAAAA",
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "TGDD.Web\\Services\\CartService.cs",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Services\\CartService.cs",
+              "RelativeToolTip": "TGDD.Web\\Services\\CartService.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAABMAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-22T07:30:09.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-25T10:21:26.886Z"
             }
           ]
         }

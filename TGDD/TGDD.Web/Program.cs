@@ -41,6 +41,7 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https:/
 // Add Service API
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IShoppingCartService, ShoppingCartService>();
+builder.Services.AddScoped<ICartService, CartService>();
 
 //AddLocalstorage
 builder.Services.AddBlazoredLocalStorage();

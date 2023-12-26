@@ -26,6 +26,7 @@ namespace TGDD.Api.Controllers
             _logger.LogInformation("Make call to product list");
             try
             {
+                //test Serilog seq
                 //throw new NotImplementedException("Error in GetItems");
                 var products = await this.productRepository.GetItems();
 

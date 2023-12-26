@@ -33,7 +33,7 @@ namespace TGDD.Web.Components.Pages
         {
             try
             {
-                ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
+                //ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
 
                 if (ShoppingCartItems != null && ShoppingCartItems.Count() > 0)
                 {
