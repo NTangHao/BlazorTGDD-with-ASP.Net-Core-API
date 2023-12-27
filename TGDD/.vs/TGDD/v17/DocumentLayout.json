@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Blazor Learning\\Microservices\\TGDD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8DFAEC23-2667-40F4-8206-BCAFC46591F4}|TGDD.AppHost\\TGDD.AppHost.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DFAEC23-2667-40F4-8206-BCAFC46591F4}|TGDD.AppHost\\TGDD.AppHost.csproj|solutionrelative:tgdd.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\tgdd.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\tgdd.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1521D19-1ADB-4AE3-9AD2-30C90269F345}|TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj|c:\\blazor learning\\microservices\\tgdd\\tgddmessaging.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1521D19-1ADB-4AE3-9AD2-30C90269F345}|TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj|solutionrelative:tgddmessaging.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDE531E-4EB1-4366-8546-72DDF50CC576}|TGDDMessaging\\TGDDMessaging.csproj|c:\\blazor learning\\microservices\\tgdd\\tgddmessaging\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDE531E-4EB1-4366-8546-72DDF50CC576}|TGDDMessaging\\TGDDMessaging.csproj|solutionrelative:tgddmessaging\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDE531E-4EB1-4366-8546-72DDF50CC576}|TGDDMessaging\\TGDDMessaging.csproj|c:\\blazor learning\\microservices\\tgdd\\tgddmessaging\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDE531E-4EB1-4366-8546-72DDF50CC576}|TGDDMessaging\\TGDDMessaging.csproj|solutionrelative:tgddmessaging\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1521D19-1ADB-4AE3-9AD2-30C90269F345}|TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj|c:\\blazor learning\\microservices\\tgdd\\tgddmessaging.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1521D19-1ADB-4AE3-9AD2-30C90269F345}|TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj|solutionrelative:tgddmessaging.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDE531E-4EB1-4366-8546-72DDF50CC576}|TGDDMessaging\\TGDDMessaging.csproj|c:\\blazor learning\\microservices\\tgdd\\tgddmessaging\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5DDE531E-4EB1-4366-8546-72DDF50CC576}|TGDDMessaging\\TGDDMessaging.csproj|solutionrelative:tgddmessaging\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1521D19-1ADB-4AE3-9AD2-30C90269F345}|TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj|c:\\blazor learning\\microservices\\tgdd\\tgddmessaging.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1521D19-1ADB-4AE3-9AD2-30C90269F345}|TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj|solutionrelative:tgddmessaging.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\helpers\\apiauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\helpers\\apiauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C1521D19-1ADB-4AE3-9AD2-30C90269F345}|TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj|c:\\blazor learning\\microservices\\tgdd\\tgddmessaging.worker\\tgddmessaging.worker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1521D19-1ADB-4AE3-9AD2-30C90269F345}|TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj|solutionrelative:tgddmessaging.worker\\tgddmessaging.worker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DFAEC23-2667-40F4-8206-BCAFC46591F4}|TGDD.AppHost\\TGDD.AppHost.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DFAEC23-2667-40F4-8206-BCAFC46591F4}|TGDD.AppHost\\TGDD.AppHost.csproj|solutionrelative:tgdd.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DDE531E-4EB1-4366-8546-72DDF50CC576}|TGDDMessaging\\TGDDMessaging.csproj|c:\\blazor learning\\microservices\\tgdd\\tgddmessaging\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDE531E-4EB1-4366-8546-72DDF50CC576}|TGDDMessaging\\TGDDMessaging.csproj|solutionrelative:tgddmessaging\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\services\\productserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.web\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}|TGDD.Web\\TGDD.Web.csproj|solutionrelative:tgdd.web\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9AAD924-4B7C-4ADB-A00C-D3F64606B9D9}|TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj|c:\\blazor learning\\microservices\\tgdd\\tgdd.servicedefaults\\tgdd.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C9AAD924-4B7C-4ADB-A00C-D3F64606B9D9}|TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj|solutionrelative:tgdd.servicedefaults\\tgdd.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +82,162 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging.Worker\\Worker.cs",
+              "RelativeDocumentMoniker": "TGDDMessaging.Worker\\Worker.cs",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging.Worker\\Worker.cs",
+              "RelativeToolTip": "TGDDMessaging.Worker\\Worker.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwC0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-26T10:33:20.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging.Worker\\Program.cs",
+              "RelativeDocumentMoniker": "TGDDMessaging.Worker\\Program.cs",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging.Worker\\Program.cs",
+              "RelativeToolTip": "TGDDMessaging.Worker\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-26T10:30:49.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging.Worker\\appsettings.json",
+              "RelativeDocumentMoniker": "TGDDMessaging.Worker\\appsettings.json",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging.Worker\\appsettings.json",
+              "RelativeToolTip": "TGDDMessaging.Worker\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAC4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-12-26T10:30:47.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "TGDDMessaging\\WeatherForecast.cs",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging\\WeatherForecast.cs",
+              "RelativeToolTip": "TGDDMessaging\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-26T10:29:10.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TGDDMessaging\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TGDDMessaging\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-26T10:29:05.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging\\appsettings.json",
+              "RelativeDocumentMoniker": "TGDDMessaging\\appsettings.json",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging\\appsettings.json",
+              "RelativeToolTip": "TGDDMessaging\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-12-26T10:24:57.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging\\Program.cs",
+              "RelativeDocumentMoniker": "TGDDMessaging\\Program.cs",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging\\Program.cs",
+              "RelativeToolTip": "TGDDMessaging\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-26T10:23:16.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "TGDD.AppHost\\Program.cs",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.AppHost\\Program.cs",
+              "RelativeToolTip": "TGDD.AppHost\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-26T10:15:54.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TGDD.Web",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\TGDD.Web.csproj",
+              "RelativeDocumentMoniker": "TGDD.Web\\TGDD.Web.csproj",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\TGDD.Web.csproj",
+              "RelativeToolTip": "TGDD.Web\\TGDD.Web.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-12-27T07:58:13.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Helpers\\ApiAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "TGDD.Web\\Helpers\\ApiAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Helpers\\ApiAuthenticationStateProvider.cs",
+              "RelativeToolTip": "TGDD.Web\\Helpers\\ApiAuthenticationStateProvider.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-27T03:58:42.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Program.cs",
+              "RelativeDocumentMoniker": "TGDD.Web\\Program.cs",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Program.cs",
+              "RelativeToolTip": "TGDD.Web\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-26T07:31:57.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TGDDMessaging.Worker.csproj",
+              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj",
+              "RelativeDocumentMoniker": "TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj",
+              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj",
+              "RelativeToolTip": "TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-12-26T10:44:25.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "TGDD.Web\\Components\\Pages\\Home.razor",
@@ -54,12 +245,11 @@
               "RelativeToolTip": "TGDD.Web\\Components\\Pages\\Home.razor",
               "ViewState": "AQIAACcAAAAAAAAAAAAAADYAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2023-12-26T08:48:03.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-26T08:48:03.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "ProductServiceClient.cs",
               "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Services\\ProductServiceClient.cs",
               "RelativeDocumentMoniker": "TGDD.Web\\Services\\ProductServiceClient.cs",
@@ -67,12 +257,11 @@
               "RelativeToolTip": "TGDD.Web\\Services\\ProductServiceClient.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-26T08:36:25.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-26T08:36:25.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "TGDD.Web\\Services\\ProductService.cs",
@@ -80,12 +269,11 @@
               "RelativeToolTip": "TGDD.Web\\Services\\ProductService.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAA0wC4AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-26T08:00:36.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-26T08:00:36.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "CartService.cs",
               "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Services\\CartService.cs",
               "RelativeDocumentMoniker": "TGDD.Web\\Services\\CartService.cs",
@@ -93,47 +281,7 @@
               "RelativeToolTip": "TGDD.Web\\Services\\CartService.cs",
               "ViewState": "AQIAAD4AAAAAAAAAAAAAAA8AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-26T08:00:24.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TGDD.ServiceDefaults",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
-              "RelativeDocumentMoniker": "TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
-              "RelativeToolTip": "TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2023-12-26T07:57:12.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.AppHost\\Program.cs",
-              "RelativeDocumentMoniker": "TGDD.AppHost\\Program.cs",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.AppHost\\Program.cs",
-              "RelativeToolTip": "TGDD.AppHost\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-26T07:36:44.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Program.cs",
-              "RelativeDocumentMoniker": "TGDD.Web\\Program.cs",
-              "ToolTip": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\Program.cs",
-              "RelativeToolTip": "TGDD.Web\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-26T07:31:57.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-26T08:00:24.815Z"
             }
           ]
         }

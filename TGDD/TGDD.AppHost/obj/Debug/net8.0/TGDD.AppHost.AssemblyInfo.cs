@@ -12,11 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Program Files\\dotnet\\packs\\Aspire.Hosting.Orchestration.win-x64\\8.0.0-preview." +
-    "1.23557.2\\tools\\dcp.exe")]
+    "2.23619.3\\tools\\dcp.exe")]
 [assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Program Files\\dotnet\\packs\\Aspire.Hosting.Orchestration.win-x64\\8.0.0-preview." +
-    "1.23557.2\\tools\\ext")]
+    "2.23619.3\\tools\\ext")]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Program Files\\dotnet\\packs\\Aspire.Hosting.Orchestration.win-x64\\8.0.0-preview." +
-    "1.23557.2\\tools\\ext\\bin")]
+    "2.23619.3\\tools\\ext\\bin")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.AppHost")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TGDD.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]

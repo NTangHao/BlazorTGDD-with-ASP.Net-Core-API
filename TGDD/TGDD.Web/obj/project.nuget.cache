@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2JM4PvWkpDwk6lHlc48O3BBmnqDNUPRkGjJnZILp4dku69zxqKXgqPALzIwkspC5YxyAiUXMskcE1GI5wehcdQ==",
+  "dgSpecHash": "ioeI015rB5DdEp+meJu+N5UGk0SjvO1OqoGlHRkgAhp4LT1N01e/D/Np1TTy/sUuR2yh4xmG7iTrT5ERuDqL9A==",
   "success": true,
   "projectFilePath": "C:\\Blazor Learning\\Microservices\\TGDD\\TGDD.Web\\TGDD.Web.csproj",
   "expectedPackageFiles": [
@@ -232,7 +232,8 @@
     "C:\\Users\\Dung Bui\\.nuget\\packages\\system.threading.ratelimiting\\7.0.0\\system.threading.ratelimiting.7.0.0.nupkg.sha512",
     "C:\\Users\\Dung Bui\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "C:\\Users\\Dung Bui\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Dung Bui\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+    "C:\\Users\\Dung Bui\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Dung Bui\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.0\\microsoft.netcore.app.host.linux-x64.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

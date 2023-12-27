@@ -503,3 +503,21 @@
 2023-12-26 16:22:16.994 +07:00 [INF] HTTP GET /api/Product responded 200 in 24.0002 ms
 2023-12-26 16:22:17.036 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 21.7519 ms
 2023-12-26 16:22:17.082 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 44.2807 ms
+2023-12-26 16:50:17.415 +07:00 [INF] Now listening on: http://localhost:54399
+2023-12-26 16:50:17.614 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 16:50:17.615 +07:00 [INF] Hosting environment: Development
+2023-12-26 16:50:17.616 +07:00 [INF] Content root path: C:\Blazor Learning\Microservices\TGDD\TGDD.Api
+2023-12-26 16:50:17.780 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-26 16:50:17.868 +07:00 [INF] HTTP GET / responded 404 in 89.1400 ms
+2023-12-26 16:50:20.683 +07:00 [INF] Make call to product list
+2023-12-26 16:50:22.723 +07:00 [INF] HTTP GET /api/Product responded 200 in 2227.7394 ms
+2023-12-26 16:50:22.984 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 187.1728 ms
+2023-12-26 16:50:23.144 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 154.9929 ms
+2023-12-26 16:50:25.535 +07:00 [INF] Make call to product list
+2023-12-26 16:50:25.585 +07:00 [INF] HTTP GET /api/Product responded 200 in 52.2984 ms
+2023-12-26 17:35:33.145 +07:00 [INF] Now listening on: http://localhost:55127
+2023-12-26 17:35:33.325 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 17:35:33.327 +07:00 [INF] Hosting environment: Development
+2023-12-26 17:35:33.327 +07:00 [INF] Content root path: C:\Blazor Learning\Microservices\TGDD\TGDD.Api
+2023-12-26 17:35:33.434 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-26 17:35:33.608 +07:00 [INF] HTTP GET / responded 404 in 176.2829 ms

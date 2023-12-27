@@ -15,6 +15,8 @@
   <ItemGroup>
     <ProjectReference Include="..\TGDD.Api\TGDD.Api.csproj" />
     <ProjectReference Include="..\TGDD.Web\TGDD.Web.csproj" />
+    <ProjectReference Include="..\TGDDMessaging.Worker\TGDDMessaging.Worker.csproj" />
+    <ProjectReference Include="..\TGDDMessaging\TGDDMessaging.csproj" />
   </ItemGroup>
 
 </Project>
