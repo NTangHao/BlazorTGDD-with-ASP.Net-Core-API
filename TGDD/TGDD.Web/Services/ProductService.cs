@@ -131,12 +131,7 @@ namespace TGDD.Web.Services
 
                 if (response.IsSuccessStatusCode)
                 {
-                    if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
-                    {
-                        return Enumerable.Empty<ProductDto>();
-                    }
-
-                    return await response.Content.ReadFromJsonAsync<IEnumerable<ProductDto>>();
+                    return await response.Content.ReadFromJsonAsync<IEnumerable<ProductDto>>() ?? Enumerable.Empty<ProductDto>();
                 }
                 else
                 {

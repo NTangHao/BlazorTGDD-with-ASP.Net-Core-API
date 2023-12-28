@@ -126,12 +126,8 @@ namespace TGDD.Api.Controllers
         {
             try
             {
-                var products = await productRepository.SearchProduct(key);
-                if (products == null || !products.Any())
-                {
-                    return NotFound();
-                }
 
+                var products = await productRepository.SearchProduct(key);
                 var productDtos = products.ConvertToDto();
                 return Ok(productDtos);
 

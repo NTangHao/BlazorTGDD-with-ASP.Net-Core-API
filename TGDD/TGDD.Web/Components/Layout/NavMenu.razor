@@ -109,8 +109,7 @@
         var searchTerm = e.Value.ToString();
         if (searchTerm.Length >= 2)
         {
-            IEnumerable<ProductDto> ProductDto = await ProductService.SearchProduct(searchTerm);
-            products = ProductDto.ToList();
+            products = (await ProductService.SearchProduct(searchTerm)).ToList();
         }
         else
         {
