@@ -120,5 +120,27 @@ namespace TGDD.Api.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("search/{key}")]
+        public async Task<ActionResult<IEnumerable<ProductDto>>> SearchProduct(string key)
+        {
+            try
+            {
+                var products = await productRepository.SearchProduct(key);
+                if (products == null || !products.Any())
+                {
+                    return NotFound();
+                }
+
+                var productDtos = products.ConvertToDto();
+                return Ok(productDtos);
+
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                                "Error retrieving data from the database");
+            }
+        }
     }
 }

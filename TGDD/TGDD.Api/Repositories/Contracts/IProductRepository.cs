@@ -11,5 +11,6 @@ namespace TGDD.Api.Repositories.Contracts
 
         Task<IEnumerable<Product>> GetItemsByCategory(int id);
 
+        Task<IEnumerable<Product>> SearchProduct(string key);
     }
 }

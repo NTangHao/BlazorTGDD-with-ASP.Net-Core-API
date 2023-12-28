@@ -1,8 +1,10 @@
 ﻿@implements IDisposable
 @inject IJSRuntime JSRuntime
 @inject NavigationManager NavigationManager
+@inject IProductService ProductService
 @inject IShoppingCartService ShoppingCartService
 @inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
 
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0">
@@ -40,6 +42,9 @@
                 </li>
             </ul>
             <div class="nav-right d-flex gap-3 justify-content-center @(showSearchBar ? "d-none" : "")">
+
+                <LoginDisplay></LoginDisplay>
+
                 <!-- Icon Search -->
                 <button class="btn-search btn btn-nav shadow-none border-0" @onclick="ToggleSearchBar">
                     <FluentIcon Value="@(new Icons.Regular.Size24.Search())" Color="@Color.Fill" />
@@ -53,38 +58,36 @@
                         <span class="visually-hidden">unread messages</span>
                     </span>
                 </button>
-            </div>
-            <div class="nav-LogIn d-flex gap-3 justify-content-center @(showSearchBar ? "d-none" : "")">
-                <LoginDisplay></LoginDisplay>
+
+                
+
             </div>
         </div>
     </div>
 </nav>
 
 <!-- Bảng hiển thị kết quả tìm kiếm -->
-@* <div class="search-results w-100" style="@(showSearchBar ? "display: block;" : "") @(productsDTOs.Any() ? "padding: 20px 25px;" : "")">
-    @if (productsDTOs.Any())
+<div class="search-results w-100" style="@(showSearchBar ? "display: block;" : "") @(products.Any() ? "padding: 20px 25px;" : "")">
+    @if (products.Any())
     {
         <ul class="search-results-list">
-            @foreach (var result in productsDTOs)
+            @foreach (var result in products)
             {
                 <li class="product-item" @onclick="() => NavigateToDetailPage(result.Id)">
-                    <img src="@result.ImageUrl" alt="Product Image" class="product-image" />
+                    <img src="@result.ImageURL" alt="Product Image" class="product-image" />
                     <div class="product-search-list">
-                        <span class="product-name">@result.Model</span>
-                        <span class="product-price">$@result.BasePrice</span>
+                        <span class="product-name">@result.Name</span>
+                        <span class="product-price">$@result.Price</span>
                     </div>
                 </li>
             }
         </ul>
     }
-</div> *@
+</div>
 
 <div class="bg-sg" style="@(showSearchBar ? "display: block;" : "")"></div>
 
 @code {
-    private string? currentUrl;
-
     private bool showSearchBar = false;
 
     private async void ToggleSearchBar()
@@ -99,19 +102,19 @@
         await JSRuntime.InvokeVoidAsync("setBodyStyle", setBodyStyle);
     }
 
-    private IEnumerable<ProductDto> Products { get; set; }
-
+    public List<ProductDto> products = new();
 
     private async void SearchProduct(ChangeEventArgs e)
     {
         var searchTerm = e.Value.ToString();
         if (searchTerm.Length >= 2)
         {
-            
+            IEnumerable<ProductDto> ProductDto = await ProductService.SearchProduct(searchTerm);
+            products = ProductDto.ToList();
         }
         else
         {
-            // Products clear
+            products.Clear();
         }
     }
 
@@ -138,7 +141,6 @@
     {
         ShoppingCartService.OnShoppingCartChanged += ShoppingCartChanged;
         // ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
-
 
     }
 

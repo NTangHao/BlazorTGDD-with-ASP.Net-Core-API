@@ -8,6 +8,6 @@ namespace TGDD.Web.Services.Contracts
         Task<ProductDto> GetItem(int id);
         Task<IEnumerable<ProductCategoryDto>> GetProductCategories();
         Task<IEnumerable<ProductDto>> GetItemsByCategory(int categoryId);
-
+        Task<IEnumerable<ProductDto>> SearchProduct(string key);
     }
 }

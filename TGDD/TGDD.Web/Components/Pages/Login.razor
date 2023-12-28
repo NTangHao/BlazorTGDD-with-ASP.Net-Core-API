@@ -3,7 +3,7 @@
 @inject NavigationManager NavigationManager
 @using TGDD.Api.Entities
 
-<h1>Login</h1>
+@* <h1>Login</h1>
 
 @if (ShowErrors)
 {
@@ -32,7 +32,45 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </EditForm>
     </div>
+</div> *@
+
+<div class="login-container">
+    <div class="login-card">
+        <h2 class="login-title">Login to Your Account</h2>
+
+        @if (ShowErrors)
+        {
+            <div class="alert alert-danger" role="alert">
+                <p>@Error</p>
+            </div>
+        }
+
+        <EditForm Model="loginModel" OnValidSubmit="HandleLogin" class="login-form">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <InputText Id="email" Class="form-control" @bind-Value="loginModel.Email" />
+                <ValidationMessage For="@(() => loginModel.Email)" />
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <InputText Id="password" type="password" Class="form-control" @bind-Value="loginModel.Password" />
+                <ValidationMessage For="@(() => loginModel.Password)" />
+            </div>
+
+            <button type="submit" class="btn btn-primary login-button">Log In</button>
+        </EditForm>
+
+        <!-- Registration Option -->
+        <div class="register-option">
+            <p>Don't have an account? <a class="register" @onclick="NavigateToRegister">Register here</a></p>
+        </div>
+    </div>
 </div>
+
 
 @code {
 
@@ -56,5 +94,8 @@
             ShowErrors = true;
         }
     }
-
+    private void NavigateToRegister()
+    {
+        NavigationManager.NavigateTo("/register");
+    }
 }

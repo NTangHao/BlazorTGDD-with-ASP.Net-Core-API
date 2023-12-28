@@ -139,8 +139,9 @@
     color: #000;
 }
 
-.nav-LogIn{
-    margin-left: 3%;
+.nav-right {
+    display: flex;
+    align-items: center; 
 }
 
 

@@ -51,5 +51,13 @@ namespace TGDD.Api.Repositories
                                      .Where(p => p.CategoryId == id).ToListAsync();
             return products;
         }
+
+        public async Task<IEnumerable<Product>> SearchProduct(string key)
+        {
+            var products = await shopOnlineDbContext.Products
+                                .Include(p => p.ProductCategory)
+                                .Where(o => o.Name.Contains(key)).ToListAsync();
+            return products;
+        }
     }
 }
