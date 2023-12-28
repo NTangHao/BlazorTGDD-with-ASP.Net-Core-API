@@ -13,7 +13,9 @@ namespace TGDD.Api.Entities
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
+        [RegularExpression(@"^(?=.*[A-Z])(?=.*\W).*$", ErrorMessage = "The password must have at least one uppercase letter and one special character.")]
         public string? Password { get; set; }
+
 
         [DataType(DataType.Password)]
         [Display(Name = "Confirm password")]

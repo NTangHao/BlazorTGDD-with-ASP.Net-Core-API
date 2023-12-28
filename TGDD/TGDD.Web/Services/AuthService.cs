@@ -26,17 +26,32 @@ namespace TGDD.Web.Services
 
         public async Task<RegisterResult> Register(RegisterModel registerModel)
         {
-            User user = new User
+            try
             {
-                UserName = registerModel.Email
-            };
+                User user = new User
+                {
+                    UserName = registerModel.Email
+                };
 
-            var result = await _httpClient.PostAsJsonAsync("api/accounts", registerModel);
-            var userResult = await _httpClient.PostAsJsonAsync("api/users", user);
+                var result = await _httpClient.PostAsJsonAsync("api/accounts", registerModel);
 
-            if (result.IsSuccessStatusCode && userResult.IsSuccessStatusCode)
-                return new RegisterResult { Successful = true, Errors = null };
-            return new RegisterResult { Successful = false, Errors = new List<string> { "Error occured" } };
+
+                if (result.IsSuccessStatusCode)
+                {
+                    var userResult = await _httpClient.PostAsJsonAsync("api/users", user);
+                    return new RegisterResult { Successful = true, Errors = null };
+                }
+
+                else
+                    return new RegisterResult { Successful = false, Errors = new List<string> { "Error occured" } };
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
         }
 
         public async Task<LoginResult> Login(LoginModel loginModel)

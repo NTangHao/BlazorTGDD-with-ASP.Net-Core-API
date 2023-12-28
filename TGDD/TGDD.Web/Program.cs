@@ -10,6 +10,7 @@ using TGDD.Web.Services.Contracts;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.AddServiceDefaults();
+//builder.AddRedisOutputCache("cache");
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
@@ -17,7 +18,10 @@ builder.Services.AddRazorComponents()
 
 // Configure the HTTP request pipeline for this blazor app
 
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5282") });
+string baseAddress = builder.Environment.IsDevelopment() ? "http://localhost:5282" : "https://tgddapi.ashybeach-12aeeffe.southeastasia.azurecontainerapps.io/";
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(baseAddress) });
+
+//builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5282") });
 
 //Configure the HTTP request pipeline aspire for this blazor app
 
@@ -78,7 +82,7 @@ app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 app.UseAntiforgery();
-
+//app.UseOutputCache();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
