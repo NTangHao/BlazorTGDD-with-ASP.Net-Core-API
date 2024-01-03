@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="menu navbar-nav flex-grow-1 justify-content-center @(showSearchBar ? "d-none" : "")">
                 <li class="nav-item">
-                    <a class="nav-link" @* @onclick="@(() => NavigateToCategoryPage("Phone")) *@">Phone</a>
+                    <a class="nav-link" @onclick="@(() => NavigateToCategoryPage(1))">Phone</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" @* @onclick="@(() => NavigateToCategoryPage("Laptop"))" *@>Laptop</a>
@@ -119,7 +119,7 @@
 
     private void NavigateToDetailPage(int id)
     {
-        NavigationManager.NavigateTo($"/Detail/{id}");
+        NavigationManager.NavigateTo($"/Detail/{id}",true);
         ToggleSearchBar();
     }
 
@@ -128,10 +128,10 @@
         NavigationManager.NavigateTo($"/ShoppingCart");
     }
 
-    // private void NavigateToCategoryPage(string category)
-    // {
-    //     NavigationManager.NavigateTo($"/products/{category}");
-    // }
+    private void NavigateToCategoryPage(int category)
+    {
+        NavigationManager.NavigateTo($"/Category/{category}");
+    }
 
     private int shoppingCartItemsCount = 0;
     private IEnumerable<CartItemDto> ShoppingCartItems { get; set; }

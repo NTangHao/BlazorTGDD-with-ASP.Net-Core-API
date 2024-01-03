@@ -79,3 +79,26 @@ function clearAutoScrollInterval() {
     }
 }
 
+function bindCarouselControls() {
+    var prevButton = document.getElementById('prevButton');
+    var nextButton = document.getElementById('nextButton');
+    var carouselElement = document.getElementById('carouselBanner');
+
+    if (carouselElement) {
+        var carouselInstance = new bootstrap.Carousel(carouselElement, {
+            // Carousel options if needed
+        });
+
+        if (prevButton && nextButton) {
+            prevButton.addEventListener('click', function () {
+                carouselInstance.prev();
+            });
+
+            nextButton.addEventListener('click', function () {
+                carouselInstance.next();
+            });
+        }
+    }
+}
+
+

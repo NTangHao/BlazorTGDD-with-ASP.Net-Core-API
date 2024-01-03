@@ -12,6 +12,34 @@ namespace TGDD.Web.Services
             this.httpClient = httpClient;
         }
 
+        public async Task<ProductCategoryDto> GetCategory(int id)
+        {
+            try
+            {
+                var response = await httpClient.GetAsync($"api/Product/GetCategory/{id}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
+                    {
+                        return default(ProductCategoryDto);
+                    }
+
+                    return await response.Content.ReadFromJsonAsync<ProductCategoryDto>();
+                }
+                else
+                {
+                    var message = await response.Content.ReadAsStringAsync();
+                    throw new Exception($"Http status code: {response.StatusCode} message: {message}");
+                }
+            }
+            catch (Exception)
+            {
+                //Log exception
+                throw;
+            }
+        }
+
         public async Task<ProductDto> GetItem(int id)
         {
             try
@@ -127,7 +155,7 @@ namespace TGDD.Web.Services
         {
             try
             {
-                var response = await httpClient.GetAsync($"api/Product/search/{key}");
+                ovar response = await httpClient.GetAsync($"api/Product/search/{key}");
 
                 if (response.IsSuccessStatusCode)
                 {

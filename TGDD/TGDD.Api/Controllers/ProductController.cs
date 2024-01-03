@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TGDD.Api.Entities;
 using TGDD.Api.Extensions;
 using TGDD.Api.Repositories.Contracts;
 using TGDD.Models.Dtos;
@@ -98,6 +99,26 @@ namespace TGDD.Api.Controllers
                                 "Error retrieving data from the database");
             }
 
+        }
+
+        [HttpGet]
+        [Route("GetCategory/{categoryId}")]
+        public async Task<ActionResult<ProductCategory>> GetCategory(int categoryId)
+        {
+            try
+            {
+                var products = await productRepository.GetCategory(categoryId);
+
+                var productDtos = products.ConvertToDto();
+
+                return Ok(productDtos);
+
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                                "Error retrieving data from the database");
+            }
         }
 
         [HttpGet]

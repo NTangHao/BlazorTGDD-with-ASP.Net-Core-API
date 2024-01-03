@@ -9,39 +9,91 @@
 
 <PageTitle>Home</PageTitle>
 
+<h1>Welcome to your new app on @DateTime.Now</h1>
 
+<div id="homeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1920x533/https://cdn.tgdd.vn/2023/11/banner/IP15-2880-800-1920x533.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1920x533/https://cdn.tgdd.vn/2023/10/banner/AWCS-2880-800-1920x548-1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1920x533/https://cdn.tgdd.vn/2023/10/banner/MacBook-Air-2880-800-1920x533.png" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
 @if (Products != null)
 {
-    
-    <FluentGrid Justify="JustifyContent.Center">
-
+    <FluentGrid Class="my-4">
         @foreach (var product in Products)
         {
             <FluentGridItem xs="12" sm="6" md="3" Justify="JustifyContent.Center">
-                <FluentCard class="text-center product-info product-container">
-                    <div @onclick="()=>NavigateToDetailPage(product.Id)">
+                <FluentCard class="text-center product-container">
+                    <FluentStack Orientation="Orientation.Vertical" HorizontalAlignment="HorizontalAlignment.Center" @onclick="()=>NavigateToDetailPage(product.Id)" >
                         <img class="card-img-top w-30 img-fluid" src="@product.ImageURL" alt="..." />
-                        <p class="m-2">@product.Name</p>
+                        <div class="product-name">
+                            <h5 class="m-2">@product.Name</h5>
+                        </div>
                         <strong class="m-2 price">
-                            <span class="text-muted">@product.Price.ToString("C")</span>
+                            <span>@product.Price.ToString("C")</span>
                         </strong>
 
-                        <FluentButton OnClick="()=> NavigateToDetailPage(product.Id)"
-                                      IconStart="@(new Icons.Regular.Size24.Cart())" class="d-block">
-                            Mua Ngay
-                        </FluentButton>
-                    </div>
+                        <FluentButton IconStart="@(new Icons.Regular.Size24.Cart())" OnClick="()=> NavigateToDetailPage(product.Id)">Mua ngay</FluentButton>
+                    </FluentStack>
                 </FluentCard>
             </FluentGridItem>
         }
-
     </FluentGrid>
 }
 else
 {
     <h2>Loading</h2>
 }
+
+<style>
+    .product-container {
+        cursor: pointer;
+        transition: transform .2s;
+    }
+
+        .product-container:hover {
+            transform: scale(1.05);
+        }
+
+        .product-container img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+    .product-name h5 {
+        font-size: 1.1em;
+        color: #333;
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .price {
+        font-size: 1.2em;
+    }
+
+        .price span {
+            color: #0078d4;
+        }
+</style>
 
 @code {
     [CascadingParameter]

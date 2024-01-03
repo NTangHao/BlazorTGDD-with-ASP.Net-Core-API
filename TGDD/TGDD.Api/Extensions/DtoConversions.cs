@@ -15,6 +15,16 @@ namespace TGDD.Api.Extensions
                         IconCSS = productCategory.IconCSS
                     }).ToList();
         }
+
+        public static ProductCategoryDto ConvertToDto(this ProductCategory productCategory)
+        {
+            return new ProductCategoryDto
+            {
+                Id = productCategory.Id,
+                Name = productCategory.Name,
+                IconCSS = productCategory.IconCSS
+            };
+        }
         public static IEnumerable<ProductDto> ConvertToDto(this IEnumerable<Product> products)
         {
             return (from product in products
