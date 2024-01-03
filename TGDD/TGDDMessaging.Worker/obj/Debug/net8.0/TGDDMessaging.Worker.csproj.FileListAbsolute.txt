@@ -1,0 +1,133 @@
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\appsettings.Development.json
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\appsettings.json
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDDMessaging.Worker.exe
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDDMessaging.Worker.deps.json
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDDMessaging.Worker.runtimeconfig.json
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDDMessaging.Worker.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDDMessaging.Worker.pdb
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Aspire.Azure.Messaging.ServiceBus.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\HealthChecks.AzureServiceBus.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Azure.Core.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Azure.Core.Amqp.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Azure.Identity.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Azure.Messaging.EventHubs.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Azure.Messaging.ServiceBus.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Azure.Amqp.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.AmbientMetadata.Application.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Azure.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Compliance.Abstractions.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Http.Diagnostics.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Http.Resilience.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Resilience.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.ServiceDiscovery.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.ServiceDiscovery.Abstractions.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Telemetry.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Telemetry.Abstractions.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Api.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Extensions.Hosting.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Instrumentation.AspNetCore.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Instrumentation.GrpcNetClient.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Instrumentation.Http.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Instrumentation.Runtime.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Polly.Core.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Polly.Extensions.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Polly.RateLimiting.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDD.ServiceDefaults.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDD.ServiceDefaults.pdb
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.csproj.AssemblyReference.cache
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.AssemblyInfoInputs.cache
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.AssemblyInfo.cs
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.csproj.CoreCompileInputs.cache
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.csproj.CopyComplete
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\refint\TGDDMessaging.Worker.dll
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.pdb
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.genruntimeconfig.cache
+C:\Blazor Learning\Microservices\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\ref\TGDDMessaging.Worker.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\appsettings.json
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDDMessaging.Worker.exe
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDDMessaging.Worker.deps.json
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDDMessaging.Worker.runtimeconfig.json
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDDMessaging.Worker.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDDMessaging.Worker.pdb
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Aspire.Azure.Messaging.ServiceBus.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\HealthChecks.AzureServiceBus.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Azure.Core.Amqp.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Azure.Messaging.EventHubs.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Azure.Messaging.ServiceBus.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Azure.Amqp.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.AmbientMetadata.Application.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Azure.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Compliance.Abstractions.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Http.Diagnostics.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Http.Resilience.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Resilience.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.ServiceDiscovery.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.ServiceDiscovery.Abstractions.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Telemetry.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Extensions.Telemetry.Abstractions.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Api.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Extensions.Hosting.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Instrumentation.AspNetCore.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Instrumentation.GrpcNetClient.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Instrumentation.Http.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\OpenTelemetry.Instrumentation.Runtime.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Polly.Core.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Polly.Extensions.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\Polly.RateLimiting.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDD.ServiceDefaults.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\bin\Debug\net8.0\TGDD.ServiceDefaults.pdb
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.csproj.AssemblyReference.cache
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.AssemblyInfoInputs.cache
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.AssemblyInfo.cs
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.csproj.CoreCompileInputs.cache
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.sourcelink.json
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.csproj.CopyComplete
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\refint\TGDDMessaging.Worker.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.pdb
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\TGDDMessaging.Worker.genruntimeconfig.cache
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDDMessaging.Worker\obj\Debug\net8.0\ref\TGDDMessaging.Worker.dll

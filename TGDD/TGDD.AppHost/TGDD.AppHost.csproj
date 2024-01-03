@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting" Version="8.0.0-preview.2.23619.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TGDD.Api\TGDD.Api.csproj" />
+    <ProjectReference Include="..\TGDD.Web\TGDD.Web.csproj" />
+    <ProjectReference Include="..\TGDDMessaging.Worker\TGDDMessaging.Worker.csproj" />
+    <ProjectReference Include="..\TGDDMessaging\TGDDMessaging.csproj" />
+  </ItemGroup>
+
+</Project>

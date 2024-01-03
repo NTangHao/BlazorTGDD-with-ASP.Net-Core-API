@@ -1,0 +1,29 @@
+﻿.btn-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background: #3e3f41;
+    color: white;
+    border-radius: 100%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+    .btn-nav:hover {
+        background-color: #5e5e60;
+        color: white;
+    }
+
+.user-hello {
+    color: lightgray; 
+    font-size: 1rem; 
+    margin-right: 10px; 
+    display: flex; 
+    align-items: center; 
+}
+

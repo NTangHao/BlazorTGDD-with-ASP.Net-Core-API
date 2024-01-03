@@ -1,0 +1,25 @@
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\bin\Debug\net8.0\TGDD.ServiceDefaults.deps.json
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\bin\Debug\net8.0\TGDD.ServiceDefaults.dll
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\bin\Debug\net8.0\TGDD.ServiceDefaults.pdb
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.AssemblyInfo.cs
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.dll
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\refint\TGDD.ServiceDefaults.dll
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.pdb
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\ref\TGDD.ServiceDefaults.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\bin\Debug\net8.0\TGDD.ServiceDefaults.deps.json
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\bin\Debug\net8.0\TGDD.ServiceDefaults.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\bin\Debug\net8.0\TGDD.ServiceDefaults.pdb
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.AssemblyInfo.cs
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.sourcelink.json
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\refint\TGDD.ServiceDefaults.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.pdb
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\ref\TGDD.ServiceDefaults.dll

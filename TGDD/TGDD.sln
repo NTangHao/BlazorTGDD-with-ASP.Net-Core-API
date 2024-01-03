@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDD.Api", "TGDD.Api\TGDD.Api.csproj", "{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDD.Models", "TGDD.Models\TGDD.Models.csproj", "{EEB86CC6-987F-407B-B0B4-28FAC948D13C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDD.Web", "TGDD.Web\TGDD.Web.csproj", "{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDD.AppHost", "TGDD.AppHost\TGDD.AppHost.csproj", "{8DFAEC23-2667-40F4-8206-BCAFC46591F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDD.ServiceDefaults", "TGDD.ServiceDefaults\TGDD.ServiceDefaults.csproj", "{C9AAD924-4B7C-4ADB-A00C-D3F64606B9D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDDMessaging", "TGDDMessaging\TGDDMessaging.csproj", "{5DDE531E-4EB1-4366-8546-72DDF50CC576}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDDMessaging.Worker", "TGDDMessaging.Worker\TGDDMessaging.Worker.csproj", "{C1521D19-1ADB-4AE3-9AD2-30C90269F345}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB86CC6-987F-407B-B0B4-28FAC948D13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB86CC6-987F-407B-B0B4-28FAC948D13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB86CC6-987F-407B-B0B4-28FAC948D13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB86CC6-987F-407B-B0B4-28FAC948D13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7CADBC-EE24-4A42-B0AE-6E2DB13956C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DFAEC23-2667-40F4-8206-BCAFC46591F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DFAEC23-2667-40F4-8206-BCAFC46591F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DFAEC23-2667-40F4-8206-BCAFC46591F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DFAEC23-2667-40F4-8206-BCAFC46591F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AAD924-4B7C-4ADB-A00C-D3F64606B9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AAD924-4B7C-4ADB-A00C-D3F64606B9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AAD924-4B7C-4ADB-A00C-D3F64606B9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AAD924-4B7C-4ADB-A00C-D3F64606B9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDE531E-4EB1-4366-8546-72DDF50CC576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDE531E-4EB1-4366-8546-72DDF50CC576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDE531E-4EB1-4366-8546-72DDF50CC576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDE531E-4EB1-4366-8546-72DDF50CC576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1521D19-1ADB-4AE3-9AD2-30C90269F345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1521D19-1ADB-4AE3-9AD2-30C90269F345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1521D19-1ADB-4AE3-9AD2-30C90269F345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1521D19-1ADB-4AE3-9AD2-30C90269F345}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5FBB6E2-DA8E-4E48-B963-A69E8D6E6228}
+	EndGlobalSection
+EndGlobal
