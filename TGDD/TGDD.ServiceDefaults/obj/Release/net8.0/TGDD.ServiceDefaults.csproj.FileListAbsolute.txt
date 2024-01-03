@@ -1,0 +1,12 @@
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\bin\Release\net8.0\TGDD.ServiceDefaults.deps.json
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\bin\Release\net8.0\TGDD.ServiceDefaults.dll
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\bin\Release\net8.0\TGDD.ServiceDefaults.pdb
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Release\net8.0\TGDD.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Release\net8.0\TGDD.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Release\net8.0\TGDD.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Release\net8.0\TGDD.ServiceDefaults.AssemblyInfo.cs
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Release\net8.0\TGDD.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Release\net8.0\TGDD.ServiceDefaults.dll
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Release\net8.0\refint\TGDD.ServiceDefaults.dll
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Release\net8.0\TGDD.ServiceDefaults.pdb
+C:\Blazor Learning\Microservices\TGDD\TGDD.ServiceDefaults\obj\Release\net8.0\ref\TGDD.ServiceDefaults.dll

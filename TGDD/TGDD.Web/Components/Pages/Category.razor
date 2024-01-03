@@ -1,0 +1,144 @@
+﻿@page "/Category/{Id:int}"
+@inject IProductService ProductService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+
+<FluentStack Orientation="Orientation.Horizontal" VerticalAlignment="VerticalAlignment.Center" class="custom-carousel">
+    <button class="carousel-control-prev btn shadow-none border-0" id="prevButton">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            @for (int i = 0; i < banners.Count; i++)
+            {
+                <div class="carousel-item @(i == 0 ? "active" : "")">
+                    <img src="@banners[i]" class="d-block w-100" alt="Banner @(i + 1)">
+                </div>
+            }
+        </div>
+        <ol class="carousel-indicators">
+            @for (int i = 0; i < banners.Count; i++)
+            {
+                <li data-bs-target="#carouselBanner" data-bs-slide-to="@i" class="@(i == 0 ? "active" : "")"></li>
+            }
+        </ol>
+    </div>
+
+    <button class="carousel-control-next btn shadow-none border-0" id="nextButton">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</FluentStack>
+   
+
+
+<div class="container my-4">
+    <h2 class="category-title text-center mb-4">@category.Name</h2>
+
+    @if (products != null && products.Any())
+    {
+        <FluentGrid>
+            @foreach (var product in products)
+            {
+                <FluentGridItem xs="12" sm="6" md="4" lg="3" Justify="JustifyContent.Center">
+                    <FluentCard class="text-center product-container">
+                        <FluentStack Orientation="Orientation.Vertical" HorizontalAlignment="HorizontalAlignment.Center" @onclick="()=>NavigateToDetailPage(product.Id)" >
+                            <img class="card-img-top w-30 img-fluid" src="@product.ImageURL" alt="..." />
+                            <div class="product-name">
+                                <h5 class="m-2">@product.Name</h5>
+                            </div>
+                            <strong class="m-2 price">
+                                <span>@product.Price.ToString("C")</span>
+                            </strong>
+
+                            <FluentButton IconStart="@(new Icons.Regular.Size24.Cart())" OnClick="()=> NavigateToDetailPage(product.Id)">Mua ngay</FluentButton>
+                        </FluentStack>
+                    </FluentCard>
+                </FluentGridItem>
+            }
+        </FluentGrid>
+    }
+    else
+    {
+        <p>Loading products...</p>
+    }
+</div>
+
+<style>
+    .custom-carousel {
+        position: relative;
+        max-width: 900px;
+        min-width:500px;
+        margin: auto;
+    }
+
+    .product-container {
+        cursor: pointer;
+        transition: transform .2s;
+    }
+
+        .product-container:hover {
+            transform: scale(1.05);
+        }
+
+        .product-container img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+    .product-name h5 {
+        font-size: 1.1em;
+        color: #333;
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .price {
+        font-size: 1.2em;
+    }
+
+        .price span {
+            color: #0078d4;
+        }
+</style>
+
+@code {
+    [Parameter] public int Id { get; set; }
+    public List<ProductDto> products = new();
+    public ProductCategoryDto category = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProducts();
+    }
+
+    private async Task LoadProducts()
+    {
+        category = await ProductService.GetCategory(Id);
+        products = (await ProductService.GetItemsByCategory(Id)).ToList();
+    }
+
+    private void NavigateToDetailPage(int id)
+    {
+        NavigationManager.NavigateTo($"/Detail/{id}");
+    }
+
+    private List<string> banners = new()
+    {
+        "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1170x300/https://cdn.tgdd.vn/2023/11/banner/IP15-2400-600-1920x480-1.png",
+        "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1170x300/https://cdn.tgdd.vn/2023/11/banner/ip14-AW-S8-2400-600-1920x480-1.png"
+    };
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("bindCarouselControls");
+        }
+    }
+
+}

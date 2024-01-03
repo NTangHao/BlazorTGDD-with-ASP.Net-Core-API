@@ -1,0 +1,116 @@
+﻿@page "/Checkout"
+@inject IJSRuntime JsRuntime
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+@inject IJSRuntime Js
+@inject IProductService ProductService
+@inject IShoppingCartService ShoppingCartService
+@inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService
+<h3>Checkout</h3>
+
+<div class="row">
+    <div class="col-md-6"  >
+        <h4 class="mb-2">Payment Method</h4>
+        <div id="smart-button-container">
+            <input type="hidden" name="descriptionInput" id="description" @bind="PaymentDescription" />
+            <input name="amountInput" type="hidden" id="amount" @bind="PaymentAmount">
+            <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
+        </div>
+    </div>
+ </div>
+
+
+
+@if (ShoppingCartItems != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ShoppingCartItems)
+            {
+                <tr>
+                    <td>@item.Qty x @item.ProductName</td>
+                    <td>@item.TotalPrice.ToString("C")</td>
+                </tr>
+            }
+            <tr>
+                <td><b>Total</b></td>
+                <td><b>@PaymentAmount.ToString("C")</b></td>
+            </tr>
+        </tbody>
+    </table>
+}
+else
+{
+    <p>You currently have no items in your shopping cart</p>
+}
+
+
+@code {
+    [CascadingParameter]
+    private Task<AuthenticationState>? authenticationState { get; set; }
+    protected IEnumerable<CartItemDto> ShoppingCartItems { get; set; }
+
+    protected int TotalQty { get; set; }
+
+    protected string PaymentDescription { get; set; }
+
+    protected decimal PaymentAmount { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            if (authenticationState is not null)
+            {
+                var authState = await authenticationState;
+                var user = authState?.User;
+
+                if (user?.Identity is not null && user.Identity.IsAuthenticated)
+                {
+                    ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection(user.Identity.Name);
+                }
+            }
+           
+            if (ShoppingCartItems != null && ShoppingCartItems.Count() > 0)
+            {
+                Guid orderGuid = Guid.NewGuid();
+
+                PaymentAmount = ShoppingCartItems.Sum(p => p.TotalPrice);
+                TotalQty = ShoppingCartItems.Sum(p => p.Qty);
+                PaymentDescription = $"O_{1}_{orderGuid}";
+
+            }
+            else
+            {
+                
+            }
+
+        }
+        catch (Exception)
+        {
+            //Log exception
+            throw;
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        try
+        {
+            if (firstRender)
+            {
+                await Js.InvokeVoidAsync("initPayPalButton");
+            }
+        }
+        catch (Exception)
+        {
+
+            throw;
+        }
+    }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TGDD.Api.props" />
+</Project>

@@ -1,0 +1,20 @@
+
+
+.carousel-control-prev[b-3olg56wi76], .carousel-control-next[b-3olg56wi76] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background: #3e3f41;
+    color: lightgray;
+    border-radius: 100%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+.carousel-indicators li[b-3olg56wi76] {
+    background-color: #007bff; 
+}

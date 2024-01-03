@@ -1,0 +1,1263 @@
+2023-12-28 09:32:40.910 +07:00 [INF] Now listening on: http://localhost:60488
+2023-12-28 09:32:40.997 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 09:32:40.998 +07:00 [INF] Hosting environment: Development
+2023-12-28 09:32:40.998 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 09:36:26.316 +07:00 [INF] Now listening on: http://localhost:60629
+2023-12-28 09:36:26.430 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 09:36:26.432 +07:00 [INF] Hosting environment: Development
+2023-12-28 09:36:26.432 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 09:36:27.390 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 09:36:27.419 +07:00 [INF] HTTP GET / responded 404 in 32.2511 ms
+2023-12-28 09:36:30.815 +07:00 [INF] Make call to product list
+2023-12-28 09:36:32.642 +07:00 [INF] HTTP GET /api/Product responded 200 in 2148.4429 ms
+2023-12-28 09:36:46.569 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 169.6345 ms
+2023-12-28 09:36:58.825 +07:00 [INF] Make call to product list
+2023-12-28 09:36:58.855 +07:00 [INF] HTTP GET /api/Product responded 200 in 32.6065 ms
+2023-12-28 09:37:00.451 +07:00 [INF] HTTP GET /api/Product/3 responded 200 in 26.1681 ms
+2023-12-28 09:37:02.268 +07:00 [INF] Make call to product list
+2023-12-28 09:37:02.295 +07:00 [INF] HTTP GET /api/Product responded 200 in 27.4888 ms
+2023-12-28 09:53:05.291 +07:00 [INF] Now listening on: http://localhost:60915
+2023-12-28 09:53:05.378 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 09:53:05.379 +07:00 [INF] Hosting environment: Development
+2023-12-28 09:53:05.379 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 09:53:06.496 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'string' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CachingParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.DfaBuilderWorker.AddParentsWithMatchingLiteralConstraints(List`1 nextParents, DfaNode parent, RoutePatternParameterPart parameterPart, IReadOnlyList`1 parameterPolicyReferences)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.DfaBuilderWorker.ProcessSegment(RouteEndpoint endpoint, List`1 parents, List`1 nextParents, RoutePatternPathSegment segment)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.DfaBuilderWorker.ProcessLevel(Int32 depth)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.BuildDfaTree(Boolean includeLabel)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-28 09:53:07.878 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'string' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CachingParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.DfaBuilderWorker.AddParentsWithMatchingLiteralConstraints(List`1 nextParents, DfaNode parent, RoutePatternParameterPart parameterPart, IReadOnlyList`1 parameterPolicyReferences)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.DfaBuilderWorker.ProcessSegment(RouteEndpoint endpoint, List`1 parents, List`1 nextParents, RoutePatternPathSegment segment)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.DfaBuilderWorker.ProcessLevel(Int32 depth)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.BuildDfaTree(Boolean includeLabel)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-28 09:53:08.112 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'string' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CachingParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.DfaBuilderWorker.AddParentsWithMatchingLiteralConstraints(List`1 nextParents, DfaNode parent, RoutePatternParameterPart parameterPart, IReadOnlyList`1 parameterPolicyReferences)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.DfaBuilderWorker.ProcessSegment(RouteEndpoint endpoint, List`1 parents, List`1 nextParents, RoutePatternPathSegment segment)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.DfaBuilderWorker.ProcessLevel(Int32 depth)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.BuildDfaTree(Boolean includeLabel)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-28 09:55:19.074 +07:00 [INF] Now listening on: http://localhost:61015
+2023-12-28 09:55:19.180 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 09:55:19.181 +07:00 [INF] Hosting environment: Development
+2023-12-28 09:55:19.181 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 09:55:20.431 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 09:55:20.462 +07:00 [INF] HTTP GET / responded 404 in 31.2918 ms
+2023-12-28 09:55:40.020 +07:00 [ERR] HTTP GET /api/Product/iphone responded 500 in 1759.9394 ms
+2023-12-28 09:59:09.715 +07:00 [INF] Now listening on: http://localhost:61113
+2023-12-28 09:59:09.841 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 09:59:09.842 +07:00 [INF] Hosting environment: Development
+2023-12-28 09:59:09.842 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 09:59:11.060 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 09:59:11.094 +07:00 [INF] HTTP GET / responded 404 in 35.1627 ms
+2023-12-28 09:59:26.098 +07:00 [ERR] HTTP GET /api/Product/iphone responded 500 in 1675.8784 ms
+2023-12-28 10:00:02.156 +07:00 [ERR] HTTP GET /api/Product/Iphone responded 500 in 124.4680 ms
+2023-12-28 10:03:54.817 +07:00 [INF] Now listening on: http://localhost:61235
+2023-12-28 10:03:54.947 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:03:54.948 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:03:54.948 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:03:55.547 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:03:55.569 +07:00 [INF] HTTP GET / responded 404 in 23.1726 ms
+2023-12-28 10:04:12.494 +07:00 [ERR] HTTP GET /api/Product/search/iphone responded 500 in 1567.3244 ms
+2023-12-28 10:04:50.486 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 149.5899 ms
+2023-12-28 10:06:31.809 +07:00 [INF] Now listening on: http://localhost:61331
+2023-12-28 10:06:31.911 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:06:31.912 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:06:31.912 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:06:33.125 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:06:33.165 +07:00 [INF] HTTP GET / responded 404 in 45.6376 ms
+2023-12-28 10:06:39.645 +07:00 [INF] Make call to product list
+2023-12-28 10:06:41.301 +07:00 [INF] HTTP GET /api/Product responded 200 in 1778.4731 ms
+2023-12-28 10:06:52.015 +07:00 [ERR] HTTP GET /api/Product/search/Iphone 14 responded 500 in 155.6425 ms
+2023-12-28 10:08:06.536 +07:00 [INF] Now listening on: http://localhost:61418
+2023-12-28 10:08:06.684 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:08:06.685 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:08:06.685 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:08:07.303 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:08:07.330 +07:00 [INF] HTTP GET / responded 404 in 26.9284 ms
+2023-12-28 10:08:20.671 +07:00 [ERR] HTTP GET /api/Product/search/iphone responded 500 in 1691.8509 ms
+2023-12-28 10:11:28.657 +07:00 [INF] Now listening on: http://localhost:61509
+2023-12-28 10:11:28.788 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:11:28.789 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:11:28.789 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:11:30.099 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:11:30.122 +07:00 [INF] HTTP GET / responded 404 in 24.2087 ms
+2023-12-28 10:11:45.916 +07:00 [ERR] HTTP GET /api/Product/iphone/search responded 500 in 1723.9628 ms
+2023-12-28 10:15:59.446 +07:00 [INF] Now listening on: http://localhost:61614
+2023-12-28 10:15:59.567 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:15:59.568 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:15:59.568 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:16:01.100 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:16:01.123 +07:00 [INF] HTTP GET / responded 404 in 23.7752 ms
+2023-12-28 10:16:10.996 +07:00 [ERR] HTTP GET /api/Product/iphone/search responded 500 in 1566.1327 ms
+2023-12-28 10:16:42.245 +07:00 [INF] Now listening on: http://localhost:61697
+2023-12-28 10:16:42.401 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:16:42.403 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:16:42.403 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:16:42.407 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:16:42.550 +07:00 [INF] HTTP GET / responded 404 in 146.2308 ms
+2023-12-28 10:17:04.343 +07:00 [INF] Now listening on: http://localhost:61768
+2023-12-28 10:17:04.511 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:17:04.512 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:17:04.512 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:17:04.526 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:17:04.598 +07:00 [INF] HTTP GET / responded 404 in 75.8036 ms
+2023-12-28 10:18:37.047 +07:00 [INF] Now listening on: http://localhost:61852
+2023-12-28 10:18:37.160 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:18:37.161 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:18:37.162 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:18:37.293 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:18:37.378 +07:00 [INF] HTTP GET / responded 404 in 85.7596 ms
+2023-12-28 10:23:35.117 +07:00 [INF] Now listening on: http://localhost:61944
+2023-12-28 10:23:35.212 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:23:35.221 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:23:35.221 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:23:35.386 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:23:35.459 +07:00 [INF] HTTP GET / responded 404 in 73.6697 ms
+2023-12-28 10:24:34.373 +07:00 [INF] Now listening on: http://localhost:62017
+2023-12-28 10:24:34.465 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:24:34.473 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:24:34.473 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:24:34.852 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:24:34.927 +07:00 [INF] HTTP GET / responded 404 in 76.1991 ms
+2023-12-28 10:30:47.879 +07:00 [INF] Now listening on: http://localhost:62170
+2023-12-28 10:30:47.976 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:30:47.977 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:30:47.978 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:30:48.480 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:30:48.502 +07:00 [INF] HTTP GET / responded 404 in 22.5668 ms
+2023-12-28 10:30:59.233 +07:00 [ERR] HTTP GET /api/Product/iphone/search responded 500 in 1612.9110 ms
+2023-12-28 10:31:29.630 +07:00 [INF] Now listening on: http://localhost:62255
+2023-12-28 10:31:29.742 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:31:29.743 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:31:29.743 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:31:29.907 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:31:30.005 +07:00 [INF] HTTP GET / responded 404 in 99.0684 ms
+2023-12-28 10:33:09.498 +07:00 [ERR] HTTP GET /api/Product/iphone/search responded 500 in 88533.3460 ms
+2023-12-28 10:35:41.391 +07:00 [INF] Now listening on: http://localhost:62355
+2023-12-28 10:35:41.507 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:35:41.508 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:35:41.508 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:35:41.650 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:35:41.730 +07:00 [INF] HTTP GET / responded 404 in 81.3713 ms
+2023-12-28 10:35:48.978 +07:00 [INF] Make call to product list
+2023-12-28 10:35:50.960 +07:00 [INF] HTTP GET /api/Product responded 200 in 2184.6557 ms
+2023-12-28 10:37:29.765 +07:00 [INF] Now listening on: http://localhost:62428
+2023-12-28 10:37:29.858 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:37:29.859 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:37:29.859 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:37:31.078 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:37:31.107 +07:00 [INF] HTTP GET / responded 404 in 29.2044 ms
+2023-12-28 10:37:42.561 +07:00 [INF] HTTP GET /api/Product/iphone/search responded 200 in 1605.9715 ms
+2023-12-28 10:37:55.359 +07:00 [INF] HTTP GET /api/Product/samung/search responded 404 in 47.1053 ms
+2023-12-28 10:38:02.991 +07:00 [INF] Make call to product list
+2023-12-28 10:38:03.027 +07:00 [INF] HTTP GET /api/Product responded 200 in 43.8845 ms
+2023-12-28 10:38:32.104 +07:00 [INF] HTTP GET /api/Product/Iphone /search responded 200 in 23.0583 ms
+2023-12-28 10:38:40.205 +07:00 [INF] HTTP GET /api/Product/Iphone/search responded 200 in 31.4812 ms
+2023-12-28 10:52:51.080 +07:00 [INF] Now listening on: http://localhost:62588
+2023-12-28 10:52:51.160 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:52:51.161 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:52:51.161 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:52:52.886 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:52:52.910 +07:00 [INF] HTTP GET / responded 404 in 25.2968 ms
+2023-12-28 10:54:09.733 +07:00 [INF] Now listening on: http://localhost:62653
+2023-12-28 10:54:09.843 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:54:09.844 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:54:09.845 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:54:11.307 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:54:11.331 +07:00 [INF] HTTP GET / responded 404 in 24.6795 ms
+2023-12-28 10:55:24.814 +07:00 [INF] Now listening on: http://localhost:62737
+2023-12-28 10:55:24.928 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:55:24.930 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:55:24.930 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:55:25.945 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:55:25.973 +07:00 [INF] HTTP GET / responded 404 in 28.4779 ms
+2023-12-28 10:56:56.648 +07:00 [INF] Now listening on: http://localhost:62826
+2023-12-28 10:56:56.750 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:56:56.750 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:56:56.751 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:56:58.057 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:56:58.087 +07:00 [INF] HTTP GET / responded 404 in 30.6850 ms
+2023-12-28 10:57:02.078 +07:00 [INF] Make call to product list
+2023-12-28 10:57:03.626 +07:00 [INF] HTTP GET /api/Product responded 200 in 1683.5950 ms
+2023-12-28 10:58:20.988 +07:00 [INF] Make call to product list
+2023-12-28 10:58:21.022 +07:00 [INF] HTTP GET /api/Product responded 200 in 38.8935 ms
+2023-12-28 10:58:37.116 +07:00 [INF] Now listening on: http://localhost:62926
+2023-12-28 10:58:37.232 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:58:37.233 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:58:37.233 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:58:38.677 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:58:38.704 +07:00 [INF] HTTP GET / responded 404 in 27.2257 ms
+2023-12-28 10:59:34.518 +07:00 [INF] Now listening on: http://localhost:63019
+2023-12-28 10:59:34.652 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 10:59:34.653 +07:00 [INF] Hosting environment: Development
+2023-12-28 10:59:34.658 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 10:59:34.783 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 10:59:34.874 +07:00 [INF] HTTP GET / responded 404 in 91.4751 ms
+2023-12-28 11:09:21.133 +07:00 [INF] Now listening on: http://localhost:63118
+2023-12-28 11:09:21.226 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:09:21.227 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:09:21.227 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:09:22.511 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:09:22.537 +07:00 [INF] HTTP GET / responded 404 in 26.2914 ms
+2023-12-28 11:09:58.467 +07:00 [INF] Now listening on: http://localhost:63205
+2023-12-28 11:09:58.591 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:09:58.598 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:09:58.598 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:09:58.836 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:09:58.928 +07:00 [INF] HTTP GET / responded 404 in 93.4016 ms
+2023-12-28 11:10:58.265 +07:00 [INF] Now listening on: http://localhost:63273
+2023-12-28 11:10:58.386 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:10:58.387 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:10:58.387 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:10:59.769 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:10:59.797 +07:00 [INF] HTTP GET / responded 404 in 28.1897 ms
+2023-12-28 11:11:01.251 +07:00 [INF] Make call to product list
+2023-12-28 11:11:03.044 +07:00 [INF] HTTP GET /api/Product responded 200 in 1924.2689 ms
+2023-12-28 11:12:32.926 +07:00 [INF] Make call to product list
+2023-12-28 11:12:32.988 +07:00 [INF] HTTP GET /api/Product responded 200 in 68.9257 ms
+2023-12-28 11:12:50.791 +07:00 [INF] Now listening on: http://localhost:63379
+2023-12-28 11:12:50.890 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:12:50.891 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:12:50.891 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:12:52.150 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:12:52.173 +07:00 [INF] HTTP GET / responded 404 in 23.6449 ms
+2023-12-28 11:16:09.900 +07:00 [INF] Now listening on: http://localhost:63477
+2023-12-28 11:16:10.024 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:16:10.025 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:16:10.025 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:16:11.608 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:16:11.631 +07:00 [INF] HTTP GET / responded 404 in 23.8759 ms
+2023-12-28 11:16:13.102 +07:00 [INF] Make call to product list
+2023-12-28 11:16:14.782 +07:00 [INF] HTTP GET /api/Product responded 200 in 1801.6201 ms
+2023-12-28 11:16:22.354 +07:00 [INF] HTTP GET /api/Product/ip responded 404 in 4.2693 ms
+2023-12-28 11:16:40.522 +07:00 [INF] Make call to product list
+2023-12-28 11:16:40.560 +07:00 [INF] HTTP GET /api/Product responded 200 in 40.4859 ms
+2023-12-28 11:16:47.651 +07:00 [INF] HTTP GET /api/Product/ip responded 404 in 0.1594 ms
+2023-12-28 11:20:40.792 +07:00 [INF] Now listening on: http://localhost:63595
+2023-12-28 11:20:40.899 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:20:40.901 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:20:40.901 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:20:42.317 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:20:42.345 +07:00 [INF] HTTP GET / responded 404 in 29.3810 ms
+2023-12-28 11:20:44.580 +07:00 [INF] Make call to product list
+2023-12-28 11:20:46.213 +07:00 [INF] HTTP GET /api/Product responded 200 in 1776.0653 ms
+2023-12-28 11:20:47.899 +07:00 [INF] HTTP GET /api/Product/ip responded 404 in 2.0358 ms
+2023-12-28 11:21:16.288 +07:00 [INF] Now listening on: http://localhost:63686
+2023-12-28 11:21:16.393 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:21:16.396 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:21:16.396 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:21:17.894 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:21:17.918 +07:00 [INF] HTTP GET / responded 404 in 24.5081 ms
+2023-12-28 11:21:22.761 +07:00 [INF] Make call to product list
+2023-12-28 11:21:24.493 +07:00 [INF] HTTP GET /api/Product responded 200 in 1868.1366 ms
+2023-12-28 11:21:24.875 +07:00 [INF] HTTP GET /api/Product/ip responded 404 in 2.1661 ms
+2023-12-28 11:22:17.943 +07:00 [INF] Now listening on: http://localhost:63808
+2023-12-28 11:22:18.062 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:22:18.064 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:22:18.064 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:22:18.212 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:22:18.321 +07:00 [INF] HTTP GET / responded 404 in 108.8228 ms
+2023-12-28 11:25:22.672 +07:00 [INF] Now listening on: http://localhost:63912
+2023-12-28 11:25:22.775 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:25:22.776 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:25:22.776 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:25:23.594 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:25:23.620 +07:00 [INF] HTTP GET / responded 404 in 27.2191 ms
+2023-12-28 11:25:25.674 +07:00 [INF] Make call to product list
+2023-12-28 11:25:27.405 +07:00 [INF] HTTP GET /api/Product responded 200 in 1854.9350 ms
+2023-12-28 11:25:31.527 +07:00 [INF] HTTP GET /api/Product/ip responded 404 in 1.9324 ms
+2023-12-28 11:26:42.334 +07:00 [INF] Make call to product list
+2023-12-28 11:26:42.402 +07:00 [INF] HTTP GET /api/Product responded 200 in 72.3737 ms
+2023-12-28 11:26:53.599 +07:00 [INF] HTTP GET /api/Product/ip responded 404 in 0.1800 ms
+2023-12-28 11:27:45.231 +07:00 [INF] Now listening on: http://localhost:64093
+2023-12-28 11:27:45.338 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:27:45.339 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:27:45.339 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:27:46.866 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:27:46.892 +07:00 [INF] HTTP GET / responded 404 in 27.0529 ms
+2023-12-28 11:27:48.387 +07:00 [INF] Make call to product list
+2023-12-28 11:27:50.154 +07:00 [INF] HTTP GET /api/Product responded 200 in 1898.0831 ms
+2023-12-28 11:27:54.375 +07:00 [INF] HTTP GET /api/Product/ip responded 404 in 2.4160 ms
+2023-12-28 11:33:57.107 +07:00 [INF] Now listening on: http://localhost:64401
+2023-12-28 11:33:57.229 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:33:57.230 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:33:57.230 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:33:58.583 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:33:58.608 +07:00 [INF] HTTP GET / responded 404 in 25.7843 ms
+2023-12-28 11:34:00.445 +07:00 [INF] Make call to product list
+2023-12-28 11:34:02.144 +07:00 [INF] HTTP GET /api/Product responded 200 in 1832.4284 ms
+2023-12-28 11:34:10.251 +07:00 [INF] HTTP GET /api/Product/ip responded 404 in 2.2051 ms
+2023-12-28 11:36:48.625 +07:00 [INF] Make call to product list
+2023-12-28 11:36:48.684 +07:00 [INF] HTTP GET /api/Product responded 200 in 62.4007 ms
+2023-12-28 11:36:53.514 +07:00 [INF] HTTP GET /api/Product/ip responded 404 in 0.2605 ms
+2023-12-28 11:39:04.903 +07:00 [INF] Now listening on: http://localhost:64672
+2023-12-28 11:39:05.033 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:39:05.034 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:39:05.034 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:39:05.203 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:39:05.295 +07:00 [INF] HTTP GET / responded 404 in 93.0622 ms
+2023-12-28 11:39:06.553 +07:00 [INF] Make call to product list
+2023-12-28 11:39:19.657 +07:00 [INF] HTTP GET /api/Product/ip responded 404 in 1.9525 ms
+2023-12-28 11:39:19.664 +07:00 [INF] HTTP GET /api/Product responded 200 in 13349.5032 ms
+2023-12-28 11:40:14.371 +07:00 [INF] Now listening on: http://localhost:64786
+2023-12-28 11:40:14.476 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:40:14.477 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:40:14.477 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:40:15.334 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:40:15.358 +07:00 [INF] HTTP GET / responded 404 in 25.3409 ms
+2023-12-28 11:40:17.401 +07:00 [INF] Make call to product list
+2023-12-28 11:40:19.028 +07:00 [INF] HTTP GET /api/Product responded 200 in 1751.2525 ms
+2023-12-28 11:40:20.216 +07:00 [INF] HTTP GET /api/ip/Product responded 404 in 2.1185 ms
+2023-12-28 11:40:27.533 +07:00 [INF] Make call to product list
+2023-12-28 11:40:27.565 +07:00 [INF] HTTP GET /api/Product responded 200 in 38.0618 ms
+2023-12-28 11:42:02.600 +07:00 [INF] Now listening on: http://localhost:64941
+2023-12-28 11:42:02.738 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:42:02.739 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:42:02.740 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:42:02.891 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:42:02.916 +07:00 [INF] HTTP GET / responded 404 in 25.6779 ms
+2023-12-28 11:42:13.217 +07:00 [INF] HTTP GET /api/Product/search/iphone responded 200 in 1603.4494 ms
+2023-12-28 11:42:38.055 +07:00 [INF] Now listening on: http://localhost:65031
+2023-12-28 11:42:38.182 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:42:38.183 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:42:38.183 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:42:39.715 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:42:39.739 +07:00 [INF] HTTP GET / responded 404 in 24.7692 ms
+2023-12-28 11:42:44.163 +07:00 [INF] Make call to product list
+2023-12-28 11:42:45.831 +07:00 [INF] HTTP GET /api/Product responded 200 in 1803.0538 ms
+2023-12-28 11:42:48.889 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 94.3892 ms
+2023-12-28 11:42:49.457 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 46.0668 ms
+2023-12-28 11:42:49.633 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 29.4015 ms
+2023-12-28 11:42:49.828 +07:00 [INF] HTTP GET /api/Product/search/iphon responded 200 in 31.8461 ms
+2023-12-28 11:42:49.993 +07:00 [INF] HTTP GET /api/Product/search/iphone responded 200 in 50.6781 ms
+2023-12-28 11:42:55.014 +07:00 [INF] HTTP GET /api/Product/search/vi responded 200 in 31.4291 ms
+2023-12-28 11:42:56.578 +07:00 [INF] HTTP GET /api/Product/search/viv responded 200 in 28.8576 ms
+2023-12-28 11:42:56.765 +07:00 [INF] HTTP GET /api/Product/search/vivo responded 200 in 28.6132 ms
+2023-12-28 11:42:57.827 +07:00 [INF] HTTP GET /api/Product/search/viv responded 200 in 29.9695 ms
+2023-12-28 11:42:58.094 +07:00 [INF] HTTP GET /api/Product/search/vi responded 200 in 29.8796 ms
+2023-12-28 11:43:05.124 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 30.2948 ms
+2023-12-28 11:43:05.298 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 29.6842 ms
+2023-12-28 11:43:06.910 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 49.2293 ms
+2023-12-28 11:43:08.108 +07:00 [INF] Make call to product list
+2023-12-28 11:43:08.138 +07:00 [INF] HTTP GET /api/Product responded 200 in 30.1984 ms
+2023-12-28 11:43:11.384 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 28.6687 ms
+2023-12-28 11:43:13.347 +07:00 [INF] Make call to product list
+2023-12-28 11:43:13.376 +07:00 [INF] HTTP GET /api/Product responded 200 in 29.4052 ms
+2023-12-28 11:44:15.319 +07:00 [INF] Now listening on: http://localhost:65179
+2023-12-28 11:44:15.436 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:44:15.437 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:44:15.437 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:44:16.972 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:44:17.001 +07:00 [INF] HTTP GET / responded 404 in 29.5942 ms
+2023-12-28 11:44:37.960 +07:00 [INF] Now listening on: http://localhost:65265
+2023-12-28 11:44:38.115 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:44:38.116 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:44:38.116 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:44:39.541 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:44:39.568 +07:00 [INF] HTTP GET / responded 404 in 28.4883 ms
+2023-12-28 11:44:48.957 +07:00 [INF] Now listening on: http://localhost:65336
+2023-12-28 11:44:49.053 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:44:49.054 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:44:49.054 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:44:50.403 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:44:50.428 +07:00 [INF] HTTP GET / responded 404 in 24.8699 ms
+2023-12-28 11:44:52.194 +07:00 [INF] Make call to product list
+2023-12-28 11:44:53.913 +07:00 [INF] HTTP GET /api/Product responded 200 in 1846.5519 ms
+2023-12-28 11:45:01.132 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 105.4699 ms
+2023-12-28 11:45:01.419 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 54.6788 ms
+2023-12-28 11:45:01.604 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 49.9011 ms
+2023-12-28 11:45:01.740 +07:00 [INF] HTTP GET /api/Product/search/iphon responded 200 in 49.0573 ms
+2023-12-28 11:45:01.878 +07:00 [INF] HTTP GET /api/Product/search/iphone responded 200 in 49.7899 ms
+2023-12-28 11:46:09.597 +07:00 [INF] Now listening on: http://localhost:65468
+2023-12-28 11:46:09.696 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:46:09.698 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:46:09.698 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:46:10.973 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:46:10.998 +07:00 [INF] HTTP GET / responded 404 in 26.3102 ms
+2023-12-28 11:46:31.831 +07:00 [INF] Now listening on: http://localhost:49163
+2023-12-28 11:46:31.935 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 11:46:31.936 +07:00 [INF] Hosting environment: Development
+2023-12-28 11:46:31.936 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 11:46:32.185 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 11:46:32.262 +07:00 [INF] HTTP GET / responded 404 in 79.0028 ms
+2023-12-28 11:46:33.809 +07:00 [INF] Make call to product list
+2023-12-28 11:46:35.833 +07:00 [INF] HTTP GET /api/Product responded 200 in 2201.1663 ms
+2023-12-28 13:28:17.608 +07:00 [INF] Now listening on: http://localhost:49802
+2023-12-28 13:28:17.697 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:28:17.698 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:28:17.698 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:28:17.773 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:28:17.797 +07:00 [INF] HTTP GET / responded 404 in 25.2153 ms
+2023-12-28 13:28:21.542 +07:00 [INF] Make call to product list
+2023-12-28 13:28:23.209 +07:00 [INF] HTTP GET /api/Product responded 200 in 1897.5126 ms
+2023-12-28 13:30:59.388 +07:00 [INF] Now listening on: http://localhost:49959
+2023-12-28 13:30:59.515 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:30:59.516 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:30:59.516 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:31:00.422 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:31:00.444 +07:00 [INF] HTTP GET / responded 404 in 22.3907 ms
+2023-12-28 13:31:11.985 +07:00 [INF] HTTP GET / responded 404 in 2.2616 ms
+2023-12-28 13:31:12.470 +07:00 [INF] HTTP GET / responded 404 in 3.5979 ms
+2023-12-28 13:31:26.086 +07:00 [INF] Now listening on: http://localhost:50119
+2023-12-28 13:31:26.191 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:31:26.192 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:31:26.192 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:31:27.066 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:31:27.089 +07:00 [INF] HTTP GET / responded 404 in 23.9125 ms
+2023-12-28 13:31:29.911 +07:00 [INF] Make call to product list
+2023-12-28 13:31:31.563 +07:00 [INF] HTTP GET /api/Product responded 200 in 1781.3456 ms
+2023-12-28 13:32:21.609 +07:00 [INF] Now listening on: http://localhost:50239
+2023-12-28 13:32:21.741 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:32:21.742 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:32:21.742 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:32:23.084 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:32:23.113 +07:00 [INF] HTTP GET / responded 404 in 30.0616 ms
+2023-12-28 13:32:32.760 +07:00 [INF] Now listening on: http://localhost:50315
+2023-12-28 13:32:32.867 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:32:32.868 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:32:32.868 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:32:32.895 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:32:32.918 +07:00 [INF] HTTP GET / responded 404 in 24.1899 ms
+2023-12-28 13:32:37.080 +07:00 [INF] Make call to product list
+2023-12-28 13:32:38.662 +07:00 [INF] HTTP GET /api/Product responded 200 in 1702.9554 ms
+2023-12-28 13:34:19.772 +07:00 [INF] Now listening on: http://localhost:50448
+2023-12-28 13:34:19.878 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:34:19.880 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:34:19.880 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:34:20.814 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:34:20.836 +07:00 [INF] HTTP GET / responded 404 in 22.5669 ms
+2023-12-28 13:34:46.038 +07:00 [INF] Now listening on: http://localhost:50448
+2023-12-28 13:34:46.128 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:34:46.129 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:34:46.130 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:35:01.101 +07:00 [INF] Now listening on: http://localhost:50560
+2023-12-28 13:35:01.199 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:35:01.200 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:35:01.200 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:35:02.633 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:35:02.655 +07:00 [INF] HTTP GET / responded 404 in 23.2438 ms
+2023-12-28 13:35:15.366 +07:00 [INF] Now listening on: http://localhost:50639
+2023-12-28 13:35:15.506 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:35:15.507 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:35:15.507 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:35:17.083 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:35:17.115 +07:00 [INF] HTTP GET / responded 404 in 32.6985 ms
+2023-12-28 13:35:19.683 +07:00 [INF] Make call to product list
+2023-12-28 13:35:21.326 +07:00 [INF] HTTP GET /api/Product responded 200 in 1766.6210 ms
+2023-12-28 13:35:51.076 +07:00 [INF] Make call to product list
+2023-12-28 13:35:51.120 +07:00 [INF] HTTP GET /api/Product responded 200 in 49.1512 ms
+2023-12-28 13:41:05.089 +07:00 [INF] Now listening on: http://localhost:50927
+2023-12-28 13:41:05.192 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:41:05.193 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:41:05.194 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:41:06.676 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:41:06.705 +07:00 [INF] HTTP GET / responded 404 in 30.3668 ms
+2023-12-28 13:41:16.833 +07:00 [INF] Now listening on: http://localhost:51001
+2023-12-28 13:41:16.946 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:41:16.947 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:41:16.947 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:41:17.851 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:41:17.879 +07:00 [INF] HTTP GET / responded 404 in 29.4716 ms
+2023-12-28 13:41:20.232 +07:00 [INF] Make call to product list
+2023-12-28 13:41:21.793 +07:00 [INF] HTTP GET /api/Product responded 200 in 1691.9027 ms
+2023-12-28 13:46:05.592 +07:00 [INF] Now listening on: http://localhost:51248
+2023-12-28 13:46:05.715 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:46:05.716 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:46:05.716 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:46:07.054 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:46:07.077 +07:00 [INF] HTTP GET / responded 404 in 23.6125 ms
+2023-12-28 13:46:09.057 +07:00 [INF] Make call to product list
+2023-12-28 13:46:10.697 +07:00 [INF] HTTP GET /api/Product responded 200 in 1779.5325 ms
+2023-12-28 13:47:04.795 +07:00 [INF] Now listening on: http://localhost:51374
+2023-12-28 13:47:04.902 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:47:04.904 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:47:04.904 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:47:06.177 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:47:06.210 +07:00 [INF] HTTP GET / responded 404 in 33.4881 ms
+2023-12-28 13:47:14.200 +07:00 [INF] Now listening on: http://localhost:51449
+2023-12-28 13:47:14.308 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:47:14.309 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:47:14.309 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:47:15.588 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:47:15.624 +07:00 [INF] HTTP GET / responded 404 in 35.8255 ms
+2023-12-28 13:47:17.006 +07:00 [INF] Make call to product list
+2023-12-28 13:47:19.028 +07:00 [INF] HTTP GET /api/Product responded 200 in 2171.5442 ms
+2023-12-28 13:51:42.548 +07:00 [INF] Now listening on: http://localhost:51681
+2023-12-28 13:51:42.663 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:51:42.665 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:51:42.665 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:51:44.047 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:51:44.081 +07:00 [INF] HTTP GET / responded 404 in 34.4143 ms
+2023-12-28 13:51:55.079 +07:00 [INF] Now listening on: http://localhost:51758
+2023-12-28 13:51:55.194 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:51:55.195 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:51:55.196 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:51:56.591 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:51:56.633 +07:00 [INF] HTTP GET / responded 404 in 36.0253 ms
+2023-12-28 13:52:00.126 +07:00 [INF] Make call to product list
+2023-12-28 13:52:01.990 +07:00 [INF] HTTP GET /api/Product responded 200 in 1987.5471 ms
+2023-12-28 13:53:01.167 +07:00 [INF] Now listening on: http://localhost:51850
+2023-12-28 13:53:01.283 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:53:01.285 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:53:01.285 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:53:02.628 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:53:02.652 +07:00 [INF] HTTP GET / responded 404 in 24.8400 ms
+2023-12-28 13:53:12.014 +07:00 [INF] Now listening on: http://localhost:51925
+2023-12-28 13:53:12.130 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:53:12.130 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:53:12.131 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:53:13.580 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:53:13.614 +07:00 [INF] HTTP GET / responded 404 in 35.8294 ms
+2023-12-28 13:53:15.084 +07:00 [INF] Make call to product list
+2023-12-28 13:53:16.770 +07:00 [INF] HTTP GET /api/Product responded 200 in 1819.1286 ms
+2023-12-28 13:57:00.994 +07:00 [INF] Now listening on: http://localhost:52046
+2023-12-28 13:57:01.079 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 13:57:01.080 +07:00 [INF] Hosting environment: Development
+2023-12-28 13:57:01.081 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 13:57:02.405 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 13:57:02.432 +07:00 [INF] HTTP GET / responded 404 in 28.8551 ms
+2023-12-28 13:57:03.996 +07:00 [INF] Make call to product list
+2023-12-28 13:57:05.854 +07:00 [INF] HTTP GET /api/Product responded 200 in 1986.5740 ms
+2023-12-28 13:57:11.693 +07:00 [INF] HTTP POST /api/Login responded 400 in 156.3404 ms
+2023-12-28 13:57:18.947 +07:00 [INF] HTTP POST /api/Login responded 200 in 350.3131 ms
+2023-12-28 13:57:18.970 +07:00 [INF] Make call to product list
+2023-12-28 13:57:19.022 +07:00 [INF] HTTP GET /api/Product responded 200 in 53.2283 ms
+2023-12-28 13:57:19.131 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 100.5656 ms
+2023-12-28 13:57:19.270 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 132.5093 ms
+2023-12-28 13:57:21.426 +07:00 [INF] Make call to product list
+2023-12-28 13:57:21.479 +07:00 [INF] HTTP GET /api/Product responded 200 in 52.7728 ms
+2023-12-28 14:00:52.334 +07:00 [INF] Now listening on: http://localhost:52167
+2023-12-28 14:00:52.460 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:00:52.461 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:00:52.461 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:00:54.011 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:00:54.035 +07:00 [INF] HTTP GET / responded 404 in 25.4776 ms
+2023-12-28 14:01:00.796 +07:00 [INF] Now listening on: http://localhost:52238
+2023-12-28 14:01:00.914 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:01:00.915 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:01:00.915 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:01:02.258 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:01:02.286 +07:00 [INF] HTTP GET / responded 404 in 29.2963 ms
+2023-12-28 14:01:03.582 +07:00 [INF] Make call to product list
+2023-12-28 14:01:05.413 +07:00 [INF] HTTP GET /api/Product responded 200 in 1959.4124 ms
+2023-12-28 14:01:16.345 +07:00 [INF] Make call to product list
+2023-12-28 14:01:16.407 +07:00 [INF] HTTP GET /api/Product responded 200 in 68.4727 ms
+2023-12-28 14:03:40.480 +07:00 [INF] Now listening on: http://localhost:52389
+2023-12-28 14:03:40.607 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:03:40.608 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:03:40.608 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:03:41.942 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:03:41.974 +07:00 [INF] HTTP GET / responded 404 in 33.8131 ms
+2023-12-28 14:03:51.306 +07:00 [INF] Now listening on: http://localhost:52469
+2023-12-28 14:03:51.407 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:03:51.409 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:03:51.409 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:03:52.853 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:03:52.880 +07:00 [INF] HTTP GET / responded 404 in 27.8749 ms
+2023-12-28 14:03:54.622 +07:00 [INF] Make call to product list
+2023-12-28 14:03:56.228 +07:00 [INF] HTTP GET /api/Product responded 200 in 1732.4099 ms
+2023-12-28 14:04:16.762 +07:00 [INF] Now listening on: http://localhost:52570
+2023-12-28 14:04:16.882 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:04:16.883 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:04:16.884 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:04:17.749 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:04:17.775 +07:00 [INF] HTTP GET / responded 404 in 26.7335 ms
+2023-12-28 14:04:27.829 +07:00 [INF] Now listening on: http://localhost:52643
+2023-12-28 14:04:27.955 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:04:27.956 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:04:27.956 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:04:29.539 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:04:29.572 +07:00 [INF] HTTP GET / responded 404 in 33.4838 ms
+2023-12-28 14:04:33.167 +07:00 [INF] Make call to product list
+2023-12-28 14:04:34.801 +07:00 [INF] HTTP GET /api/Product responded 200 in 1764.9056 ms
+2023-12-28 14:04:54.937 +07:00 [INF] Now listening on: http://localhost:52746
+2023-12-28 14:04:55.035 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:04:55.036 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:04:55.036 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:04:56.532 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:04:56.561 +07:00 [INF] HTTP GET / responded 404 in 28.7963 ms
+2023-12-28 14:05:05.600 +07:00 [INF] Now listening on: http://localhost:52825
+2023-12-28 14:05:05.693 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:05:05.694 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:05:05.694 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:05:06.978 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:05:07.008 +07:00 [INF] HTTP GET / responded 404 in 31.4332 ms
+2023-12-28 14:05:08.314 +07:00 [INF] Make call to product list
+2023-12-28 14:05:10.019 +07:00 [INF] HTTP GET /api/Product responded 200 in 1833.7265 ms
+2023-12-28 14:10:22.861 +07:00 [INF] Now listening on: http://localhost:53164
+2023-12-28 14:10:22.975 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:10:22.976 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:10:22.976 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:10:24.544 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:10:24.579 +07:00 [INF] HTTP GET / responded 404 in 35.3233 ms
+2023-12-28 14:10:25.883 +07:00 [INF] Make call to product list
+2023-12-28 14:10:27.462 +07:00 [INF] HTTP GET /api/Product responded 200 in 1708.1349 ms
+2023-12-28 14:10:37.189 +07:00 [INF] HTTP POST /api/Login responded 200 in 341.3229 ms
+2023-12-28 14:10:37.218 +07:00 [INF] Make call to product list
+2023-12-28 14:10:37.258 +07:00 [INF] HTTP GET /api/Product responded 200 in 43.2032 ms
+2023-12-28 14:10:37.341 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 75.6419 ms
+2023-12-28 14:10:37.449 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 102.1412 ms
+2023-12-28 14:10:48.743 +07:00 [INF] Make call to product list
+2023-12-28 14:10:48.779 +07:00 [INF] HTTP GET /api/Product responded 200 in 35.7832 ms
+2023-12-28 14:11:15.177 +07:00 [INF] Now listening on: http://localhost:53298
+2023-12-28 14:11:15.287 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:11:15.289 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:11:15.289 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:11:16.753 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:11:16.779 +07:00 [INF] HTTP GET / responded 404 in 26.2538 ms
+2023-12-28 14:11:26.022 +07:00 [INF] Now listening on: http://localhost:53375
+2023-12-28 14:11:26.156 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:11:26.156 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:11:26.157 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:11:27.105 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:11:27.131 +07:00 [INF] HTTP GET / responded 404 in 27.1094 ms
+2023-12-28 14:11:29.053 +07:00 [INF] Make call to product list
+2023-12-28 14:11:31.865 +07:00 [INF] HTTP GET /api/Product responded 200 in 2940.9577 ms
+2023-12-28 14:11:34.188 +07:00 [INF] HTTP POST /api/Login responded 200 in 460.8077 ms
+2023-12-28 14:11:34.218 +07:00 [INF] Make call to product list
+2023-12-28 14:11:34.312 +07:00 [INF] HTTP GET /api/Product responded 200 in 97.3541 ms
+2023-12-28 14:11:34.476 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 150.9557 ms
+2023-12-28 14:11:34.689 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 207.3003 ms
+2023-12-28 14:11:59.704 +07:00 [INF] Make call to product list
+2023-12-28 14:11:59.795 +07:00 [INF] HTTP GET /api/Product responded 200 in 91.0254 ms
+2023-12-28 14:12:07.410 +07:00 [INF] HTTP POST /api/Login responded 200 in 183.0310 ms
+2023-12-28 14:12:07.418 +07:00 [INF] Make call to product list
+2023-12-28 14:12:07.451 +07:00 [INF] HTTP GET /api/Product responded 200 in 33.3920 ms
+2023-12-28 14:12:07.486 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 32.2088 ms
+2023-12-28 14:12:07.554 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 66.7470 ms
+2023-12-28 14:12:08.438 +07:00 [INF] Make call to product list
+2023-12-28 14:12:08.471 +07:00 [INF] HTTP GET /api/Product responded 200 in 33.3826 ms
+2023-12-28 14:12:11.073 +07:00 [INF] HTTP POST /api/Login responded 200 in 189.8290 ms
+2023-12-28 14:12:11.082 +07:00 [INF] Make call to product list
+2023-12-28 14:12:11.120 +07:00 [INF] HTTP GET /api/Product responded 200 in 38.8069 ms
+2023-12-28 14:12:11.158 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 34.4937 ms
+2023-12-28 14:12:11.226 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 66.2579 ms
+2023-12-28 14:12:14.015 +07:00 [INF] Make call to product list
+2023-12-28 14:12:14.049 +07:00 [INF] HTTP GET /api/Product responded 200 in 33.8785 ms
+2023-12-28 14:12:17.073 +07:00 [INF] HTTP POST /api/Login responded 200 in 157.6312 ms
+2023-12-28 14:12:17.082 +07:00 [INF] Make call to product list
+2023-12-28 14:12:17.115 +07:00 [INF] HTTP GET /api/Product responded 200 in 32.8188 ms
+2023-12-28 14:12:17.150 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 32.5243 ms
+2023-12-28 14:12:17.215 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 64.0012 ms
+2023-12-28 14:12:18.278 +07:00 [INF] Make call to product list
+2023-12-28 14:12:18.312 +07:00 [INF] HTTP GET /api/Product responded 200 in 33.8300 ms
+2023-12-28 14:13:10.726 +07:00 [INF] Now listening on: http://localhost:53517
+2023-12-28 14:13:10.814 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:13:10.814 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:13:10.815 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:13:12.312 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:13:12.338 +07:00 [INF] HTTP GET / responded 404 in 27.2469 ms
+2023-12-28 14:13:20.680 +07:00 [INF] Now listening on: http://localhost:53597
+2023-12-28 14:13:20.786 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:13:20.787 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:13:20.787 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:13:22.304 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:13:22.338 +07:00 [INF] HTTP GET / responded 404 in 34.2123 ms
+2023-12-28 14:13:23.465 +07:00 [INF] Make call to product list
+2023-12-28 14:13:25.065 +07:00 [INF] HTTP GET /api/Product responded 200 in 1721.1183 ms
+2023-12-28 14:13:30.764 +07:00 [INF] HTTP POST /api/Login responded 200 in 333.5912 ms
+2023-12-28 14:13:30.790 +07:00 [INF] Make call to product list
+2023-12-28 14:13:30.822 +07:00 [INF] HTTP GET /api/Product responded 200 in 34.3408 ms
+2023-12-28 14:13:30.900 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 71.6548 ms
+2023-12-28 14:13:31.008 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 101.0203 ms
+2023-12-28 14:13:33.381 +07:00 [INF] Make call to product list
+2023-12-28 14:13:33.409 +07:00 [INF] HTTP GET /api/Product responded 200 in 28.5781 ms
+2023-12-28 14:14:24.856 +07:00 [INF] Now listening on: http://localhost:53720
+2023-12-28 14:14:24.973 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:14:24.975 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:14:24.975 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:14:26.349 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:14:26.373 +07:00 [INF] HTTP GET / responded 404 in 25.3401 ms
+2023-12-28 14:14:33.933 +07:00 [INF] Now listening on: http://localhost:53796
+2023-12-28 14:14:34.038 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:14:34.039 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:14:34.039 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:14:35.642 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:14:35.669 +07:00 [INF] HTTP GET / responded 404 in 27.9323 ms
+2023-12-28 14:14:36.955 +07:00 [INF] Make call to product list
+2023-12-28 14:14:38.730 +07:00 [INF] HTTP GET /api/Product responded 200 in 1908.0633 ms
+2023-12-28 14:15:00.185 +07:00 [INF] HTTP POST /api/Login responded 200 in 419.3538 ms
+2023-12-28 14:15:00.214 +07:00 [INF] Make call to product list
+2023-12-28 14:15:00.272 +07:00 [INF] HTTP GET /api/Product responded 200 in 59.8399 ms
+2023-12-28 14:15:00.382 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 101.4795 ms
+2023-12-28 14:15:00.524 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 135.5403 ms
+2023-12-28 14:15:08.572 +07:00 [INF] Make call to product list
+2023-12-28 14:15:08.626 +07:00 [INF] HTTP GET /api/Product responded 200 in 54.9486 ms
+2023-12-28 14:16:18.235 +07:00 [INF] Now listening on: http://localhost:53945
+2023-12-28 14:16:18.355 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:16:18.356 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:16:18.356 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:16:19.255 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:16:19.283 +07:00 [INF] HTTP GET / responded 404 in 28.1030 ms
+2023-12-28 14:16:34.825 +07:00 [INF] Now listening on: http://localhost:54022
+2023-12-28 14:16:34.905 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 14:16:34.906 +07:00 [INF] Hosting environment: Development
+2023-12-28 14:16:34.907 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 14:16:36.389 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 14:16:36.415 +07:00 [INF] HTTP GET / responded 404 in 27.5832 ms
+2023-12-28 14:16:42.885 +07:00 [INF] Make call to product list
+2023-12-28 14:16:44.584 +07:00 [INF] HTTP GET /api/Product responded 200 in 1818.4494 ms
+2023-12-28 14:16:57.290 +07:00 [INF] HTTP POST /api/Login responded 200 in 381.7797 ms
+2023-12-28 14:16:57.317 +07:00 [INF] Make call to product list
+2023-12-28 14:16:57.367 +07:00 [INF] HTTP GET /api/Product responded 200 in 53.4262 ms
+2023-12-28 14:16:57.463 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 88.4223 ms
+2023-12-28 14:16:57.589 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 122.2549 ms
+2023-12-28 14:16:58.372 +07:00 [INF] Make call to product list
+2023-12-28 14:16:58.420 +07:00 [INF] HTTP GET /api/Product responded 200 in 48.1742 ms
+2023-12-28 14:17:01.887 +07:00 [INF] HTTP POST /api/Login responded 200 in 191.1888 ms
+2023-12-28 14:17:01.898 +07:00 [INF] Make call to product list
+2023-12-28 14:17:01.946 +07:00 [INF] HTTP GET /api/Product responded 200 in 47.9650 ms
+2023-12-28 14:17:01.997 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 47.5245 ms
+2023-12-28 14:17:02.095 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 95.7573 ms
+2023-12-28 14:17:16.585 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 74.4670 ms
+2023-12-28 14:17:16.760 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 50.2828 ms
+2023-12-28 14:17:16.860 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 47.0936 ms
+2023-12-28 14:17:16.997 +07:00 [INF] HTTP GET /api/Product/search/iphon responded 200 in 47.3408 ms
+2023-12-28 14:17:17.093 +07:00 [INF] HTTP GET /api/Product/search/iphone responded 200 in 47.6993 ms
+2023-12-28 14:17:19.279 +07:00 [INF] HTTP GET /api/Product/search/iphon responded 200 in 49.8472 ms
+2023-12-28 14:17:19.468 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 47.2527 ms
+2023-12-28 14:17:19.629 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 47.7609 ms
+2023-12-28 14:17:19.780 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 47.5310 ms
+2023-12-28 14:17:48.019 +07:00 [INF] Make call to product list
+2023-12-28 14:17:48.066 +07:00 [INF] HTTP GET /api/Product responded 200 in 47.2396 ms
+2023-12-28 14:17:48.116 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 46.6312 ms
+2023-12-28 14:17:48.212 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 95.3211 ms
+2023-12-28 14:17:49.036 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 46.7988 ms
+2023-12-28 14:17:49.098 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 60.3022 ms
+2023-12-28 14:17:49.160 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 56.8989 ms
+2023-12-28 14:18:59.421 +07:00 [INF] Make call to product list
+2023-12-28 14:18:59.468 +07:00 [INF] HTTP GET /api/Product responded 200 in 47.4319 ms
+2023-12-28 14:18:59.522 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 49.2316 ms
+2023-12-28 14:18:59.616 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 92.6970 ms
+2023-12-28 15:23:40.584 +07:00 [INF] Now listening on: http://localhost:54823
+2023-12-28 15:23:40.702 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 15:23:40.703 +07:00 [INF] Hosting environment: Development
+2023-12-28 15:23:40.703 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 15:23:42.108 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 15:23:42.134 +07:00 [INF] HTTP GET / responded 404 in 27.3338 ms
+2023-12-28 15:23:43.397 +07:00 [INF] Make call to product list
+2023-12-28 15:23:45.063 +07:00 [INF] HTTP GET /api/Product responded 200 in 1803.9745 ms
+2023-12-28 15:23:45.250 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 139.4472 ms
+2023-12-28 15:23:45.367 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 105.9928 ms
+2023-12-28 15:23:48.070 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 60.3924 ms
+2023-12-28 15:23:48.346 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 29.4365 ms
+2023-12-28 15:23:48.470 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 27.8728 ms
+2023-12-28 15:23:48.627 +07:00 [INF] HTTP GET /api/Product/search/iphon responded 200 in 30.2235 ms
+2023-12-28 15:23:48.687 +07:00 [INF] HTTP GET /api/Product/search/iphone responded 200 in 27.5221 ms
+2023-12-28 15:23:49.024 +07:00 [INF] HTTP GET /api/Product/search/iphon responded 200 in 28.4832 ms
+2023-12-28 15:23:49.199 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 28.5582 ms
+2023-12-28 15:23:49.335 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 28.0506 ms
+2023-12-28 15:23:49.531 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 29.4587 ms
+2023-12-28 15:23:50.425 +07:00 [INF] HTTP GET /api/Product/search/gg responded 404 in 60.2939 ms
+2023-12-28 15:25:42.351 +07:00 [INF] Now listening on: http://localhost:54923
+2023-12-28 15:25:42.462 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 15:25:42.463 +07:00 [INF] Hosting environment: Development
+2023-12-28 15:25:42.463 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 15:25:43.099 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 15:25:43.135 +07:00 [INF] HTTP GET / responded 404 in 35.5197 ms
+2023-12-28 15:25:45.267 +07:00 [INF] Make call to product list
+2023-12-28 15:25:47.023 +07:00 [INF] HTTP GET /api/Product responded 200 in 1904.2013 ms
+2023-12-28 15:25:47.220 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 150.1761 ms
+2023-12-28 15:25:47.383 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 154.8785 ms
+2023-12-28 15:25:52.117 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 73.3374 ms
+2023-12-28 15:25:52.391 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 51.7354 ms
+2023-12-28 15:25:52.781 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 51.7730 ms
+2023-12-28 15:25:54.183 +07:00 [INF] HTTP GET /api/Product/search/gg responded 404 in 67.2484 ms
+2023-12-28 15:32:50.525 +07:00 [INF] Now listening on: http://localhost:55247
+2023-12-28 15:32:50.738 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 15:32:50.739 +07:00 [INF] Hosting environment: Development
+2023-12-28 15:32:50.740 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 15:32:51.871 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 15:32:51.903 +07:00 [INF] HTTP GET / responded 404 in 33.5031 ms
+2023-12-28 15:32:54.001 +07:00 [INF] Make call to product list
+2023-12-28 15:32:55.694 +07:00 [INF] HTTP GET /api/Product responded 200 in 1902.5863 ms
+2023-12-28 15:32:55.873 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 130.0921 ms
+2023-12-28 15:32:55.984 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 106.8350 ms
+2023-12-28 15:32:56.766 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 55.0012 ms
+2023-12-28 15:32:57.009 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 34.9649 ms
+2023-12-28 15:32:57.238 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 32.4730 ms
+2023-12-28 15:32:57.655 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 33.2154 ms
+2023-12-28 15:32:57.814 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 32.4545 ms
+2023-12-28 15:33:01.584 +07:00 [INF] HTTP GET /api/Product/search/gg responded 404 in 47.8220 ms
+2023-12-28 15:35:43.755 +07:00 [INF] Now listening on: http://localhost:55477
+2023-12-28 15:35:43.905 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 15:35:43.906 +07:00 [INF] Hosting environment: Development
+2023-12-28 15:35:43.907 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 15:35:44.901 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 15:35:44.940 +07:00 [INF] HTTP GET / responded 404 in 41.4754 ms
+2023-12-28 15:35:48.201 +07:00 [INF] Make call to product list
+2023-12-28 15:35:49.889 +07:00 [INF] HTTP GET /api/Product responded 200 in 1816.3565 ms
+2023-12-28 15:35:50.102 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 155.6314 ms
+2023-12-28 15:35:50.211 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 101.4252 ms
+2023-12-28 15:35:52.854 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 54.4003 ms
+2023-12-28 15:35:53.081 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 28.1867 ms
+2023-12-28 15:35:53.632 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 28.5304 ms
+2023-12-28 15:35:55.022 +07:00 [INF] HTTP GET /api/Product/search/gg responded 404 in 54.0446 ms
+2023-12-28 15:38:15.888 +07:00 [INF] Now listening on: http://localhost:55629
+2023-12-28 15:38:16.020 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 15:38:16.030 +07:00 [INF] Hosting environment: Development
+2023-12-28 15:38:16.030 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 15:38:16.091 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 15:38:16.204 +07:00 [INF] HTTP GET / responded 404 in 114.2279 ms
+2023-12-28 15:38:18.961 +07:00 [INF] Make call to product list
+2023-12-28 15:38:21.228 +07:00 [INF] HTTP GET /api/Product responded 200 in 2508.2543 ms
+2023-12-28 15:38:21.552 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 222.9319 ms
+2023-12-28 15:38:21.699 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 138.5648 ms
+2023-12-28 15:39:15.503 +07:00 [INF] HTTP GET /api/Product/search/gg responded 404 in 42618.9901 ms
+2023-12-28 15:39:45.239 +07:00 [INF] Now listening on: http://localhost:55750
+2023-12-28 15:39:45.388 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 15:39:45.390 +07:00 [INF] Hosting environment: Development
+2023-12-28 15:39:45.390 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 15:39:45.668 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 15:39:45.833 +07:00 [INF] HTTP GET / responded 404 in 168.7412 ms
+2023-12-28 15:39:46.789 +07:00 [INF] Make call to product list
+2023-12-28 15:39:49.106 +07:00 [INF] HTTP GET /api/Product responded 200 in 2512.3152 ms
+2023-12-28 15:39:49.477 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 258.3171 ms
+2023-12-28 15:39:49.594 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 106.4753 ms
+2023-12-28 15:55:24.100 +07:00 [INF] Now listening on: http://localhost:56377
+2023-12-28 15:55:24.230 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 15:55:24.231 +07:00 [INF] Hosting environment: Development
+2023-12-28 15:55:24.231 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 15:55:25.739 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 15:55:25.766 +07:00 [INF] HTTP GET / responded 404 in 27.6830 ms
+2023-12-28 15:55:27.941 +07:00 [INF] Make call to product list
+2023-12-28 15:55:29.762 +07:00 [INF] HTTP GET /api/Product responded 200 in 1958.8190 ms
+2023-12-28 15:55:30.198 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 165.2983 ms
+2023-12-28 15:55:30.307 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 102.4393 ms
+2023-12-28 15:55:32.326 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 57.7630 ms
+2023-12-28 15:55:32.582 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 35.7986 ms
+2023-12-28 15:55:33.630 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 55.3927 ms
+2023-12-28 15:55:33.760 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 36.4996 ms
+2023-12-28 15:55:34.748 +07:00 [INF] HTTP GET /api/Product/search/gg responded 200 in 36.5911 ms
+2023-12-28 15:55:34.932 +07:00 [INF] HTTP GET /api/Product/search/ggg responded 200 in 34.2961 ms
+2023-12-28 15:55:35.111 +07:00 [INF] HTTP GET /api/Product/search/gggg responded 200 in 46.0557 ms
+2023-12-28 15:55:36.006 +07:00 [INF] HTTP GET /api/Product/search/ggg responded 200 in 37.0897 ms
+2023-12-28 15:55:36.212 +07:00 [INF] HTTP GET /api/Product/search/gg responded 200 in 35.4053 ms
+2023-12-28 15:55:37.708 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 36.1238 ms
+2023-12-28 15:55:38.810 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 35.9756 ms
+2023-12-28 15:55:39.439 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 37.8100 ms
+2023-12-28 15:55:40.419 +07:00 [INF] HTTP GET /api/Product/search/gg responded 200 in 49.1550 ms
+2023-12-28 15:55:40.594 +07:00 [INF] HTTP GET /api/Product/search/ggg responded 200 in 36.3948 ms
+2023-12-28 15:55:40.793 +07:00 [INF] HTTP GET /api/Product/search/gggg responded 200 in 56.8251 ms
+2023-12-28 15:55:45.022 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 36.2739 ms
+2023-12-28 15:55:45.269 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 36.4039 ms
+2023-12-28 15:55:45.474 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 35.2488 ms
+2023-12-28 15:55:45.697 +07:00 [INF] HTTP GET /api/Product/search/iphoe responded 200 in 35.2722 ms
+2023-12-28 15:55:46.351 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 37.9546 ms
+2023-12-28 15:55:46.557 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 35.5208 ms
+2023-12-28 15:55:46.792 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 33.9408 ms
+2023-12-28 15:55:51.563 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 36.4396 ms
+2023-12-28 15:55:51.791 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 48.3366 ms
+2023-12-28 15:55:52.080 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 36.3299 ms
+2023-12-28 15:55:52.194 +07:00 [INF] HTTP GET /api/Product/search/iphon responded 200 in 35.0115 ms
+2023-12-28 15:55:52.355 +07:00 [INF] HTTP GET /api/Product/search/iphone responded 200 in 44.2551 ms
+2023-12-28 15:55:52.890 +07:00 [INF] HTTP GET /api/Product/search/iphon responded 200 in 35.4794 ms
+2023-12-28 15:55:53.425 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 53.6537 ms
+2023-12-28 15:55:53.460 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 55.4014 ms
+2023-12-28 15:55:53.689 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 261.4845 ms
+2023-12-28 15:55:54.356 +07:00 [INF] HTTP GET /api/Product/search/gg responded 200 in 30.4196 ms
+2023-12-28 15:55:54.542 +07:00 [INF] HTTP GET /api/Product/search/ggg responded 200 in 29.7555 ms
+2023-12-28 15:55:54.718 +07:00 [INF] HTTP GET /api/Product/search/gggg responded 200 in 37.4295 ms
+2023-12-28 15:55:54.887 +07:00 [INF] HTTP GET /api/Product/search/ggggg responded 200 in 30.1032 ms
+2023-12-28 15:55:55.151 +07:00 [INF] HTTP GET /api/Product/search/gggg responded 200 in 30.2716 ms
+2023-12-28 15:55:55.371 +07:00 [INF] HTTP GET /api/Product/search/ggg responded 200 in 29.0341 ms
+2023-12-28 15:55:55.566 +07:00 [INF] HTTP GET /api/Product/search/gg responded 200 in 29.4958 ms
+2023-12-28 15:56:44.846 +07:00 [INF] HTTP GET /api/Product/search/io responded 200 in 29.6782 ms
+2023-12-28 15:56:45.039 +07:00 [INF] HTTP GET /api/Product/search/ioi responded 200 in 29.3001 ms
+2023-12-28 15:56:45.339 +07:00 [INF] HTTP GET /api/Product/search/io responded 200 in 27.2539 ms
+2023-12-28 15:56:45.748 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 27.7140 ms
+2023-12-28 15:56:45.988 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 36.3181 ms
+2023-12-28 15:56:46.136 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 27.3057 ms
+2023-12-28 15:56:46.242 +07:00 [INF] HTTP GET /api/Product/search/iphon responded 200 in 27.9221 ms
+2023-12-28 15:56:46.313 +07:00 [INF] HTTP GET /api/Product/search/iphonr responded 200 in 26.8749 ms
+2023-12-28 15:56:47.425 +07:00 [INF] HTTP GET /api/Product/search/iphon responded 200 in 27.3090 ms
+2023-12-28 15:56:48.045 +07:00 [INF] HTTP GET /api/Product/search/iphone responded 200 in 29.1903 ms
+2023-12-28 15:56:48.136 +07:00 [INF] HTTP GET /api/Product/search/iphon responded 200 in 27.0911 ms
+2023-12-28 15:56:48.353 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 27.3365 ms
+2023-12-28 15:56:48.543 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 27.9504 ms
+2023-12-28 15:56:48.710 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 29.5383 ms
+2023-12-28 16:08:24.453 +07:00 [INF] Now listening on: http://localhost:56921
+2023-12-28 16:08:24.583 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:08:24.584 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:08:24.584 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:08:26.297 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:08:26.320 +07:00 [INF] HTTP GET / responded 404 in 24.2435 ms
+2023-12-28 16:08:42.046 +07:00 [INF] Now listening on: http://localhost:56997
+2023-12-28 16:08:42.180 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:08:42.181 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:08:42.182 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:08:43.664 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:08:43.693 +07:00 [INF] HTTP GET / responded 404 in 30.5763 ms
+2023-12-28 16:08:45.075 +07:00 [INF] Make call to product list
+2023-12-28 16:08:46.859 +07:00 [INF] HTTP GET /api/Product responded 200 in 1918.5743 ms
+2023-12-28 16:08:47.061 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 151.4576 ms
+2023-12-28 16:08:47.199 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 131.5181 ms
+2023-12-28 16:08:50.059 +07:00 [INF] Make call to product list
+2023-12-28 16:08:50.108 +07:00 [INF] HTTP GET /api/Product responded 200 in 51.6784 ms
+2023-12-28 16:08:50.161 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 47.6938 ms
+2023-12-28 16:08:50.258 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 95.8491 ms
+2023-12-28 16:09:05.893 +07:00 [INF] Make call to product list
+2023-12-28 16:09:05.941 +07:00 [INF] HTTP GET /api/Product responded 200 in 48.4017 ms
+2023-12-28 16:16:10.165 +07:00 [INF] Now listening on: http://localhost:57301
+2023-12-28 16:16:10.326 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:16:10.328 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:16:10.328 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:16:12.096 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:16:12.138 +07:00 [INF] HTTP GET / responded 404 in 43.8396 ms
+2023-12-28 16:16:49.957 +07:00 [INF] Make call to product list
+2023-12-28 16:16:51.643 +07:00 [INF] HTTP GET /api/Product responded 200 in 1805.4352 ms
+2023-12-28 16:18:39.069 +07:00 [INF] Make call to product list
+2023-12-28 16:18:39.128 +07:00 [INF] HTTP GET /api/Product responded 200 in 63.1069 ms
+2023-12-28 16:18:51.935 +07:00 [INF] Make call to product list
+2023-12-28 16:18:51.988 +07:00 [INF] HTTP GET /api/Product responded 200 in 56.7640 ms
+2023-12-28 16:20:07.583 +07:00 [INF] Now listening on: http://localhost:57413
+2023-12-28 16:20:07.741 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:20:07.743 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:20:07.743 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:20:08.576 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:20:08.619 +07:00 [INF] HTTP GET / responded 404 in 43.7404 ms
+2023-12-28 16:20:32.445 +07:00 [INF] Now listening on: http://localhost:57461
+2023-12-28 16:20:32.559 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:20:32.560 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:20:32.560 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:20:34.145 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:20:34.176 +07:00 [INF] HTTP GET / responded 404 in 32.3396 ms
+2023-12-28 16:20:34.926 +07:00 [INF] Make call to product list
+2023-12-28 16:20:36.807 +07:00 [INF] HTTP GET /api/Product responded 200 in 2013.7485 ms
+2023-12-28 16:21:42.205 +07:00 [INF] Now listening on: http://localhost:57557
+2023-12-28 16:21:42.368 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:21:42.369 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:21:42.369 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:21:43.742 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:21:43.773 +07:00 [INF] HTTP GET / responded 404 in 32.9186 ms
+2023-12-28 16:21:44.774 +07:00 [INF] Make call to product list
+2023-12-28 16:21:46.525 +07:00 [INF] HTTP GET /api/Product responded 200 in 1918.1048 ms
+2023-12-28 16:27:23.887 +07:00 [INF] Now listening on: http://localhost:57666
+2023-12-28 16:27:24.001 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:27:24.002 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:27:24.002 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:27:25.282 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:27:25.307 +07:00 [INF] HTTP GET / responded 404 in 27.9232 ms
+2023-12-28 16:27:35.092 +07:00 [INF] Now listening on: http://localhost:57737
+2023-12-28 16:27:35.201 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:27:35.203 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:27:35.203 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:27:36.170 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:27:36.196 +07:00 [INF] HTTP GET / responded 404 in 27.0608 ms
+2023-12-28 16:27:38.338 +07:00 [INF] Make call to product list
+2023-12-28 16:27:40.034 +07:00 [INF] HTTP GET /api/Product responded 200 in 1838.0290 ms
+2023-12-28 16:28:23.969 +07:00 [INF] Now listening on: http://localhost:57855
+2023-12-28 16:28:24.090 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:28:24.092 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:28:24.092 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:28:25.454 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:28:25.476 +07:00 [INF] HTTP GET / responded 404 in 23.1385 ms
+2023-12-28 16:28:38.173 +07:00 [INF] Now listening on: http://localhost:57935
+2023-12-28 16:28:38.334 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:28:38.335 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:28:38.335 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:28:39.266 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:28:39.288 +07:00 [INF] HTTP GET / responded 404 in 23.6831 ms
+2023-12-28 16:28:49.708 +07:00 [INF] Make call to product list
+2023-12-28 16:28:51.273 +07:00 [INF] HTTP GET /api/Product responded 200 in 1682.6575 ms
+2023-12-28 16:29:39.651 +07:00 [INF] Now listening on: http://localhost:58050
+2023-12-28 16:29:39.756 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:29:39.757 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:29:39.757 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:29:41.303 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:29:41.330 +07:00 [INF] HTTP GET / responded 404 in 27.2673 ms
+2023-12-28 16:29:42.655 +07:00 [INF] Make call to product list
+2023-12-28 16:29:44.338 +07:00 [INF] HTTP GET /api/Product responded 200 in 1817.1077 ms
+2023-12-28 16:31:20.129 +07:00 [INF] Now listening on: http://localhost:58194
+2023-12-28 16:31:20.227 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:31:20.228 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:31:20.228 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:31:21.721 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:31:21.747 +07:00 [INF] HTTP GET / responded 404 in 27.3272 ms
+2023-12-28 16:31:34.004 +07:00 [INF] Now listening on: http://localhost:58273
+2023-12-28 16:31:34.122 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:31:34.124 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:31:34.124 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:31:35.120 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:31:35.147 +07:00 [INF] HTTP GET / responded 404 in 27.7435 ms
+2023-12-28 16:31:36.796 +07:00 [INF] Make call to product list
+2023-12-28 16:31:38.541 +07:00 [INF] HTTP GET /api/Product responded 200 in 1867.2549 ms
+2023-12-28 16:32:42.971 +07:00 [INF] Now listening on: http://localhost:58378
+2023-12-28 16:32:43.062 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:32:43.063 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:32:43.063 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:32:44.489 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:32:44.523 +07:00 [INF] HTTP GET / responded 404 in 35.1834 ms
+2023-12-28 16:32:58.562 +07:00 [INF] Now listening on: http://localhost:58458
+2023-12-28 16:32:58.657 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:32:58.658 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:32:58.658 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:33:00.147 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:33:00.181 +07:00 [INF] HTTP GET / responded 404 in 34.3784 ms
+2023-12-28 16:33:02.277 +07:00 [INF] Make call to product list
+2023-12-28 16:33:04.024 +07:00 [INF] HTTP GET /api/Product responded 200 in 1868.8029 ms
+2023-12-28 16:34:06.655 +07:00 [INF] Now listening on: http://localhost:58585
+2023-12-28 16:34:06.791 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:34:06.792 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:34:06.792 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:34:08.176 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:34:08.202 +07:00 [INF] HTTP GET / responded 404 in 26.5548 ms
+2023-12-28 16:34:09.471 +07:00 [INF] Make call to product list
+2023-12-28 16:34:11.127 +07:00 [INF] HTTP GET /api/Product responded 200 in 1788.3927 ms
+2023-12-28 16:34:49.939 +07:00 [INF] Now listening on: http://localhost:58691
+2023-12-28 16:34:50.061 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:34:50.062 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:34:50.062 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:34:51.382 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:34:51.413 +07:00 [INF] HTTP GET / responded 404 in 31.8496 ms
+2023-12-28 16:35:00.535 +07:00 [INF] Now listening on: http://localhost:58772
+2023-12-28 16:35:00.649 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:35:00.650 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:35:00.651 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:35:01.497 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:35:01.522 +07:00 [INF] HTTP GET / responded 404 in 26.8251 ms
+2023-12-28 16:35:56.458 +07:00 [INF] Make call to product list
+2023-12-28 16:35:58.272 +07:00 [INF] HTTP GET /api/Product responded 200 in 1932.8204 ms
+2023-12-28 16:39:39.659 +07:00 [INF] Now listening on: http://localhost:59008
+2023-12-28 16:39:39.762 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:39:39.763 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:39:39.763 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:39:41.285 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:39:41.312 +07:00 [INF] HTTP GET / responded 404 in 28.4590 ms
+2023-12-28 16:39:50.297 +07:00 [INF] Now listening on: http://localhost:59087
+2023-12-28 16:39:50.441 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:39:50.442 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:39:50.442 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:39:51.465 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:39:51.489 +07:00 [INF] HTTP GET / responded 404 in 23.3990 ms
+2023-12-28 16:39:53.441 +07:00 [INF] Make call to product list
+2023-12-28 16:39:55.188 +07:00 [INF] HTTP GET /api/Product responded 200 in 1874.6453 ms
+2023-12-28 16:44:09.209 +07:00 [INF] Now listening on: http://localhost:59303
+2023-12-28 16:44:09.317 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:44:09.318 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:44:09.318 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:44:10.548 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:44:10.574 +07:00 [INF] HTTP GET / responded 404 in 26.5698 ms
+2023-12-28 16:44:18.048 +07:00 [INF] Now listening on: http://localhost:59380
+2023-12-28 16:44:18.162 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:44:18.163 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:44:18.164 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:44:19.581 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:44:19.623 +07:00 [INF] HTTP GET / responded 404 in 44.5579 ms
+2023-12-28 16:44:20.718 +07:00 [INF] Make call to product list
+2023-12-28 16:44:22.436 +07:00 [INF] HTTP GET /api/Product responded 200 in 1883.0212 ms
+2023-12-28 16:44:46.370 +07:00 [INF] HTTP POST /api/Login responded 200 in 354.2007 ms
+2023-12-28 16:44:46.397 +07:00 [INF] Make call to product list
+2023-12-28 16:44:46.431 +07:00 [INF] HTTP GET /api/Product responded 200 in 34.7279 ms
+2023-12-28 16:44:46.514 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 75.9237 ms
+2023-12-28 16:44:46.605 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 87.4645 ms
+2023-12-28 16:44:49.077 +07:00 [INF] Make call to product list
+2023-12-28 16:44:49.106 +07:00 [INF] HTTP GET /api/Product responded 200 in 28.9188 ms
+2023-12-28 16:45:27.340 +07:00 [INF] Now listening on: http://localhost:59510
+2023-12-28 16:45:27.472 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:45:27.474 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:45:27.474 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:45:28.985 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:45:29.012 +07:00 [INF] HTTP GET / responded 404 in 26.9736 ms
+2023-12-28 16:45:36.818 +07:00 [INF] Now listening on: http://localhost:59577
+2023-12-28 16:45:36.971 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:45:36.972 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:45:36.972 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:45:38.332 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:45:38.370 +07:00 [INF] HTTP GET / responded 404 in 38.8309 ms
+2023-12-28 16:45:39.652 +07:00 [INF] Make call to product list
+2023-12-28 16:45:41.500 +07:00 [INF] HTTP GET /api/Product responded 200 in 1992.9859 ms
+2023-12-28 16:46:08.456 +07:00 [INF] Now listening on: http://localhost:59683
+2023-12-28 16:46:08.572 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:46:08.573 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:46:08.573 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:46:09.749 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:46:09.777 +07:00 [INF] HTTP GET / responded 404 in 29.0636 ms
+2023-12-28 16:46:17.400 +07:00 [INF] Now listening on: http://localhost:59755
+2023-12-28 16:46:17.516 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:46:17.517 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:46:17.518 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:46:18.336 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:46:18.359 +07:00 [INF] HTTP GET / responded 404 in 23.7349 ms
+2023-12-28 16:46:20.285 +07:00 [INF] Make call to product list
+2023-12-28 16:46:22.010 +07:00 [INF] HTTP GET /api/Product responded 200 in 1867.4835 ms
+2023-12-28 16:48:50.349 +07:00 [INF] Now listening on: http://localhost:60135
+2023-12-28 16:48:50.516 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:48:50.517 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:48:50.517 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:48:52.053 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:48:52.080 +07:00 [INF] HTTP GET / responded 404 in 27.7726 ms
+2023-12-28 16:49:01.866 +07:00 [INF] Now listening on: http://localhost:60214
+2023-12-28 16:49:02.001 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:49:02.002 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:49:02.003 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:49:03.499 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:49:03.530 +07:00 [INF] HTTP GET / responded 404 in 32.3614 ms
+2023-12-28 16:49:04.812 +07:00 [INF] Make call to product list
+2023-12-28 16:49:06.578 +07:00 [INF] HTTP GET /api/Product responded 200 in 1922.1022 ms
+2023-12-28 16:49:32.700 +07:00 [INF] HTTP POST /api/accounts responded 200 in 44.4893 ms
+2023-12-28 16:49:32.942 +07:00 [INF] HTTP POST /api/users responded 201 in 236.5651 ms
+2023-12-28 16:49:33.001 +07:00 [INF] HTTP GET /api/Users/test7@gmail.com responded 200 in 55.6432 ms
+2023-12-28 16:49:33.061 +07:00 [INF] HTTP POST /api/Carts responded 201 in 54.5849 ms
+2023-12-28 16:49:48.742 +07:00 [INF] HTTP POST /api/Login responded 400 in 65.4064 ms
+2023-12-28 16:49:54.781 +07:00 [INF] HTTP POST /api/Login responded 400 in 37.0833 ms
+2023-12-28 16:49:55.380 +07:00 [INF] HTTP POST /api/Login responded 400 in 42.8784 ms
+2023-12-28 16:49:55.611 +07:00 [INF] HTTP POST /api/Login responded 400 in 34.3715 ms
+2023-12-28 16:49:55.835 +07:00 [INF] HTTP POST /api/Login responded 400 in 34.0316 ms
+2023-12-28 16:49:56.043 +07:00 [INF] HTTP POST /api/Login responded 400 in 34.0207 ms
+2023-12-28 16:49:56.234 +07:00 [INF] HTTP POST /api/Login responded 400 in 33.5412 ms
+2023-12-28 16:50:01.282 +07:00 [INF] HTTP POST /api/Login responded 400 in 33.1542 ms
+2023-12-28 16:50:02.019 +07:00 [INF] HTTP POST /api/Login responded 400 in 34.3442 ms
+2023-12-28 16:50:02.217 +07:00 [INF] HTTP POST /api/Login responded 400 in 33.2985 ms
+2023-12-28 16:50:02.395 +07:00 [INF] HTTP POST /api/Login responded 400 in 33.9753 ms
+2023-12-28 16:50:02.587 +07:00 [INF] HTTP POST /api/Login responded 400 in 34.8047 ms
+2023-12-28 16:50:02.769 +07:00 [INF] HTTP POST /api/Login responded 400 in 33.0074 ms
+2023-12-28 16:50:02.954 +07:00 [INF] HTTP POST /api/Login responded 400 in 33.1407 ms
+2023-12-28 16:50:15.207 +07:00 [INF] HTTP POST /api/Login responded 200 in 242.2676 ms
+2023-12-28 16:50:15.233 +07:00 [INF] Make call to product list
+2023-12-28 16:50:15.267 +07:00 [INF] HTTP GET /api/Product responded 200 in 34.7187 ms
+2023-12-28 16:50:15.333 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 60.5202 ms
+2023-12-28 16:50:15.432 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 96.2828 ms
+2023-12-28 16:50:17.558 +07:00 [INF] Make call to product list
+2023-12-28 16:50:17.593 +07:00 [INF] HTTP GET /api/Product responded 200 in 35.2235 ms
+2023-12-28 16:51:01.109 +07:00 [INF] HTTP POST /api/accounts responded 200 in 1.8731 ms
+2023-12-28 16:51:01.173 +07:00 [INF] HTTP POST /api/users responded 201 in 61.5943 ms
+2023-12-28 16:51:01.207 +07:00 [INF] HTTP GET /api/Users/test7@gmail.com responded 200 in 32.9812 ms
+2023-12-28 16:51:01.253 +07:00 [INF] HTTP POST /api/Carts responded 201 in 44.5050 ms
+2023-12-28 16:51:13.457 +07:00 [INF] HTTP POST /api/Login responded 400 in 32.5080 ms
+2023-12-28 16:51:18.065 +07:00 [INF] HTTP POST /api/Login responded 400 in 33.7241 ms
+2023-12-28 16:51:18.634 +07:00 [INF] HTTP POST /api/Login responded 400 in 33.7184 ms
+2023-12-28 16:51:18.832 +07:00 [INF] HTTP POST /api/Login responded 400 in 32.3644 ms
+2023-12-28 16:51:19.041 +07:00 [INF] HTTP POST /api/Login responded 400 in 33.6804 ms
+2023-12-28 16:51:19.217 +07:00 [INF] HTTP POST /api/Login responded 400 in 33.1519 ms
+2023-12-28 16:53:43.732 +07:00 [INF] Now listening on: http://localhost:60536
+2023-12-28 16:53:43.844 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:53:43.845 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:53:43.845 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:53:45.406 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:53:45.441 +07:00 [INF] HTTP GET / responded 404 in 34.5971 ms
+2023-12-28 16:54:00.750 +07:00 [INF] Now listening on: http://localhost:60618
+2023-12-28 16:54:00.872 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 16:54:00.873 +07:00 [INF] Hosting environment: Development
+2023-12-28 16:54:00.873 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 16:54:01.597 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 16:54:01.628 +07:00 [INF] HTTP GET / responded 404 in 33.2506 ms
+2023-12-28 16:54:03.554 +07:00 [INF] Make call to product list
+2023-12-28 16:54:05.414 +07:00 [INF] HTTP GET /api/Product responded 200 in 2061.4651 ms
+2023-12-28 16:55:26.722 +07:00 [INF] HTTP POST /api/accounts responded 200 in 47.7073 ms
+2023-12-28 16:55:26.925 +07:00 [INF] HTTP POST /api/users responded 201 in 198.7327 ms
+2023-12-28 16:55:26.983 +07:00 [INF] HTTP GET /api/Users/test8@gmail.com responded 200 in 55.7029 ms
+2023-12-28 16:55:27.040 +07:00 [INF] HTTP POST /api/Carts responded 201 in 51.3355 ms
+2023-12-28 16:55:35.350 +07:00 [INF] HTTP POST /api/Login responded 400 in 60.3015 ms
+2023-12-28 16:55:41.864 +07:00 [INF] HTTP POST /api/Login responded 400 in 38.1236 ms
+2023-12-28 17:00:44.005 +07:00 [INF] Now listening on: http://localhost:60757
+2023-12-28 17:00:44.115 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 17:00:44.116 +07:00 [INF] Hosting environment: Development
+2023-12-28 17:00:44.116 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 17:00:45.627 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 17:00:45.662 +07:00 [INF] HTTP GET / responded 404 in 36.1997 ms
+2023-12-28 17:00:54.465 +07:00 [INF] Now listening on: http://localhost:60831
+2023-12-28 17:00:54.588 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 17:00:54.589 +07:00 [INF] Hosting environment: Development
+2023-12-28 17:00:54.589 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 17:00:56.026 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 17:00:56.059 +07:00 [INF] HTTP GET / responded 404 in 33.2350 ms
+2023-12-28 17:00:57.314 +07:00 [INF] Make call to product list
+2023-12-28 17:00:59.233 +07:00 [INF] HTTP GET /api/Product responded 200 in 2053.9599 ms
+2023-12-28 17:03:27.162 +07:00 [INF] Now listening on: http://localhost:61054
+2023-12-28 17:03:27.315 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 17:03:27.316 +07:00 [INF] Hosting environment: Development
+2023-12-28 17:03:27.316 +07:00 [INF] Content root path: C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2023-12-28 17:03:28.385 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-28 17:03:28.420 +07:00 [INF] HTTP GET / responded 404 in 37.4182 ms
+2023-12-28 17:05:35.630 +07:00 [INF] Make call to product list
+2023-12-28 17:05:37.155 +07:00 [INF] HTTP GET /api/Product responded 200 in 1660.3385 ms
+2023-12-28 17:06:28.538 +07:00 [INF] HTTP POST /api/accounts responded 200 in 381.4573 ms
+2023-12-28 17:06:28.620 +07:00 [INF] HTTP POST /api/users responded 201 in 76.5208 ms
+2023-12-28 17:06:28.653 +07:00 [INF] HTTP GET /api/Users/test10@gmail.com responded 200 in 31.0679 ms
+2023-12-28 17:06:28.702 +07:00 [INF] HTTP POST /api/Carts responded 201 in 42.8333 ms
+2023-12-28 17:06:39.164 +07:00 [INF] HTTP POST /api/Login responded 200 in 193.4783 ms
+2023-12-28 17:06:39.187 +07:00 [INF] Make call to product list
+2023-12-28 17:06:39.211 +07:00 [INF] HTTP GET /api/Product responded 200 in 25.2016 ms
+2023-12-28 17:06:39.274 +07:00 [INF] HTTP GET /api/Users/test10@gmail.com responded 200 in 56.6820 ms
+2023-12-28 17:06:39.346 +07:00 [INF] HTTP GET /api/ShoppingCart/23/GetItems responded 200 in 68.7490 ms
+2023-12-28 17:06:58.865 +07:00 [INF] Make call to product list
+2023-12-28 17:06:58.889 +07:00 [INF] HTTP GET /api/Product responded 200 in 24.2501 ms
+2023-12-28 17:07:44.686 +07:00 [INF] HTTP GET /api/Product/3 responded 200 in 43.9478 ms
+2023-12-28 17:07:50.156 +07:00 [INF] Make call to product list
+2023-12-28 17:07:50.179 +07:00 [INF] HTTP GET /api/Product responded 200 in 23.8888 ms
+2023-12-28 17:11:48.456 +07:00 [INF] HTTP POST /api/Login responded 200 in 152.2052 ms
+2023-12-28 17:11:48.469 +07:00 [INF] Make call to product list
+2023-12-28 17:11:48.494 +07:00 [INF] HTTP GET /api/Product responded 200 in 25.5290 ms
+2023-12-28 17:11:48.521 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 22.2406 ms
+2023-12-28 17:11:48.572 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 49.8820 ms
+2023-12-28 17:11:59.720 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 26.8800 ms
+2023-12-28 17:11:59.757 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 34.5993 ms
+2023-12-28 17:11:59.783 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 22.4330 ms
+2023-12-28 17:12:10.990 +07:00 [INF] Make call to product list
+2023-12-28 17:12:11.013 +07:00 [INF] HTTP GET /api/Product responded 200 in 23.2342 ms
+2023-12-28 17:12:11.039 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 22.0447 ms
+2023-12-28 17:12:11.085 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 45.4670 ms
+2023-12-28 17:12:26.551 +07:00 [INF] HTTP PATCH /api/ShoppingCart/10 responded 200 in 104.5631 ms
+2023-12-28 17:12:28.260 +07:00 [INF] HTTP PATCH /api/ShoppingCart/10 responded 200 in 136.6693 ms
+2023-12-28 17:12:29.163 +07:00 [INF] HTTP PATCH /api/ShoppingCart/10 responded 200 in 72.1853 ms
+2023-12-28 17:12:30.450 +07:00 [INF] HTTP PATCH /api/ShoppingCart/10 responded 200 in 71.3614 ms
+2023-12-28 17:12:31.376 +07:00 [INF] HTTP PATCH /api/ShoppingCart/10 responded 200 in 69.7041 ms
+2023-12-28 17:12:32.362 +07:00 [INF] HTTP PATCH /api/ShoppingCart/10 responded 200 in 71.3726 ms
+2023-12-28 17:12:32.649 +07:00 [INF] HTTP PATCH /api/ShoppingCart/10 responded 200 in 71.1488 ms
+2023-12-28 17:12:39.093 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 21.9020 ms
+2023-12-28 17:13:16.307 +07:00 [INF] HTTP PATCH /api/ShoppingCart/10 responded 200 in 72.1148 ms
+2023-12-28 17:13:17.189 +07:00 [INF] HTTP PATCH /api/ShoppingCart/10 responded 200 in 75.3674 ms
+2023-12-28 17:13:26.064 +07:00 [INF] Make call to product list
+2023-12-28 17:13:26.086 +07:00 [INF] HTTP GET /api/Product responded 200 in 22.5363 ms
+2023-12-28 17:13:26.111 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 21.9318 ms
+2023-12-28 17:13:26.155 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 43.4184 ms
+2023-12-28 17:14:13.027 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 22.1050 ms
+2023-12-28 17:14:13.050 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 21.4918 ms
+2023-12-28 17:14:13.074 +07:00 [INF] HTTP GET /api/Product/3 responded 200 in 21.7116 ms
+2023-12-28 17:14:14.646 +07:00 [INF] Make call to product list
+2023-12-28 17:14:14.670 +07:00 [INF] HTTP GET /api/Product responded 200 in 23.5386 ms
+2023-12-28 17:14:14.700 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 27.3225 ms
+2023-12-28 17:14:14.758 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 56.7879 ms
+2023-12-28 17:14:24.595 +07:00 [INF] Make call to product list
+2023-12-28 17:14:24.617 +07:00 [INF] HTTP GET /api/Product responded 200 in 22.3943 ms
+2023-12-28 17:15:07.420 +07:00 [INF] Make call to product list
+2023-12-28 17:15:07.442 +07:00 [INF] HTTP GET /api/Product responded 200 in 22.5686 ms

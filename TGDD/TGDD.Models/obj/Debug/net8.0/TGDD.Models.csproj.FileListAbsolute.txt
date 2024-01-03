@@ -1,0 +1,23 @@
+C:\Blazor Learning\Microservices\TGDD\TGDD.Models\bin\Debug\net8.0\TGDD.Models.deps.json
+C:\Blazor Learning\Microservices\TGDD\TGDD.Models\bin\Debug\net8.0\TGDD.Models.dll
+C:\Blazor Learning\Microservices\TGDD\TGDD.Models\bin\Debug\net8.0\TGDD.Models.pdb
+C:\Blazor Learning\Microservices\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Blazor Learning\Microservices\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.AssemblyInfoInputs.cache
+C:\Blazor Learning\Microservices\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.AssemblyInfo.cs
+C:\Blazor Learning\Microservices\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.csproj.CoreCompileInputs.cache
+C:\Blazor Learning\Microservices\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.dll
+C:\Blazor Learning\Microservices\TGDD\TGDD.Models\obj\Debug\net8.0\refint\TGDD.Models.dll
+C:\Blazor Learning\Microservices\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.pdb
+C:\Blazor Learning\Microservices\TGDD\TGDD.Models\obj\Debug\net8.0\ref\TGDD.Models.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\bin\Debug\net8.0\TGDD.Models.deps.json
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\bin\Debug\net8.0\TGDD.Models.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\bin\Debug\net8.0\TGDD.Models.pdb
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.AssemblyInfoInputs.cache
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.AssemblyInfo.cs
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.csproj.CoreCompileInputs.cache
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.sourcelink.json
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Debug\net8.0\refint\TGDD.Models.dll
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Debug\net8.0\TGDD.Models.pdb
+C:\Users\DungBui\Desktop\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Debug\net8.0\ref\TGDD.Models.dll

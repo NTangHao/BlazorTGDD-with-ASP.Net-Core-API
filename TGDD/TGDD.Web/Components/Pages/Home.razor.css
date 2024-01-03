@@ -1,0 +1,51 @@
+﻿.carousel-fade .carousel-item {
+    transition: opacity 0.5s ease-in-out;
+}
+
+    .carousel-fade .carousel-item-next.carousel-item-left,
+    .carousel-fade .carousel-item-prev.carousel-item-right,
+    .carousel-fade .carousel-item.active {
+        opacity: 1;
+    }
+
+.carousel-fade .carousel-item-left,
+.carousel-fade .carousel-item-right {
+    opacity: 0;
+}
+
+.carousel-inner img {
+    max-height: 600px;
+    object-fit: cover;
+}
+
+/*.product-container {
+    cursor: pointer;
+    transition: transform .2s;
+}
+    .product-container:hover {
+        transform: scale(1.05);
+    }
+
+.product-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+.product-name h5 {
+    font-size: 1.1em;
+    color: #333;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.price {
+    font-size: 1.2em;
+}
+
+    .price span {
+        color: #0078d4;
+    }*/
