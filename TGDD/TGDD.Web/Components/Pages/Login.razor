@@ -2,6 +2,8 @@
 @using TGDD.Api.Entities
 @using TGDD.Web.Helpers
 @inject IAuthService AuthService
+@inject IShoppingCartService ShoppingCartService
+@inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService
 @inject NavigationManager NavigationManager
 @inject HistoryProductURL HistoryProductURL
 
@@ -75,11 +77,13 @@
 
 
 @code {
-
+    [CascadingParameter]
+    private Task<AuthenticationState>? authenticationState { get; set; }
     private LoginModel loginModel = new LoginModel();
     private bool ShowErrors;
     private string Error = "";
-
+    private IEnumerable<CartItemDto> ShoppingCartItems { get; set; }
+   
     private async Task HandleLogin()
     {
         ShowErrors = false;
@@ -88,7 +92,20 @@
 
         if (result.Successful)
         {
+            var authState = await authenticationState;
+            var user = authState?.User;
+
+            if (user?.Identity is not null && user.Identity.IsAuthenticated)
+            {
+                ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection(user.Identity.Name);
+                // Shoot Event to get total quantity cart
+                var totalQty = ShoppingCartItems.Sum(i => i.Qty);
+                ShoppingCartService.RaiseEventOnShoppingCartChanged(totalQty);
+            }
+            
+            //Navigate back to the page that the user was on before logging in
             NavigationManager.NavigateTo($"{HistoryProductURL.returnUrl}");
+            //NavigationManager.NavigateTo($"/");
         }
         else
         {
