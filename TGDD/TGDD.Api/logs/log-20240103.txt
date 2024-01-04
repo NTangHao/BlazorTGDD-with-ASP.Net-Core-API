@@ -1,0 +1,237 @@
+2024-01-03 09:30:34.592 +07:00 [INF] Now listening on: http://localhost:63195
+2024-01-03 09:30:34.702 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 09:30:34.703 +07:00 [INF] Hosting environment: Development
+2024-01-03 09:30:34.703 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 09:39:10.830 +07:00 [INF] Now listening on: http://localhost:63547
+2024-01-03 09:39:10.921 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 09:39:10.922 +07:00 [INF] Hosting environment: Development
+2024-01-03 09:39:10.922 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 09:39:11.167 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 09:39:11.291 +07:00 [INF] HTTP GET / responded 404 in 126.0800 ms
+2024-01-03 09:52:16.567 +07:00 [INF] Now listening on: http://localhost:64331
+2024-01-03 09:52:16.736 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 09:52:16.737 +07:00 [INF] Hosting environment: Development
+2024-01-03 09:52:16.737 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 09:52:16.769 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 09:52:16.925 +07:00 [INF] HTTP GET / responded 404 in 158.7190 ms
+2024-01-03 10:17:48.093 +07:00 [INF] Now listening on: http://localhost:65000
+2024-01-03 10:17:48.232 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 10:17:48.234 +07:00 [INF] Hosting environment: Development
+2024-01-03 10:17:48.234 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 10:17:48.405 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 10:17:48.517 +07:00 [INF] HTTP GET / responded 404 in 114.5940 ms
+2024-01-03 10:26:07.107 +07:00 [INF] Now listening on: http://localhost:65304
+2024-01-03 10:26:07.277 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 10:26:07.278 +07:00 [INF] Hosting environment: Development
+2024-01-03 10:26:07.279 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 10:26:07.356 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 10:26:07.437 +07:00 [INF] HTTP GET / responded 404 in 82.8575 ms
+2024-01-03 10:39:18.895 +07:00 [INF] Now listening on: http://localhost:50825
+2024-01-03 10:39:19.006 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 10:39:19.007 +07:00 [INF] Hosting environment: Development
+2024-01-03 10:39:19.007 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 10:40:51.304 +07:00 [INF] Now listening on: http://localhost:51037
+2024-01-03 10:40:51.480 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 10:40:51.481 +07:00 [INF] Hosting environment: Development
+2024-01-03 10:40:51.481 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 10:40:51.503 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 10:40:51.634 +07:00 [INF] HTTP GET / responded 404 in 132.3716 ms
+2024-01-03 11:12:41.977 +07:00 [INF] Now listening on: http://localhost:51875
+2024-01-03 11:12:42.263 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 11:12:42.265 +07:00 [INF] Hosting environment: Development
+2024-01-03 11:12:42.265 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 11:15:30.618 +07:00 [INF] Now listening on: http://localhost:51972
+2024-01-03 11:15:30.738 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 11:15:30.739 +07:00 [INF] Hosting environment: Development
+2024-01-03 11:15:30.739 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 11:15:30.999 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 11:15:31.157 +07:00 [INF] HTTP GET / responded 404 in 173.7239 ms
+2024-01-03 11:25:06.904 +07:00 [INF] Now listening on: http://localhost:52095
+2024-01-03 11:25:07.010 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 11:25:07.011 +07:00 [INF] Hosting environment: Development
+2024-01-03 11:25:07.011 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 11:25:07.273 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 11:25:07.345 +07:00 [INF] HTTP GET / responded 404 in 73.3821 ms
+2024-01-03 11:29:05.440 +07:00 [INF] Now listening on: http://localhost:52231
+2024-01-03 11:29:05.556 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 11:29:05.557 +07:00 [INF] Hosting environment: Development
+2024-01-03 11:29:05.557 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 11:29:05.874 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 11:29:06.017 +07:00 [INF] HTTP GET / responded 404 in 150.2892 ms
+2024-01-03 11:50:35.476 +07:00 [INF] Now listening on: http://localhost:52518
+2024-01-03 11:50:35.605 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 11:50:35.607 +07:00 [INF] Hosting environment: Development
+2024-01-03 11:50:35.613 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 11:50:35.744 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 11:50:35.857 +07:00 [INF] HTTP GET / responded 404 in 114.5309 ms
+2024-01-03 11:53:00.432 +07:00 [INF] Now listening on: http://localhost:52661
+2024-01-03 11:53:00.600 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 11:53:00.602 +07:00 [INF] Hosting environment: Development
+2024-01-03 11:53:00.602 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 11:53:00.782 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 11:53:00.868 +07:00 [INF] HTTP GET / responded 404 in 87.2815 ms
+2024-01-03 11:54:00.325 +07:00 [INF] Now listening on: http://localhost:52804
+2024-01-03 11:54:00.456 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 11:54:00.458 +07:00 [INF] Hosting environment: Development
+2024-01-03 11:54:00.458 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 11:54:00.624 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 11:54:00.709 +07:00 [INF] HTTP GET / responded 404 in 85.7637 ms
+2024-01-03 11:54:43.352 +07:00 [INF] Now listening on: http://localhost:52875
+2024-01-03 11:54:43.460 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 11:54:43.461 +07:00 [INF] Hosting environment: Development
+2024-01-03 11:54:43.461 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 11:54:43.590 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 11:54:43.665 +07:00 [INF] HTTP GET / responded 404 in 75.5915 ms
+2024-01-03 11:56:59.732 +07:00 [INF] Now listening on: http://localhost:52956
+2024-01-03 11:56:59.844 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 11:56:59.845 +07:00 [INF] Hosting environment: Development
+2024-01-03 11:56:59.846 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 11:57:00.131 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 11:57:00.253 +07:00 [INF] HTTP GET / responded 404 in 124.5432 ms
+2024-01-03 13:18:12.824 +07:00 [INF] Now listening on: http://localhost:53531
+2024-01-03 13:18:12.938 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 13:18:12.940 +07:00 [INF] Hosting environment: Development
+2024-01-03 13:18:12.940 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 13:18:13.187 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 13:18:13.321 +07:00 [INF] HTTP GET / responded 404 in 136.3341 ms
+2024-01-03 13:20:22.839 +07:00 [INF] Now listening on: http://localhost:53667
+2024-01-03 13:20:23.051 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 13:20:23.052 +07:00 [INF] Hosting environment: Development
+2024-01-03 13:20:23.052 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 13:20:23.248 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 13:20:23.415 +07:00 [INF] HTTP GET / responded 404 in 169.5837 ms
+2024-01-03 13:20:36.617 +07:00 [INF] Make call to product list
+2024-01-03 13:20:39.284 +07:00 [INF] HTTP GET /api/Product responded 200 in 3185.8722 ms
+2024-01-03 13:32:32.132 +07:00 [INF] Now listening on: http://localhost:53994
+2024-01-03 13:32:32.284 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 13:32:32.444 +07:00 [INF] Hosting environment: Development
+2024-01-03 13:32:32.444 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 13:32:32.626 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 13:32:32.848 +07:00 [INF] HTTP GET / responded 404 in 224.7070 ms
+2024-01-03 13:35:01.404 +07:00 [INF] Now listening on: http://localhost:54107
+2024-01-03 13:35:01.622 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 13:35:01.623 +07:00 [INF] Hosting environment: Development
+2024-01-03 13:35:01.624 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 13:35:01.667 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 13:35:01.766 +07:00 [INF] HTTP GET / responded 404 in 102.9641 ms
+2024-01-03 13:39:44.250 +07:00 [INF] Now listening on: http://localhost:54260
+2024-01-03 13:39:44.434 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 13:39:44.436 +07:00 [INF] Hosting environment: Development
+2024-01-03 13:39:44.437 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 13:39:44.598 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 13:39:44.694 +07:00 [INF] HTTP GET / responded 404 in 97.3432 ms
+2024-01-03 13:56:06.684 +07:00 [INF] Now listening on: http://localhost:54522
+2024-01-03 13:56:06.824 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 13:56:06.826 +07:00 [INF] Hosting environment: Development
+2024-01-03 13:56:06.826 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 13:56:07.017 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 13:56:07.161 +07:00 [INF] HTTP GET / responded 404 in 141.6624 ms
+2024-01-03 13:57:52.539 +07:00 [INF] Now listening on: http://localhost:54628
+2024-01-03 13:57:52.662 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 13:57:52.663 +07:00 [INF] Hosting environment: Development
+2024-01-03 13:57:52.664 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 13:57:52.877 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 13:57:52.968 +07:00 [INF] HTTP GET / responded 404 in 92.6447 ms
+2024-01-03 14:10:17.657 +07:00 [INF] Now listening on: http://localhost:54862
+2024-01-03 14:10:17.856 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 14:10:17.860 +07:00 [INF] Hosting environment: Development
+2024-01-03 14:10:17.861 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 14:10:18.039 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 14:10:18.165 +07:00 [INF] HTTP GET / responded 404 in 128.3850 ms
+2024-01-03 14:31:28.096 +07:00 [INF] Now listening on: http://localhost:55127
+2024-01-03 14:31:28.220 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 14:31:28.221 +07:00 [INF] Hosting environment: Development
+2024-01-03 14:31:28.221 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 14:40:58.750 +07:00 [INF] Now listening on: http://localhost:55403
+2024-01-03 14:40:58.945 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 14:40:58.946 +07:00 [INF] Hosting environment: Development
+2024-01-03 14:40:58.948 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 14:40:59.072 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 14:40:59.203 +07:00 [INF] HTTP GET / responded 404 in 132.7252 ms
+2024-01-03 14:42:40.204 +07:00 [INF] Now listening on: http://localhost:55468
+2024-01-03 14:42:40.311 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 14:42:40.311 +07:00 [INF] Hosting environment: Development
+2024-01-03 14:42:40.311 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 14:42:40.569 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 14:42:40.645 +07:00 [INF] HTTP GET / responded 404 in 77.7190 ms
+2024-01-03 15:37:39.815 +07:00 [INF] Now listening on: http://localhost:56097
+2024-01-03 15:37:39.919 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 15:37:39.919 +07:00 [INF] Hosting environment: Development
+2024-01-03 15:37:39.920 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 15:39:14.688 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 15:39:15.144 +07:00 [INF] Make call to product list
+2024-01-03 15:39:17.439 +07:00 [INF] HTTP GET /api/Product responded 200 in 2753.8631 ms
+2024-01-03 15:39:21.425 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 124.3939 ms
+2024-01-03 15:39:26.868 +07:00 [INF] Make call to product list
+2024-01-03 15:39:26.879 +07:00 [INF] HTTP GET /api/Product responded 200 in 18.4372 ms
+2024-01-03 15:40:47.816 +07:00 [INF] Now listening on: http://localhost:56263
+2024-01-03 15:40:47.900 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 15:40:47.901 +07:00 [INF] Hosting environment: Development
+2024-01-03 15:40:47.901 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 15:40:50.149 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 15:40:50.283 +07:00 [INF] HTTP GET / responded 404 in 135.8734 ms
+2024-01-03 15:51:26.614 +07:00 [INF] Now listening on: http://localhost:56398
+2024-01-03 15:51:26.707 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 15:51:26.708 +07:00 [INF] Hosting environment: Development
+2024-01-03 15:51:26.709 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 15:51:28.906 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 15:51:30.102 +07:00 [INF] Make call to product list
+2024-01-03 15:51:33.090 +07:00 [INF] HTTP GET /api/Product responded 200 in 4183.7293 ms
+2024-01-03 15:51:44.694 +07:00 [INF] HTTP POST /api/Login responded 200 in 749.7090 ms
+2024-01-03 15:51:44.736 +07:00 [INF] Make call to product list
+2024-01-03 15:51:44.747 +07:00 [INF] HTTP GET /api/Product responded 200 in 15.6458 ms
+2024-01-03 15:51:44.908 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 124.5753 ms
+2024-01-03 15:51:45.622 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 705.0087 ms
+2024-01-03 15:51:46.840 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 52.5198 ms
+2024-01-03 15:51:46.915 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 68.5832 ms
+2024-01-03 15:51:46.989 +07:00 [INF] HTTP GET /api/Product/3 responded 200 in 67.1685 ms
+2024-01-03 15:51:53.170 +07:00 [INF] HTTP GET /api/Product/search/ip responded 200 in 70.9599 ms
+2024-01-03 15:51:53.308 +07:00 [INF] HTTP GET /api/Product/search/iph responded 200 in 54.8574 ms
+2024-01-03 15:51:53.410 +07:00 [INF] HTTP GET /api/Product/search/ipho responded 200 in 57.4975 ms
+2024-01-03 15:51:53.515 +07:00 [INF] HTTP GET /api/Product/search/iphon responded 200 in 51.5161 ms
+2024-01-03 15:51:53.636 +07:00 [INF] HTTP GET /api/Product/search/iphone responded 200 in 52.3189 ms
+2024-01-03 15:52:10.728 +07:00 [INF] Make call to product list
+2024-01-03 15:52:10.791 +07:00 [INF] HTTP GET /api/Product responded 200 in 63.0156 ms
+2024-01-03 15:52:10.857 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 51.0579 ms
+2024-01-03 15:52:10.962 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 102.8819 ms
+2024-01-03 15:52:15.421 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 50.9760 ms
+2024-01-03 15:52:15.473 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 50.9132 ms
+2024-01-03 15:52:15.528 +07:00 [INF] HTTP GET /api/Product/7 responded 200 in 50.7962 ms
+2024-01-03 15:52:26.646 +07:00 [INF] Make call to product list
+2024-01-03 15:52:26.649 +07:00 [INF] HTTP GET /api/Product responded 200 in 3.7266 ms
+2024-01-03 15:52:26.719 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 51.7841 ms
+2024-01-03 15:52:26.823 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 101.7004 ms
+2024-01-03 15:53:31.034 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 51.3716 ms
+2024-01-03 15:53:31.087 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 51.4885 ms
+2024-01-03 15:53:31.141 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 50.5094 ms
+2024-01-03 15:53:33.755 +07:00 [INF] Make call to product list
+2024-01-03 15:53:33.813 +07:00 [INF] HTTP GET /api/Product responded 200 in 57.8857 ms
+2024-01-03 15:53:37.460 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 50.6651 ms
+2024-01-03 15:53:39.456 +07:00 [INF] Make call to product list
+2024-01-03 15:53:39.459 +07:00 [INF] HTTP GET /api/Product responded 200 in 3.4557 ms
+2024-01-03 16:31:34.994 +07:00 [INF] Now listening on: http://localhost:57074
+2024-01-03 16:31:35.219 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 16:31:35.220 +07:00 [INF] Hosting environment: Development
+2024-01-03 16:31:35.221 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 16:31:35.339 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 16:31:35.541 +07:00 [INF] HTTP GET / responded 404 in 206.8938 ms
+2024-01-03 16:31:38.914 +07:00 [INF] Make call to product list
+2024-01-03 16:31:41.129 +07:00 [INF] HTTP GET /api/Product responded 200 in 2516.5758 ms
+2024-01-03 16:31:46.588 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 121.8774 ms
+2024-01-03 16:31:48.210 +07:00 [INF] Make call to product list
+2024-01-03 16:31:48.222 +07:00 [INF] HTTP GET /api/Product responded 200 in 16.9313 ms
+2024-01-03 16:31:49.613 +07:00 [INF] HTTP GET /api/Product/6 responded 200 in 37.2770 ms
+2024-01-03 16:31:50.550 +07:00 [INF] Make call to product list
+2024-01-03 16:31:50.556 +07:00 [INF] HTTP GET /api/Product responded 200 in 6.8662 ms
+2024-01-03 16:31:51.303 +07:00 [INF] HTTP GET /api/Product/8 responded 200 in 32.8942 ms
+2024-01-03 16:31:52.845 +07:00 [INF] Make call to product list
+2024-01-03 16:31:52.848 +07:00 [INF] HTTP GET /api/Product responded 200 in 3.9641 ms
+2024-01-03 17:04:31.707 +07:00 [INF] Now listening on: http://localhost:57610
+2024-01-03 17:04:31.905 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 17:04:31.906 +07:00 [INF] Hosting environment: Development
+2024-01-03 17:04:31.906 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-03 17:04:31.976 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 17:04:32.157 +07:00 [INF] HTTP GET / responded 404 in 182.8576 ms
+2024-01-03 17:04:39.749 +07:00 [INF] Make call to product list
+2024-01-03 17:04:43.951 +07:00 [INF] HTTP GET /api/Product responded 200 in 4536.0137 ms
+2024-01-03 17:04:51.544 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 151.4799 ms

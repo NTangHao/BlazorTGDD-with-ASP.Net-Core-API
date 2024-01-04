@@ -1,0 +1,28 @@
+﻿@inject NavigationManager NavigationManager
+
+
+<AuthorizeView>
+    <Authorized>
+        <div class="user-hello">Hello, @context.User.Identity!.Name</div>
+        <button class="btn btn-nav shadow-none border-0" type="submit" @onclick="NavigateToLogOut">
+            <i class="bi bi-box-arrow-right"></i>
+        </button>
+    </Authorized>
+    <NotAuthorized>
+        <button class="btn btn-nav shadow-none border-0" type="submit" @onclick="NavigateToLogin">
+            <i class="bi bi-person-fill"></i>
+        </button>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code{
+    private void NavigateToLogOut()
+    {
+        NavigationManager.NavigateTo($"/logout");
+    }
+
+    private void NavigateToLogin()
+    {
+        NavigationManager.NavigateTo($"/login");
+    }
+}

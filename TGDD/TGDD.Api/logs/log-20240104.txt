@@ -1,0 +1,18 @@
+2024-01-04 08:55:09.810 +07:00 [INF] Now listening on: http://localhost:50333
+2024-01-04 08:55:09.907 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 08:55:09.908 +07:00 [INF] Hosting environment: Development
+2024-01-04 08:55:09.908 +07:00 [INF] Content root path: C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-04 08:55:15.214 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 08:55:15.718 +07:00 [INF] Make call to product list
+2024-01-04 08:55:18.274 +07:00 [INF] HTTP GET /api/Product responded 200 in 3063.6922 ms
+2024-01-04 08:55:19.922 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 124.7978 ms
+2024-01-04 08:55:21.053 +07:00 [INF] Make call to product list
+2024-01-04 08:55:21.087 +07:00 [INF] HTTP GET /api/Product responded 200 in 42.3886 ms
+2024-01-04 08:55:21.635 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 47.0504 ms
+2024-01-04 08:55:21.679 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 38.6831 ms
+2024-01-04 08:55:24.220 +07:00 [INF] HTTP GET /api/Product/3 responded 200 in 28.4996 ms
+2024-01-04 08:55:24.946 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 31.8126 ms
+2024-01-04 08:55:24.976 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 27.8668 ms
+2024-01-04 08:55:25.582 +07:00 [INF] HTTP GET /api/Product/4 responded 200 in 28.8416 ms
+2024-01-04 08:55:26.244 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 27.6072 ms
+2024-01-04 08:55:26.273 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 28.3616 ms
