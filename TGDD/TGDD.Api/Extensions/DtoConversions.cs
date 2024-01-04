@@ -1,4 +1,5 @@
-﻿using TGDD.Api.Entities;
+﻿using System.Drawing;
+using TGDD.Api.Entities;
 using TGDD.Models.Dtos;
 
 namespace TGDD.Api.Extensions
@@ -12,7 +13,8 @@ namespace TGDD.Api.Extensions
                     {
                         Id = productCategory.Id,
                         Name = productCategory.Name,
-                        IconCSS = productCategory.IconCSS
+                        IconCSS = productCategory.IconCSS,
+                        BannerImages = productCategory.BannerImages
                     }).ToList();
         }
 
@@ -22,7 +24,8 @@ namespace TGDD.Api.Extensions
             {
                 Id = productCategory.Id,
                 Name = productCategory.Name,
-                IconCSS = productCategory.IconCSS
+                IconCSS = productCategory.IconCSS,
+                BannerImages = productCategory.BannerImages
             };
         }
         public static IEnumerable<ProductDto> ConvertToDto(this IEnumerable<Product> products)
@@ -32,8 +35,12 @@ namespace TGDD.Api.Extensions
                     {
                         Id = product.Id,
                         Name = product.Name,
+                        Brand = product.Brand,
+                        ProductLine = product.ProductLine,
+                        Color = product.Color,
                         Description = product.Description,
                         ImageURL = product.ImageURL,
+                        ProductImages = product.ProductImages,
                         Price = product.Price,
                         Qty = product.Qty,
                         CategoryId = product.ProductCategory.Id,
@@ -48,8 +55,12 @@ namespace TGDD.Api.Extensions
             {
                 Id = product.Id,
                 Name = product.Name,
+                Brand = product.Brand,
+                ProductLine = product.ProductLine,
+                Color = product.Color,
                 Description = product.Description,
                 ImageURL = product.ImageURL,
+                ProductImages = product.ProductImages,
                 Price = product.Price,
                 Qty = product.Qty,
                 CategoryId = product.ProductCategory.Id,

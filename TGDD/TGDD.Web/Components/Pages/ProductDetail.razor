@@ -7,26 +7,41 @@
 @inject ICartService CartService
 @inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService 
 @inject HistoryProductURL HistoryProductURL
-@inject IJSRuntime JS 
+@inject IJSRuntime JSRuntime 
+@implements IDisposable
 
 @rendermode @(new InteractiveServerRenderMode(prerender: false))
 
+<div class="container my-5">
+    @if (Product != null)
+    {
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Main Image Display -->
+                <div class="main-image-container mb-3">
+                    <img id="mainImage" src="@currentMainImageUrl" class="img-fluid" alt="@Product.Name" />
+                </div>
 
-@if(Product != null)
-{
-    <div class="row">
-        <div class="col-md-6 mb-4">
-            <img class="img-fluid" src="@Product.ImageURL">
-        </div>
-        <div class="col-md-6">
-            <h3>@Product?.Name</h3>
-            <p class="mb-4">@Product.Description</p>
-            <p class="mb-4">
-                <b>
-                    @Product.Price.ToString("C")&nbsp;(@Product.Qty items in stock)
-                </b>
-            </p>
-            <div>
+                <!-- Thumbnail Strip -->
+                <div class="carousel" id="carousel-thumbnail-strip">
+                    @for (int i = 0; i < productImages.Count; i++)
+                    {
+                        var tempIndex = i;
+                        <button class="box @(tempIndex == currentActiveIndex ? "active" : "")" @onclick="() => UpdateActiveImage(tempIndex)">
+                            <img src="@productImages[tempIndex]" class="img-fluid" alt="Product Thumbnail" />
+                        </button>
+                    }
+
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>@Product.Name</h2>
+                <p>@Product.Description</p>
+                <h3>Price: $@Product.Price</h3>
+                <!-- Additional product details here -->
+                @* <button class="btn btn-primary">Add to Cart</button> *@
+                <div>
                 <AuthorizeView>
                     <Authorized>
                         <button @onclick="() => (AddToCart_Click(new CartItemToAddDto{
@@ -45,21 +60,16 @@
                         </a>
                     </NotAuthorized>
                 </AuthorizeView>
-                @* <button @onclick="() => (AddToCart_Click(new CartItemToAddDto{
-                    CartId = (int)cart?.Id,
-                    ProductId = Product.Id,
-                    Qty = 1
-                }))" 
-                class="btn btn-success">
-
-                    <b>Add to Cart</b>
-                </button> *@
                 <div>@authMessage</div>
             </div>
+            </div>
         </div>
-
-    </div>
-}
+    }
+    else
+    {
+        <p>Loading product details...</p>
+    }
+</div>
 
 @code {
 
@@ -70,6 +80,12 @@
     private Cart cart { get; set; }
     private User usercart { get; set; }
     private List<CartItemDto> ShoppingCartItems { get; set; }
+
+    private string currentMainImageUrl;
+    private int currentActiveIndex = 0;
+    private List<string> productImages = new();
+    private DotNetObjectReference<ProductDetail> objectReference;
+
     [Parameter]
     public int Id { get; set; }
 
@@ -95,13 +111,21 @@
             }
 
             Product = await ProductService.GetItem(Id);
-            
+            if (!string.IsNullOrEmpty(Product?.ProductImages))
+            {
+                productImages = Product.ProductImages.Split("##").ToList();
+                currentMainImageUrl = productImages[0];
+                StateHasChanged(); // Force the component to re-render
 
-
+                // Call the JavaScript function after a slight delay
+                objectReference = DotNetObjectReference.Create(this);
+                await JSRuntime.InvokeVoidAsync("initializeThumbnailAutoScroll", objectReference, 3000);
+                await JSRuntime.InvokeVoidAsync("initializeThumbnailDrag");
+            }
         }
         catch (Exception ex)
         {
-            JS.InvokeVoidAsync("console.log", ex.Message);
+            JSRuntime.InvokeVoidAsync("console.log", ex.Message);
             //Log Exception
         }
     }
@@ -135,22 +159,46 @@
                     NavigationManager.NavigateTo("/login");
                 }
 
-            }
-           
-                
-            
-
-            
+            }            
         }
         catch (Exception ex)
         {
-            JS.InvokeVoidAsync("console.log", ex.Message);
+            JSRuntime.InvokeVoidAsync("console.log", ex.Message);
             //Log Exception
         }
     }
 
-	// public async Task AddProduct(Product product)
-	// {
-	// 	await InvokeAsync(() => { OrderState.AddProductToOrder(product);});
-	// }
+	 private void UpdateActiveImage(int index)
+    {
+        currentActiveIndex = index;
+        SetMainImage(productImages[index]);
+        StateHasChanged();
+    }
+
+    [JSInvokable("SetMainImage")]
+    public void SetMainImage(string imageUrl)
+    {
+        currentMainImageUrl = imageUrl;
+        StateHasChanged(); // This updates the UI with the new image URL
+    }
+
+    [JSInvokable]
+    public int GetCurrentActiveIndex()
+    {
+        return currentActiveIndex;
+    }
+
+    [JSInvokable]
+    public void IncrementActiveIndex()
+    {
+        currentActiveIndex = (currentActiveIndex + 1) % productImages.Count;
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        JSRuntime.InvokeVoidAsync("clearAutoScrollInterval");
+        JSRuntime.InvokeVoidAsync("cleanupThumbnailStrip");
+        objectReference?.Dispose();
+    }
 }

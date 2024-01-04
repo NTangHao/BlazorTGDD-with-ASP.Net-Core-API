@@ -9,13 +9,16 @@ namespace TGDD.Api.Entities
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
+        public string Brand { get; set; }
+        public string ProductLine { get; set; }
+        public string Color { get; set; }
         public string Description { get; set; }
         public string ImageURL { get; set; }
+        public string ProductImages { get; set; }
         [Precision(18,2)]
         public decimal Price { get; set; }
         public int Qty { get; set; }
         public int CategoryId { get; set; }
-
         [ForeignKey("CategoryId")]
         public ProductCategory ProductCategory { get; set; }
 

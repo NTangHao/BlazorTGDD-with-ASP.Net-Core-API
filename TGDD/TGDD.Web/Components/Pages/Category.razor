@@ -110,6 +110,7 @@
     [Parameter] public int Id { get; set; }
     public List<ProductDto> products = new();
     public ProductCategoryDto category = new();
+    private List<string> banners = new();
 
     protected override async Task OnInitializedAsync()
     {
@@ -120,6 +121,9 @@
     {
         category = await ProductService.GetCategory(Id);
         products = (await ProductService.GetItemsByCategory(Id)).ToList();
+
+        banners.AddRange(category.BannerImages.Split("##").ToList());
+
     }
 
     private void NavigateToDetailPage(int id)
@@ -127,11 +131,9 @@
         NavigationManager.NavigateTo($"/Detail/{id}");
     }
 
-    private List<string> banners = new()
-    {
-        "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1170x300/https://cdn.tgdd.vn/2023/11/banner/IP15-2400-600-1920x480-1.png",
-        "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1170x300/https://cdn.tgdd.vn/2023/11/banner/ip14-AW-S8-2400-600-1920x480-1.png"
-    };
+    
+
+
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {

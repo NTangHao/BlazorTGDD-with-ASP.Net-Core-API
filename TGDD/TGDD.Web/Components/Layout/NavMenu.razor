@@ -10,7 +10,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0">
     <div class="container">
         <!-- Logo -->
-        <a class="navbar-brand @(showSearchBar ? "d-none" : "d-flex")" href="#">LOGO</a>
+        <a class="navbar-brand @(showSearchBar ? "d-none" : "d-flex")" @onclick="@(() => NavigateToHomePage())">LOGO</a>
 
         <!-- Thanh tìm kiếm ẩn -->
         <div class="form-search @(showSearchBar ? "active m-3" : "") d-flex w-100 gap-3 justify-content-center align-items-center">
@@ -32,13 +32,13 @@
                     <a class="nav-link" @onclick="@(() => NavigateToCategoryPage(1))">Phone</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" @* @onclick="@(() => NavigateToCategoryPage("Laptop"))" *@>Laptop</a>
+                    <a class="nav-link" @onclick="@(() => NavigateToCategoryPage(2))">Laptop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" @* @onclick="@(() => NavigateToCategoryPage("Tablet"))" *@>Tablet</a>
+                    <a class="nav-link" @onclick="@(() => NavigateToCategoryPage(3))">Tablet</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" @* @onclick="@(() => NavigateToCategoryPage("Accessory"))" *@>Accessory</a>
+                    <a class="nav-link" @onclick="@(() => NavigateToCategoryPage(4))">Accessory</a>
                 </li>
             </ul>
             <div class="nav-right d-flex gap-3 justify-content-center @(showSearchBar ? "d-none" : "")">
@@ -125,12 +125,17 @@
 
     private void NavigateToShoppingCart()
     {
-        NavigationManager.NavigateTo($"/ShoppingCart");
+        NavigationManager.NavigateTo($"/ShoppingCart",true);
+    }
+
+    private void NavigateToHomePage()
+    {
+        NavigationManager.NavigateTo($"/");
     }
 
     private void NavigateToCategoryPage(int category)
     {
-        NavigationManager.NavigateTo($"/Category/{category}");
+        NavigationManager.NavigateTo($"/Category/{category}",true);
     }
 
     private int shoppingCartItemsCount = 0;

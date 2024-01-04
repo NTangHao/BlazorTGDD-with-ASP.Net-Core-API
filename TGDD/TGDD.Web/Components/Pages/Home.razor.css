@@ -1,12 +1,53 @@
-﻿.carousel-fade .carousel-item {
+﻿.custom-carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3e3f41;
+    background: #3e3f41;
+    color: lightgray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+.carousel-control-prev {
+    left: 15px;
+}
+
+.carousel-control-next {
+    right: 15px;
+}
+
+.carousel-indicators li {
+    background-color: #3e3f41; /* or any color you prefer */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-fade .carousel-item {
     transition: opacity 0.5s ease-in-out;
 }
 
-    .carousel-fade .carousel-item-next.carousel-item-left,
-    .carousel-fade .carousel-item-prev.carousel-item-right,
-    .carousel-fade .carousel-item.active {
-        opacity: 1;
-    }
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right,
+.carousel-fade .carousel-item.active {
+    opacity: 1;
+}
 
 .carousel-fade .carousel-item-left,
 .carousel-fade .carousel-item-right {
@@ -17,35 +58,3 @@
     max-height: 600px;
     object-fit: cover;
 }
-
-/*.product-container {
-    cursor: pointer;
-    transition: transform .2s;
-}
-    .product-container:hover {
-        transform: scale(1.05);
-    }
-
-.product-container img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-
-}
-
-.product-name h5 {
-    font-size: 1.1em;
-    color: #333;
-    font-weight: bold;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.price {
-    font-size: 1.2em;
-}
-
-    .price span {
-        color: #0078d4;
-    }*/

@@ -19,10 +19,14 @@ namespace TGDD.Api.Data
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = 1,
-                Name = "Iphone 14",
-                Description = "High end phone",
-                ImageURL = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-xanh-1.jpg",
-                Price = 100,
+                Name = "IPhone 15 Pro Max",
+                Brand = "Apple",
+                ProductLine = "iPhone",
+                Color = "Blue Titanium",
+                Description = "Latest iPhone model",
+                ImageURL = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-thumbtz-650x650.png",
+                ProductImages = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-thumbtz-650x650.png##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-titan-2-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-titan-1-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-titan-3-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-titan-4-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-titan-5-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-titan-6-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-titan-7-650x650.jpg",
+                Price = 1409.61M,
                 Qty = 100,
                 CategoryId = 1
 
@@ -30,10 +34,14 @@ namespace TGDD.Api.Data
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = 2,
-                Name = "Vivo",
-                Description = "Android Phone",
-                ImageURL = "https://cdn.tgdd.vn/Products/Images/42/309723/vivo-y02t-den-1.jpeg",
-                Price = 50,
+                Name = "IPhone 15 Pro Max",
+                Brand = "Apple",
+                ProductLine = "iPhone",
+                Color = "White Titanium",
+                Description = "Latest iPhone model",
+                ImageURL = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305660/s16/iphone-15-pro-max-white-thumbtz-650x650.png",
+                ProductImages = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305660/s16/iphone-15-pro-max-white-thumbtz-650x650.png##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305660/s16/iphone-15-pro-max-white-titan-1-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305660/s16/iphone-15-pro-max-white-titan-2-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/305660/s16/iphone-15-pro-max-white-titan-3-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75,s_100x100/https://cdn.tgdd.vn/Products/Images/42/305660/s16/iphone-15-pro-max-white-titan-4-200x200.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75,s_100x100/https://cdn.tgdd.vn/Products/Images/42/305660/s16/iphone-15-pro-max-white-titan-4-200x200.jpg",
+                Price = 1362.23M,
                 Qty = 45,
                 CategoryId = 1
 
@@ -41,10 +49,14 @@ namespace TGDD.Api.Data
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = 3,
-                Name = "Vivoy92",
-                Description = "Android Phone",
-                ImageURL = "https://cdn.tgdd.vn/Products/Images/42/309723/vivo-y02t-xanh-tim-1.jpeg",
-                Price = 20,
+                Name = "IPhone 15 Pro",
+                Brand = "Apple",
+                ProductLine = "iPhone",
+                Color = "Natural Titanium",
+                Description = "Latest iPhone model",
+                ImageURL = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303833/s16/iphone-15-pro-thumbtz-650x650.png",
+                ProductImages = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303833/s16/iphone-15-pro-thumbtz-650x650.png##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303833/s16/iphone-15-pro-tu-nhien-0-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303833/s16/iphone-15-pro-tu-nhien-1-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303833/s16/iphone-15-pro-tu-nhien-2-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303833/s16/iphone-15-pro-tu-nhien-3-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303833/s16/iphone-15-pro-tu-nhien-3-650x650.jpg",
+                Price = 1731.19M,
                 Qty = 30,
                 CategoryId = 1
 
@@ -52,10 +64,14 @@ namespace TGDD.Api.Data
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = 4,
-                Name = "Vivo v29",
-                Description = "Android phone",
-                ImageURL = "https://cdn.tgdd.vn/Products/Images/42/314203/vivo-v29e-xanh-glr-1.jpg",
-                Price = 50,
+                Name = "IPhone 15 Plus",
+                Brand = "Apple",
+                ProductLine = "iPhone",
+                Color = "Yellow",
+                Description = "Latest iPhone model",
+                ImageURL = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303823/s16/iphone-15-plus-yellow-thumbtz-650x650.png",
+                ProductImages = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303823/s16/iphone-15-plus-yellow-thumbtz-650x650.png##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303823/s16/iphone-15-plus-vang-1-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303823/s16/iphone-15-plus-vang-2-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303823/s16/iphone-15-plus-vang-3-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303823/s16/iphone-15-plus-vang-6-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/303823/s16/iphone-15-plus-vang-8-650x650.jpg",
+                Price = 1195.22M,
                 Qty = 60,
                 CategoryId = 1
 
@@ -63,73 +79,77 @@ namespace TGDD.Api.Data
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = 5,
-                Name = "Redmi 13c",
-                Description = "Skin Care Kit, containing skin care and hair care products",
-                ImageURL = "https://cdn.tgdd.vn/Products/Images/42/316771/xiaomi-redmi-13c-xanh-1-1.jpg",
-                Price = 30,
+                Name = "MacBook Pro 16 inch M3 Pro 2023",
+                Brand = "Apple",
+                ProductLine = "MacBook",
+                Color = "Midnight",
+                Description = "The latest MacBook model",
+                ImageURL = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/mac16-topzone-black-650x650.png",
+                ProductImages = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/mac16-topzone-black-650x650.png##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318236/s16/apple-macbook-pro-16-inch-m3-max-2023-16-core-black-2-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/apple-macbook-pro-16-inch-m3-pro-2023-12-core-36gb-black-4-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/apple-macbook-pro-16-inch-m3-pro-2023-12-core-36gb-black-5-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/apple-macbook-pro-16-inch-m3-pro-2023-12-core-36gb-black-6-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/apple-macbook-pro-16-inch-m3-pro-2023-12-core-36gb-black-9-650x650.jpg",
+                Price = 3091.73M,
                 Qty = 85,
-                CategoryId = 1
+                CategoryId = 2
 
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = 6,
-                Name = "Air Pods",
-                Description = "Air Pods - in-ear wireless headphones",
-                ImageURL = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-xanh-1.jpg",
-                Price = 100,
+                Name = "MacBook Pro 16 inch M3 Pro 2023",
+                Brand = "Apple",
+                ProductLine = "MacBook",
+                Color = "Silver",
+                Description = "The latest MacBook model",
+                ImageURL = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/mac16-topzone-silver-650x650.png",
+                ProductImages = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/mac16-topzone-silver-650x650.png##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/apple-macbook-pro-16-inch-m3-max-2023-14-core-silver-2-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/apple-macbook-pro-16-inch-m3-max-2023-14-core-silver-3-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/apple-macbook-pro-16-inch-m3-max-2023-14-core-silver-4-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/apple-macbook-pro-16-inch-m3-max-2023-14-core-silver-5-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/apple-macbook-pro-16-inch-m3-max-2023-14-core-silver-6-650x650.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/318235/s16/apple-macbook-pro-16-inch-m3-max-2023-14-core-silver-9-650x650.jpg",
+                Price = 3091.73M,
                 Qty = 120,
-                CategoryId = 3
+                CategoryId = 2
 
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = 7,
-                Name = "Iphone 13",
-                Description = "IOS Phone",
-                ImageURL = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-xanh-1.jpg",
-                Price = 40,
+                Name = "MacBook Air 13 inch M1 2020",
+                Brand = "Apple",
+                ProductLine = "MacBook",
+                Color = "Golden",
+                Description = "The latest MacBook model",
+                ImageURL = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/44/231244/s16/mac-air-13-m1-vang-650x650.png",
+                ProductImages = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75,s_100x100/https://cdn.tgdd.vn/Products/Images/44/231244/s16/mac-air-13-m1-vang-200x200.png##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75,s_100x100/https://cdn.tgdd.vn/Products/Images/44/231244/s16/macbook-air-m1-gold-01-200x200.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75,s_100x100/https://cdn.tgdd.vn/Products/Images/44/231244/s16/macbook-air-m1-gold-02-200x200.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75,s_100x100/https://cdn.tgdd.vn/Products/Images/44/231244/s16/macbook-air-m1-gold-03-200x200.jpg##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75,s_100x100/https://cdn.tgdd.vn/Products/Images/44/231244/s16/macbook-air-m1-gold-04-200x200.jpg",
+                Price = 803.28M,
                 Qty = 200,
-                CategoryId = 3
+                CategoryId = 2
 
             });
-            modelBuilder.Entity<Product>().HasData(new Product
-            {
-                Id = 8,
-                Name = "Xiaomi 13T Pro",
-                Description = "Highend android phone",
-                ImageURL = "https://cdn.tgdd.vn/Products/Images/42/309816/xiaomi-13t-pro-xanh-1.jpg",
-                Price = 40,
-                Qty = 300,
-                CategoryId = 3
-
-            });
-
 
             //Add Product Categories
             modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
             {
                 Id = 1,
                 Name = "Phone",
-                IconCSS = "fas fa-phones"
+                IconCSS = "bi bi-phone",
+                BannerImages = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1170x300/https://cdn.tgdd.vn/2024/01/banner/iPhone13-2400-600-1920x480.png##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1170x300/https://cdn.tgdd.vn/2023/12/banner/iPhone11-2400-600-1920x480.png"
             });
             modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
             {
                 Id = 2,
                 Name = "Laptop",
-                IconCSS = "fas fa-couch"
+                IconCSS = "bi bi-laptop",
+                BannerImages = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1170x300/https://cdn.tgdd.vn/2023/12/banner/Mac-Air-M2-2400-600-1920x480.png##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1170x300/https://cdn.tgdd.vn/2023/12/banner/Mac-Air-M1-2400-600-1920x480.png"
             });
             modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
             {
                 Id = 3,
-                Name = "Flaship",
-                IconCSS = "fas fa-headphones"
+                Name = "Tablet",
+                IconCSS = "bi bi-tablet",
+                BannerImages = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1170x300/https://cdn.tgdd.vn/2023/12/banner/ipad9-2400-600-1920x480.png##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1170x300/https://cdn.tgdd.vn/2024/01/banner/iPad-Air5-2400-600-1920x480.png"
             });
             modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
             {
                 Id = 4,
-                Name = "Gear",
-                IconCSS = "fas fa-shoe-prints"
+                Name = "Accessory",
+                IconCSS = "fas fa-shoe-prints",
+                BannerImages = "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1170x300/https://cdn.tgdd.vn/2023/12/banner/Phu-kien-2400-600-1920x480-2.png##https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1170x300/https://cdn.tgdd.vn/2024/01/banner/OLIP-15-2400-600-1920x480.png"
             });
 
             //Add users

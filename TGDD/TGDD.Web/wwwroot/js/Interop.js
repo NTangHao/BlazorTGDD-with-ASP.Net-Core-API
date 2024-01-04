@@ -13,10 +13,10 @@ function initializeThumbnailAutoScroll(dotNetReference, interval) {
     autoScrollIntervalId = setInterval(() => {
         dotNetReference.invokeMethodAsync('GetCurrentActiveIndex')
             .then((currentIndex) => {
-                console.log('Current Index from Blazor:', currentIndex);
+                /*console.log('Current Index from Blazor:', currentIndex);*/
 
                 let nextIndex = (currentIndex + 1) % boxes.length;
-                console.log('Next Index:', nextIndex);
+                /*console.log('Next Index:', nextIndex);*/
 
                 // Update UI based on the next index
                 boxes.forEach(box => box.parentNode.classList.remove('active'));
@@ -58,7 +58,7 @@ function initializeThumbnailDrag() {
         const x = e.pageX - slider.offsetLeft;
         const walk = (x - startX) * 3; //scroll-fast
         slider.scrollLeft = scrollLeft - walk;
-        console.log(walk);
+        //console.log(walk);
     });
 }
 
