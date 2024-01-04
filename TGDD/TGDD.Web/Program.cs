@@ -30,28 +30,9 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(baseAddr
 
 builder.Services.AddHttpClient<ProductServiceClient>(client => client.BaseAddress = new("http://tgddapi"));
 
-//Add Authentication State
+// set up authorization
+builder.Services.AddAuthorizationCore();
 
-//builder.Services.AddCascadingAuthenticationState();
-//builder.Services.AddScoped<IdentityUserAccessor>();
-//builder.Services.AddScoped<IdentityRedirectManager>();
-//builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
-
-// Add external method login like gg,fb and add cookies service 
-
-//builder.Services.AddAuthentication(options =>
-//{
-//    options.DefaultScheme = IdentityConstants.ApplicationScheme;
-//    options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
-//})
-//    .AddIdentityCookies();
-
-//builder.Services.AddIdentityCore<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-//    .AddEntityFrameworkStores<ShopOnlineDbContext>()
-//    .AddSignInManager()
-//    .AddDefaultTokenProviders();
-
-//builder.Services.AddSingleton<IEmailSender<IdentityUser>, IdentityNoOpEmailSender>();
 
 // Add Service API
 builder.Services.AddScoped<IProductService, ProductService>();
@@ -67,8 +48,8 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 
 builder.Services.AddServerSideBlazor().AddCircuitOptions(options => { options.DetailedErrors = true; });
 
-// set up authorization
-builder.Services.AddAuthorizationCore();
+// Add ReturnUrl Sate
+builder.Services.AddScoped<HistoryProductURL>();
 
 
 var app = builder.Build();

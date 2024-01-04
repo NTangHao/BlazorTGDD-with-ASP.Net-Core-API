@@ -1,11 +1,13 @@
 ﻿@page "/Detail/{Id:int}"
 @using TGDD.Api.Entities
+@using TGDD.Web.Helpers
 @inject NavigationManager NavigationManager
 @inject IProductService ProductService
 @inject IShoppingCartService ShoppingCartService
 @inject ICartService CartService
 @inject IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService 
-@inject IJSRuntime JS
+@inject HistoryProductURL HistoryProductURL
+@inject IJSRuntime JS 
 
 @rendermode @(new InteractiveServerRenderMode(prerender: false))
 
@@ -75,6 +77,7 @@
     {
         try      
         {
+             HistoryProductURL.returnUrl = NavigationManager.Uri;
             if (authenticationState is not null)
             {
                 var authState = await authenticationState;
@@ -107,7 +110,7 @@
     {
         try
         {
-
+            
             if (authenticationState is not null)
             {
                 var authState = await authenticationState;
@@ -128,6 +131,7 @@
                 }
                 else
                 {
+                   
                     NavigationManager.NavigateTo("/login");
                 }
 

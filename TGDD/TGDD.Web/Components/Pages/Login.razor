@@ -1,7 +1,9 @@
 ﻿@page "/login"
+@using TGDD.Api.Entities
+@using TGDD.Web.Helpers
 @inject IAuthService AuthService
 @inject NavigationManager NavigationManager
-@using TGDD.Api.Entities
+@inject HistoryProductURL HistoryProductURL
 
 @* <h1>Login</h1>
 
@@ -86,7 +88,7 @@
 
         if (result.Successful)
         {
-            NavigationManager.NavigateTo("/");
+            NavigationManager.NavigateTo($"{HistoryProductURL.returnUrl}");
         }
         else
         {
