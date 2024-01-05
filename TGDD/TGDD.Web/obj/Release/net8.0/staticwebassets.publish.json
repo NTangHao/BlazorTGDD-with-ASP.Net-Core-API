@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "CY7e/tr4X2X1Uxy/LIXSd/u8RFkUn/6+r8BQVsvEMXY=",
+  "Hash": "93HUJp6UNS6kWVw1ewx24yJjM1H87/XD4aaKmYRvLAk=",
   "Source": "TGDD.Web",
   "BasePath": "_content/TGDD.Web",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\TGDD.Api.csproj",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\TGDD.Api.csproj",
       "Version": 2,
       "Source": "TGDD.Api",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,24 +22,24 @@
     {
       "Name": "TGDD.Api\\wwwroot",
       "Source": "TGDD.Api",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "Pattern": "**"
     },
     {
       "Name": "TGDD.Web\\wwwroot",
       "Source": "TGDD.Web",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\",
       "BasePath": "_content/TGDD.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\css\\site.css",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\css\\site.css",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\favicon.ico",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\favicon.ico",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\js\\site.js",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\js\\site.js",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TGDD.Api",
       "SourceType": "Project",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\wwwroot\\",
       "BasePath": "_content/TGDD.Api",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\jsmodules\\jsmodules.publish.manifest.json",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\jsmodules\\jsmodules.publish.manifest.json",
       "SourceId": "TGDD.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\jsmodules\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\jsmodules\\",
       "BasePath": "_content/TGDD.Web",
       "RelativePath": "TGDD.Web.modules.json",
       "AssetKind": "Publish",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "obj\\Release\\net8.0\\jsmodules\\jsmodules.publish.manifest.json"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\bundle\\TGDD.Web.styles.css",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\bundle\\TGDD.Web.styles.css",
       "SourceId": "TGDD.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TGDD.Web",
       "RelativePath": "TGDD.Web.styles.css",
       "AssetKind": "All",
@@ -470,13 +470,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\bundle\\TGDD.Web.styles.css"
+      "OriginalItemSpec": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\bundle\\TGDD.Web.styles.css"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\TGDD.Web.bundle.scp.css",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\TGDD.Web.bundle.scp.css",
       "SourceId": "TGDD.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TGDD.Web",
       "RelativePath": "TGDD.Web.bundle.scp.css",
       "AssetKind": "All",
@@ -489,13 +489,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\TGDD.Web.bundle.scp.css"
+      "OriginalItemSpec": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\TGDD.Web.bundle.scp.css"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\app.css",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\app.css",
       "SourceId": "TGDD.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\",
       "BasePath": "_content/TGDD.Web",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "TGDD.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\",
       "BasePath": "_content/TGDD.Web",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "TGDD.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\",
       "BasePath": "_content/TGDD.Web",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\favicon.png",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\favicon.png",
       "SourceId": "TGDD.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\",
       "BasePath": "_content/TGDD.Web",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\js\\Interop.js",
+      "Identity": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\js\\Interop.js",
       "SourceId": "TGDD.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\",
       "BasePath": "_content/TGDD.Web",
       "RelativePath": "js/Interop.js",
       "AssetKind": "All",

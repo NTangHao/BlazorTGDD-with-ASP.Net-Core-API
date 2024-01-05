@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JU+oRKgZURVjU0KqTxon1imRAF0ImYCaA7vKxHXP9ZzrJiwN8Z7JPdISpTn0eoLtH53cWwnq6iriqCk+u9sRoQ==",
+  "dgSpecHash": "OqXOQ5Y0FVU6QzzyTKOiWm2xofSIy5CJSu+k1fO+rTNe1+Gcq0V0Z8SOi1MB/HF1wto911mn8mu1roxedng8kw==",
   "success": true,
-  "projectFilePath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
+  "projectFilePath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dung Bui\\.nuget\\packages\\google.protobuf\\3.22.5\\google.protobuf.3.22.5.nupkg.sha512",
     "C:\\Users\\Dung Bui\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj": {}
+    "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj": {}
   },
   "projects": {
-    "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj": {
+    "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
         "projectName": "TGDD.ServiceDefaults",
-        "projectPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
+        "projectPath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\Dung Bui\\.nuget\\packages\\",
-        "outputPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\obj\\",
+        "outputPath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -104,16 +99,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
       }
     },
-    "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj": {
+    "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj",
+        "projectUniqueName": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj",
         "projectName": "TGDDMessaging.Worker",
-        "projectPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj",
+        "projectPath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj",
         "packagesPath": "C:\\Users\\Dung Bui\\.nuget\\packages\\",
-        "outputPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\obj\\",
+        "outputPath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -135,8 +135,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj": {
-                "projectPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj"
+              "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj": {
+                "projectPath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj"
               }
             }
           }
@@ -145,11 +145,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -176,12 +171,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.0, 8.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }

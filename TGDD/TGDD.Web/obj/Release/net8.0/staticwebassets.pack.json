@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\TGDD.Web.bundle.scp.css",
+      "Id": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\TGDD.Web.bundle.scp.css",
       "PackagePath": "staticwebassets\\TGDD.Web.bundle.scp.css"
     },
     {
-      "Id": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\app.css",
+      "Id": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\favicon.png",
+      "Id": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\js\\Interop.js",
+      "Id": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\wwwroot\\js\\Interop.js",
       "PackagePath": "staticwebassets\\js\\Interop.js"
     },
     {

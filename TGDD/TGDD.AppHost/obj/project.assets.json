@@ -13170,11 +13170,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.AppHost\\TGDD.AppHost.csproj",
+      "projectUniqueName": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.AppHost\\TGDD.AppHost.csproj",
       "projectName": "TGDD.AppHost",
-      "projectPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.AppHost\\TGDD.AppHost.csproj",
+      "projectPath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.AppHost\\TGDD.AppHost.csproj",
       "packagesPath": "C:\\Users\\Dung Bui\\.nuget\\packages\\",
-      "outputPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.AppHost\\obj\\",
+      "outputPath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.AppHost\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -13196,17 +13196,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\TGDD.Api.csproj": {
-              "projectPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\TGDD.Api.csproj"
+            "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\TGDD.Api.csproj": {
+              "projectPath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\TGDD.Api.csproj"
             },
-            "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\TGDD.Web.csproj": {
-              "projectPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\TGDD.Web.csproj"
+            "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\TGDD.Web.csproj": {
+              "projectPath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\TGDD.Web.csproj"
             },
-            "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj": {
-              "projectPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj"
+            "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj": {
+              "projectPath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging.Worker\\TGDDMessaging.Worker.csproj"
             },
-            "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging\\TGDDMessaging.csproj": {
-              "projectPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging\\TGDDMessaging.csproj"
+            "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging\\TGDDMessaging.csproj": {
+              "projectPath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging\\TGDDMessaging.csproj"
             }
           }
         }
@@ -13215,11 +13215,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

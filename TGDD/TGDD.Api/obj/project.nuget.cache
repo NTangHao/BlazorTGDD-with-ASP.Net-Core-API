@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sgj3zR75tOls2w5pap2Xxc0WvF5VhhcG6E1Wc9e/Rlo8eP7ddHHyHSFO5u+vkH9uSixVHI8+N77KC2JkGiX9NA==",
+  "dgSpecHash": "NsyUd48Y3/vMILJdaJ33eMhRM21Hz9VO523Ju+trypcaitpss8WQ0erzajPQw/p0HV8oX6sG2HlBLvmJoRG3eg==",
   "success": true,
-  "projectFilePath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\TGDD.Api.csproj",
+  "projectFilePath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\TGDD.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dung Bui\\.nuget\\packages\\aspire.stackexchange.redis\\8.0.0-preview.2.23619.3\\aspire.stackexchange.redis.8.0.0-preview.2.23619.3.nupkg.sha512",
     "C:\\Users\\Dung Bui\\.nuget\\packages\\aspire.stackexchange.redis.distributedcaching\\8.0.0-preview.2.23619.3\\aspire.stackexchange.redis.distributedcaching.8.0.0-preview.2.23619.3.nupkg.sha512",
@@ -234,7 +234,8 @@
     "C:\\Users\\Dung Bui\\.nuget\\packages\\system.threading.ratelimiting\\7.0.0\\system.threading.ratelimiting.7.0.0.nupkg.sha512",
     "C:\\Users\\Dung Bui\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "C:\\Users\\Dung Bui\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Dung Bui\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+    "C:\\Users\\Dung Bui\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Dung Bui\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.0\\microsoft.netcore.app.host.linux-x64.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

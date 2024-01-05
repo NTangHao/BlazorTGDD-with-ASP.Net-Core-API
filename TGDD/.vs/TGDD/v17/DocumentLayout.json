@@ -1,26 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\",
+  "WorkspaceRootPath": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\new clone\\blazortgdd-with-asp.net-core-api\\tgdd\\tgdd.api\\migrations\\20231222041346_createdbtgdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\migrations\\20231222041346_createdbtgdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DDE531E-4EB1-4366-8546-72DDF50CC576}|TGDDMessaging\\TGDDMessaging.csproj|c:\\new clone\\blazortgdd-with-asp.net-core-api\\tgdd\\tgddmessaging\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DDE531E-4EB1-4366-8546-72DDF50CC576}|TGDDMessaging\\TGDDMessaging.csproj|solutionrelative:tgddmessaging\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\new clone\\blazortgdd-with-asp.net-core-api\\tgdd\\tgdd.api\\entities\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\entities\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\new clone\\blazortgdd-with-asp.net-core-api\\tgdd\\tgdd.api\\data\\shoponlinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\data\\shoponlinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|c:\\new clone\\blazortgdd-with-asp.net-core-api\\tgdd\\tgdd.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27CA2C82-9E8D-4FA5-B3BC-1F6AA1ED9826}|TGDD.Api\\TGDD.Api.csproj|solutionrelative:tgdd.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35F3D0FD-EB0D-4347-BB42-075DC74BFC24}|TGDDProduct.Test\\TGDDProduct.Test.csproj|c:\\last clone\\blazortgdd-with-asp.net-core-api\\tgdd\\tgddproduct.test\\productcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F3D0FD-EB0D-4347-BB42-075DC74BFC24}|TGDDProduct.Test\\TGDDProduct.Test.csproj|solutionrelative:tgddproduct.test\\productcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging\\Program.cs",
-              "RelativeDocumentMoniker": "TGDDMessaging\\Program.cs",
-              "ToolTip": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging\\Program.cs",
-              "RelativeToolTip": "TGDDMessaging\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-05T07:45:03.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\Entities\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "TGDD.Api\\Entities\\RegisterModel.cs",
-              "ToolTip": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\Entities\\RegisterModel.cs",
-              "RelativeToolTip": "TGDD.Api\\Entities\\RegisterModel.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAIwA0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-05T07:09:18.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShopOnlineDbContext.cs",
-              "DocumentMoniker": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\Data\\ShopOnlineDbContext.cs",
-              "RelativeDocumentMoniker": "TGDD.Api\\Data\\ShopOnlineDbContext.cs",
-              "ToolTip": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\Data\\ShopOnlineDbContext.cs",
-              "RelativeToolTip": "TGDD.Api\\Data\\ShopOnlineDbContext.cs",
-              "ViewState": "AQIAAIMAAAAAAAAAAAAAAJcAAAB6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-05T07:08:47.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20231222041346_CreateDBTGDD.cs",
-              "DocumentMoniker": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\Migrations\\20231222041346_CreateDBTGDD.cs",
-              "RelativeDocumentMoniker": "TGDD.Api\\Migrations\\20231222041346_CreateDBTGDD.cs",
-              "ToolTip": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\Migrations\\20231222041346_CreateDBTGDD.cs",
-              "RelativeToolTip": "TGDD.Api\\Migrations\\20231222041346_CreateDBTGDD.cs",
-              "ViewState": "AQIAADEBAAAAAAAAAAAAAC0BAAApAAAA",
+              "Title": "ProductControllerTest.cs",
+              "DocumentMoniker": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDProduct.Test\\ProductControllerTest.cs",
+              "RelativeDocumentMoniker": "TGDDProduct.Test\\ProductControllerTest.cs",
+              "ToolTip": "C:\\last clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDProduct.Test\\ProductControllerTest.cs",
+              "RelativeToolTip": "TGDDProduct.Test\\ProductControllerTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-05T06:55:51.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\Program.cs",
-              "RelativeDocumentMoniker": "TGDD.Api\\Program.cs",
-              "ToolTip": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Api\\Program.cs",
-              "RelativeToolTip": "TGDD.Api\\Program.cs",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAAAG8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-05T06:45:42.297Z",
+              "WhenOpened": "2024-01-05T10:05:23.007Z",
               "EditorCaption": ""
             }
           ]

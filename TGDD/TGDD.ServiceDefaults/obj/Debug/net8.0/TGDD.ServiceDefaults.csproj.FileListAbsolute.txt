@@ -36,3 +36,16 @@ C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debu
 C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\refint\TGDD.ServiceDefaults.dll
 C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.pdb
 C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\ref\TGDD.ServiceDefaults.dll
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\bin\Debug\net8.0\TGDD.ServiceDefaults.deps.json
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\bin\Debug\net8.0\TGDD.ServiceDefaults.dll
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\bin\Debug\net8.0\TGDD.ServiceDefaults.pdb
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.csproj.AssemblyReference.cache
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.AssemblyInfoInputs.cache
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.AssemblyInfo.cs
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.sourcelink.json
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.dll
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\refint\TGDD.ServiceDefaults.dll
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\TGDD.ServiceDefaults.pdb
+C:\last clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.ServiceDefaults\obj\Debug\net8.0\ref\TGDD.ServiceDefaults.dll
