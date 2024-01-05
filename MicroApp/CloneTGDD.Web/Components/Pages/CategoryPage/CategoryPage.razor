@@ -1,0 +1,54 @@
+﻿@page "/products/{category}"
+@inject ProductsApiClient ProductsApi
+@using CloneTGDD.Web.Models.DTO
+@inject NavigationManager NavigationManager
+
+<div class="category-page">
+    <h2 class="category-title">@category</h2>
+
+    <div class="products-container">
+        @if (products != null && products.Any())
+        {
+            @foreach (var product in products)
+            {
+                <div class="product-card">
+                    <img src="@product.ImageUrl" alt="@product.Model" class="product-image" />
+                    <div class="product-info">
+                        <h3>@product.Model</h3>
+                        <p>@product.Description</p>
+                        <div class="price">Price: $@product.BasePrice</div>
+                        <button class="btn btn-primary" @onclick="() => NavigateToDetailPage(product.Id)">View Details</button>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Loading products...</p>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter] public string category { get; set; }
+    private List<ProductsDTO> products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProducts();
+    }
+
+    private async Task LoadProducts()
+    {
+        var responseDTO = await ProductsApi.GetProductsByCategory(category);
+        if (responseDTO.IsSuccess)
+        {
+            products = JsonConvert.DeserializeObject<List<ProductsDTO>>(Convert.ToString(responseDTO.Result));
+        }
+    }
+
+    private void NavigateToDetailPage(int id)
+    {
+        NavigationManager.NavigateTo($"/detail/{id}");
+    }
+}

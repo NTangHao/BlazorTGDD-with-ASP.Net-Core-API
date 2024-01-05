@@ -1,0 +1,115 @@
+﻿@page "/Detail/{Id:int}"
+@using CloneTGDD.Web.Models.DTO
+@inject ProductsApiClient ProductsApi
+@inject IJSRuntime JSRuntime
+@implements IDisposable
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+@attribute [StreamRendering(true)]
+
+<PageTitle>Product Detail</PageTitle>
+
+<div class="container my-5">
+    @if (productsDTO != null)
+    {
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Main Image Display -->
+                <div class="main-image-container mb-3">
+                    <img id="mainImage" src="@currentMainImageUrl" class="img-fluid" alt="@productsDTO.Model" />
+                </div>
+
+                <!-- Thumbnail Strip -->
+                <div class="carousel" id="carousel-thumbnail-strip">
+                    @for (int i = 0; i < productImages.Count; i++)
+                    {
+                        var tempIndex = i;
+                        <button class="box @(tempIndex == currentActiveIndex ? "active" : "")" @onclick="() => UpdateActiveImage(tempIndex)">
+                            <img src="@productImages[tempIndex]" class="img-fluid" alt="Product Thumbnail" />
+                        </button>
+                    }
+
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>@productsDTO.Model</h2>
+                <p>@productsDTO.Description</p>
+                <h3>Price: $@productsDTO.BasePrice</h3>
+                <!-- Additional product details here -->
+                <button class="btn btn-primary">Add to Cart</button>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p>Loading product details...</p>
+    }
+</div>
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private string currentMainImageUrl;
+    private int currentActiveIndex = 0;
+    public ProductsDTO? productsDTO;
+    public List<string> productImages = new();
+    private DotNetObjectReference<Detail> objectReference;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        ResponseDTO responseDTO = await ProductsApi.GetProductsDTOById(Id);
+
+        if (responseDTO != null && responseDTO.IsSuccess)
+        {
+            productsDTO = JsonConvert.DeserializeObject<ProductsDTO>(Convert.ToString(responseDTO.Result));
+            if (!string.IsNullOrEmpty(productsDTO?.ProductImage))
+            {
+                productImages = productsDTO.ProductImage.Split("##").ToList();
+                currentMainImageUrl = productImages[0];
+                StateHasChanged(); // Force the component to re-render
+
+                // Call the JavaScript function after a slight delay
+                objectReference = DotNetObjectReference.Create(this);
+                await JSRuntime.InvokeVoidAsync("initializeThumbnailAutoScroll", objectReference, 3000);
+                await JSRuntime.InvokeVoidAsync("initializeThumbnailDrag");
+            }
+        }
+    }
+
+    private void UpdateActiveImage(int index)
+    {
+        currentActiveIndex = index;
+        SetMainImage(productImages[index]);
+        StateHasChanged();
+    }
+
+    [JSInvokable("SetMainImage")]
+    public void SetMainImage(string imageUrl)
+    {
+        currentMainImageUrl = imageUrl;
+        StateHasChanged(); // This updates the UI with the new image URL
+    }
+
+    [JSInvokable]
+    public int GetCurrentActiveIndex()
+    {
+        return currentActiveIndex;
+    }
+
+    [JSInvokable]
+    public void IncrementActiveIndex()
+    {
+        currentActiveIndex = (currentActiveIndex + 1) % productImages.Count;
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        JSRuntime.InvokeVoidAsync("clearAutoScrollInterval");
+        JSRuntime.InvokeVoidAsync("cleanupThumbnailStrip");
+        objectReference?.Dispose();
+    }
+}

@@ -1,0 +1,29 @@
+﻿.category-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Adjust the color as needed */
+}
+
+.product-card {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+    .product-card:hover {
+        transform: scale(1.05);
+    }
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+    background-color: #28a745; /* Green color, you can change it */
+    color: #fff; /* White text */
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+    .add-to-cart-btn:hover {
+        background-color: #218838; /* Darker green on hover */
+    }

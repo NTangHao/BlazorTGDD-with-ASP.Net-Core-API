@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CloneTGDD.Web.props" />
+</Project>

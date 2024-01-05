@@ -1,0 +1,289 @@
+/* _content/CloneTGDD.Web/Components/Layout/MainLayout.razor.rz.scp.css */
+.page[b-1s0lb5d1d8] {
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-1s0lb5d1d8] {
+    flex: 1;
+}
+
+#blazor-error-ui[b-1s0lb5d1d8] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss[b-1s0lb5d1d8] {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+/* _content/CloneTGDD.Web/Components/Layout/NavMenu.razor.rz.scp.css */
+.btn-nav[b-guzu9sv451] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background: #3e3f41;
+    color: lightgray;
+    border-radius: 100%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+    .btn-nav:hover[b-guzu9sv451] {
+        background-color: #5e5e60;
+    }
+
+.menu li[b-guzu9sv451] {
+    width: 14%;
+    transition: opacity .2s cubic-bezier(.645,.045,.355,1);
+}
+
+    .menu li:hover a[b-guzu9sv451] {
+        background: #5e5e60;
+    }
+
+    .menu li a[b-guzu9sv451] {
+        display: block;
+        text-align: center;
+        padding: 20px 0 19px;
+    }
+
+    .menu li:nth-child(1)[b-guzu9sv451] {
+        animation-delay: 30ms;
+        animation-duration: 400ms;
+        animation-fill-mode: both;
+        animation-name: specialFadeIn-b-guzu9sv451;
+    }
+
+    .menu li:nth-child(2)[b-guzu9sv451] {
+        animation-delay: 70ms;
+        animation-duration: 400ms;
+        animation-fill-mode: both;
+        animation-name: specialFadeIn-b-guzu9sv451;
+    }
+
+    .menu li:nth-child(3)[b-guzu9sv451] {
+        animation-delay: 100ms;
+        animation-duration: 400ms;
+        animation-fill-mode: both;
+        animation-name: specialFadeIn-b-guzu9sv451;
+    }
+
+    .menu li:nth-child(4)[b-guzu9sv451] {
+        animation-delay: 130ms;
+        animation-duration: 400ms;
+        animation-fill-mode: both;
+        animation-name: specialFadeIn-b-guzu9sv451;
+    }
+
+
+.form-search[b-guzu9sv451] {
+    max-width: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: scale(.8);
+    visibility: hidden;
+    transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+}
+
+    .form-search.active[b-guzu9sv451] {
+        max-width: 100%;
+        opacity: 1;
+        visibility: visible;
+        z-index: 9999;
+    }
+
+.search-bar[b-guzu9sv451]{
+    max-width: 750px;
+}
+
+.bg-sg[b-guzu9sv451] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .8;
+    z-index: 9998;
+    display: none;
+}
+
+.search-results[b-guzu9sv451] {
+    position: absolute;
+    top: 70px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border-radius: 16px ;
+    background: #fff;
+    display: none;
+    transition: .5s ease-out;
+    z-index: 9999;
+}
+
+.search-results-list[b-guzu9sv451] {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-item[b-guzu9sv451] {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+    .product-item:hover[b-guzu9sv451] {
+        background-color: #f0f0f0;
+    }
+
+.product-image[b-guzu9sv451] {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.product-search-list[b-guzu9sv451] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #000;
+}
+
+
+
+@keyframes specialFadeIn-b-guzu9sv451 {
+    0% {
+        opacity: 0;
+        transform: scale(.8);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 992px) {
+    .menu li[b-guzu9sv451] {
+        width: 100%;
+    }
+
+        .menu li a[b-guzu9sv451] {
+            padding-left: 10%;
+            text-align: start;
+        }
+
+    .nav-right[b-guzu9sv451]{
+        margin: 5% 0;
+    }
+
+    .search-bar[b-guzu9sv451] {
+        max-width: 600px;
+    }
+
+    .search-results[b-guzu9sv451] {
+        max-width: 450px
+    }
+}
+
+/* _content/CloneTGDD.Web/Components/Pages/CategoryPage/CategoryPage.razor.rz.scp.css */
+/* _content/CloneTGDD.Web/Components/Pages/Detail/Detail.razor.rz.scp.css */
+.carousel[b-acm0li3g1i] {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+    scroll-snap-type: x mandatory;
+    margin: 20px 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+    .carousel.active[b-acm0li3g1i] {
+        background: rgba(255,255,255,0.3);
+        cursor: grabbing;
+        cursor: -webkit-grabbing;
+        transform: scale(1);
+    }
+
+.box[b-acm0li3g1i] {
+    background: #fff;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px 0 0;
+    border-radius: 8px;
+    height: 80px;
+    width: 80px;
+    border: 3px solid transparent;
+    padding: 0;
+    overflow: hidden;
+}
+
+    .box img[b-acm0li3g1i] {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 8px; 
+    }
+
+    .box.active[b-acm0li3g1i] {
+        border: 3px solid dimgray;
+    }
+
+
+/* _content/CloneTGDD.Web/Components/Pages/Home/Home.razor.rz.scp.css */
+.category-heading[b-aghc6jn8v1] {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Adjust the color as needed */
+}
+
+.product-card[b-aghc6jn8v1] {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+    .product-card:hover[b-aghc6jn8v1] {
+        transform: scale(1.05);
+    }
+
+.card-title[b-aghc6jn8v1] {
+    margin-bottom: 10px;
+}
+
+.add-to-cart-btn[b-aghc6jn8v1] {
+    background-color: #28a745; /* Green color, you can change it */
+    color: #fff; /* White text */
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+    .add-to-cart-btn:hover[b-aghc6jn8v1] {
+        background-color: #218838; /* Darker green on hover */
+    }

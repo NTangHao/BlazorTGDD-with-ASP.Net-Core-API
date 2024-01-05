@@ -1,0 +1,97 @@
+﻿@page "/"
+@using CloneTGDD.Web.Models.DTO
+@inject ProductsApiClient ProductsApi
+@inject NavigationManager NavigationManager
+@* @rendermode @(new InteractiveServerRenderMode(prerender: false)) *@
+@attribute [OutputCache(Duration = 10)]
+
+<PageTitle>Home</PageTitle>
+
+<h1>Welcome to your new app on @DateTime.Now</h1>
+
+<div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1920x533/https://cdn.tgdd.vn/2023/11/banner/IP15-2880-800-1920x533.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1920x533/https://cdn.tgdd.vn/2023/10/banner/AWCS-2880-800-1920x548-1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_1920x533/https://cdn.tgdd.vn/2023/10/banner/MacBook-Air-2880-800-1920x533.png" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+
+
+<section id="collection" class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            @if (!productsDTOs.Any())
+            {
+                <p><em>Loading...</em></p>
+            }
+            else
+            {
+                @foreach (var categoryGroup in productsDTOs.GroupBy(p => p.Category))
+                {
+                    <div class="col-md-12">
+                        <h2 class="text-center category-heading mb-4">@categoryGroup.Key</h2>
+                    </div>
+
+                    @foreach (var product in categoryGroup)
+                    {
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm product-card" @onclick="() => NavigateToDetailPage(product.Id)">
+                                <img src="@product.ImageUrl" alt="@product.Model" class="card-img-top img-fluid">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">@product.Model</h5>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between align-items-center">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary add-to-cart-btn" @onclick="() => AddToCart(product.Id)">Add to Cart</button>
+                                    <span class="text-muted">Price: $@product.BasePrice</span>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+            
+        </div>
+    </div>
+</section>
+
+@code {
+    public List<ProductsDTO>? productsDTOs = new();
+    protected override async Task OnInitializedAsync()
+    {
+        ResponseDTO? responseDTO = await ProductsApi.GetProductsDTO();
+
+        if (responseDTO != null && responseDTO.IsSuccess)
+        {
+            productsDTOs = JsonConvert.DeserializeObject<List<ProductsDTO>>(Convert.ToString(responseDTO.Result));
+        }
+    }
+
+    private void NavigateToDetailPage(int id)
+    {
+        NavigationManager.NavigateTo($"/Detail/{id}");
+    }
+
+
+    private void AddToCart(int productId)
+    {
+        // Add your logic for adding the product to the cart
+        // You may want to use a service or communicate with your backend
+    }
+}

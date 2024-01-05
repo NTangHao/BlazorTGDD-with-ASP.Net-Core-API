@@ -1,0 +1,36 @@
+C:\Users\DungBui\Desktop\BlazorWA\MicroApp\MicroApp.ServiceDefaults\bin\Debug\net8.0\MicroApp.ServiceDefaults.deps.json
+C:\Users\DungBui\Desktop\BlazorWA\MicroApp\MicroApp.ServiceDefaults\bin\Debug\net8.0\MicroApp.ServiceDefaults.dll
+C:\Users\DungBui\Desktop\BlazorWA\MicroApp\MicroApp.ServiceDefaults\bin\Debug\net8.0\MicroApp.ServiceDefaults.pdb
+C:\Users\DungBui\Desktop\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\DungBui\Desktop\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DungBui\Desktop\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\DungBui\Desktop\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.AssemblyInfo.cs
+C:\Users\DungBui\Desktop\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\DungBui\Desktop\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.dll
+C:\Users\DungBui\Desktop\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\refint\MicroApp.ServiceDefaults.dll
+C:\Users\DungBui\Desktop\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.pdb
+C:\Users\DungBui\Desktop\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\ref\MicroApp.ServiceDefaults.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp\MicroApp.ServiceDefaults\bin\Debug\net8.0\MicroApp.ServiceDefaults.deps.json
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp\MicroApp.ServiceDefaults\bin\Debug\net8.0\MicroApp.ServiceDefaults.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp\MicroApp.ServiceDefaults\bin\Debug\net8.0\MicroApp.ServiceDefaults.pdb
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.AssemblyInfo.cs
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\refint\MicroApp.ServiceDefaults.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.pdb
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp\MicroApp.ServiceDefaults\obj\Debug\net8.0\ref\MicroApp.ServiceDefaults.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp - Copy\MicroApp.ServiceDefaults\bin\Debug\net8.0\MicroApp.ServiceDefaults.deps.json
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp - Copy\MicroApp.ServiceDefaults\bin\Debug\net8.0\MicroApp.ServiceDefaults.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp - Copy\MicroApp.ServiceDefaults\bin\Debug\net8.0\MicroApp.ServiceDefaults.pdb
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp - Copy\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp - Copy\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp - Copy\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp - Copy\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.AssemblyInfo.cs
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp - Copy\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp - Copy\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp - Copy\MicroApp.ServiceDefaults\obj\Debug\net8.0\refint\MicroApp.ServiceDefaults.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp - Copy\MicroApp.ServiceDefaults\obj\Debug\net8.0\MicroApp.ServiceDefaults.pdb
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\BlazorWA\MicroApp - Copy\MicroApp.ServiceDefaults\obj\Debug\net8.0\ref\MicroApp.ServiceDefaults.dll
