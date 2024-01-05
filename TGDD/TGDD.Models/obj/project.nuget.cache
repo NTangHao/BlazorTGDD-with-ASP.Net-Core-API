@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k3XIpw02hZjBp38j328AxNw2YtLO82nXAWztzADPGUD5RMswkdiANqKa5kgQY1kmG0FoSpSCRZpKhCVFd8cfDA==",
+  "dgSpecHash": "2TAgIAGj8zy1TfFgPZnO09ZkJn0jrov0rozKIgcIIAH3BPhhJXqrfT1k+Gw/VV3zVlsQ4uvTwxY7ypVBw6md0Q==",
   "success": true,
-  "projectFilePath": "C:\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Models\\TGDD.Models.csproj",
+  "projectFilePath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Models\\TGDD.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -17,11 +17,11 @@ using System.Reflection;
     "2.23619.3\\tools\\ext")]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Program Files\\dotnet\\packs\\Aspire.Hosting.Orchestration.win-x64\\8.0.0-preview." +
     "2.23619.3\\tools\\ext\\bin")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.AppHost")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TGDD.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82c4ef990973e994798464d96cbd2dc4001a72e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef84c70af5f96faefd1d98c8662c222c197d4fd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("TGDD.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TGDD.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

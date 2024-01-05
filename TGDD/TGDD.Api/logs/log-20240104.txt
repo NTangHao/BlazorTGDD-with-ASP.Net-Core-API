@@ -16,3 +16,415 @@
 2024-01-04 08:55:25.582 +07:00 [INF] HTTP GET /api/Product/4 responded 200 in 28.8416 ms
 2024-01-04 08:55:26.244 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 27.6072 ms
 2024-01-04 08:55:26.273 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 28.3616 ms
+2024-01-04 09:03:12.846 +07:00 [INF] Now listening on: http://localhost:50701
+2024-01-04 09:03:12.965 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 09:03:12.966 +07:00 [INF] Hosting environment: Development
+2024-01-04 09:03:12.966 +07:00 [INF] Content root path: C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-04 09:03:15.668 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 09:03:17.236 +07:00 [INF] Make call to product list
+2024-01-04 09:03:20.037 +07:00 [INF] HTTP GET /api/Product responded 200 in 4369.9657 ms
+2024-01-04 09:03:22.235 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 127.0138 ms
+2024-01-04 09:03:24.477 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 60.5222 ms
+2024-01-04 09:03:24.527 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 44.0360 ms
+2024-01-04 09:03:26.807 +07:00 [INF] HTTP GET /api/Product/3 responded 200 in 36.9567 ms
+2024-01-04 09:03:27.791 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 32.5051 ms
+2024-01-04 09:03:27.827 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 33.5185 ms
+2024-01-04 09:03:28.448 +07:00 [INF] HTTP GET /api/Product/4 responded 200 in 32.7433 ms
+2024-01-04 09:03:29.326 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 32.0462 ms
+2024-01-04 09:03:29.361 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 32.7981 ms
+2024-01-04 09:03:35.887 +07:00 [INF] Make call to product list
+2024-01-04 09:03:35.920 +07:00 [INF] HTTP GET /api/Product responded 200 in 33.3594 ms
+2024-01-04 09:03:37.656 +07:00 [INF] HTTP GET /api/Product/7 responded 200 in 33.3042 ms
+2024-01-04 09:03:41.700 +07:00 [INF] HTTP POST /api/Login responded 200 in 439.0640 ms
+2024-01-04 09:03:41.752 +07:00 [INF] Make call to product list
+2024-01-04 09:03:41.792 +07:00 [INF] HTTP GET /api/Product responded 200 in 40.3674 ms
+2024-01-04 09:03:41.911 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 101.8989 ms
+2024-01-04 09:03:42.056 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 140.5805 ms
+2024-01-04 09:03:45.132 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 32.9680 ms
+2024-01-04 09:03:45.169 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 34.6661 ms
+2024-01-04 09:03:56.579 +07:00 [INF] Make call to product list
+2024-01-04 09:03:56.612 +07:00 [INF] HTTP GET /api/Product responded 200 in 33.0871 ms
+2024-01-04 09:03:59.085 +07:00 [INF] HTTP GET /api/Product/3 responded 200 in 32.0019 ms
+2024-01-04 09:04:05.292 +07:00 [INF] HTTP POST /api/Login responded 200 in 159.2167 ms
+2024-01-04 09:04:05.311 +07:00 [INF] Make call to product list
+2024-01-04 09:04:05.343 +07:00 [INF] HTTP GET /api/Product responded 200 in 31.9469 ms
+2024-01-04 09:04:05.388 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 31.8865 ms
+2024-01-04 09:04:05.456 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 65.9688 ms
+2024-01-04 09:04:06.978 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 33.6506 ms
+2024-01-04 09:04:07.028 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 46.8358 ms
+2024-01-04 09:04:07.067 +07:00 [INF] HTTP GET /api/Product/3 responded 200 in 32.1911 ms
+2024-01-04 09:04:08.057 +07:00 [INF] HTTP POST /api/ShoppingCart responded 204 in 71.7175 ms
+2024-01-04 09:04:14.789 +07:00 [INF] HTTP DELETE /api/ShoppingCart/12 responded 200 in 262.8054 ms
+2024-01-04 09:04:16.950 +07:00 [INF] Make call to product list
+2024-01-04 09:04:16.982 +07:00 [INF] HTTP GET /api/Product responded 200 in 33.2903 ms
+2024-01-04 09:04:17.026 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 31.9686 ms
+2024-01-04 09:04:17.090 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 62.7326 ms
+2024-01-04 09:04:18.035 +07:00 [INF] Make call to product list
+2024-01-04 09:04:18.068 +07:00 [INF] HTTP GET /api/Product responded 200 in 34.1264 ms
+2024-01-04 09:07:38.238 +07:00 [INF] Now listening on: http://localhost:50863
+2024-01-04 09:07:38.378 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 09:07:38.379 +07:00 [INF] Hosting environment: Development
+2024-01-04 09:07:38.379 +07:00 [INF] Content root path: C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-04 09:07:38.397 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 09:07:38.478 +07:00 [INF] HTTP GET / responded 404 in 82.9886 ms
+2024-01-04 09:07:45.260 +07:00 [INF] Make call to product list
+2024-01-04 09:07:47.422 +07:00 [INF] HTTP GET /api/Product responded 200 in 2369.1827 ms
+2024-01-04 09:07:49.138 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 117.7636 ms
+2024-01-04 09:07:59.583 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 37.5839 ms
+2024-01-04 09:08:01.427 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 29.5756 ms
+2024-01-04 11:05:09.835 +07:00 [INF] Now listening on: http://localhost:53793
+2024-01-04 11:05:10.090 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 11:05:10.091 +07:00 [INF] Hosting environment: Development
+2024-01-04 11:05:10.091 +07:00 [INF] Content root path: C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-04 11:05:10.425 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 11:05:10.611 +07:00 [INF] HTTP GET / responded 404 in 186.6872 ms
+2024-01-04 11:05:15.716 +07:00 [INF] Make call to product list
+2024-01-04 11:05:18.216 +07:00 [INF] HTTP GET /api/Product responded 200 in 2877.8106 ms
+2024-01-04 11:05:23.150 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 143.2937 ms
+2024-01-04 11:05:24.225 +07:00 [INF] Make call to product list
+2024-01-04 11:05:24.278 +07:00 [INF] HTTP GET /api/Product responded 200 in 56.6844 ms
+2024-01-04 11:05:25.802 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 69.0027 ms
+2024-01-04 11:05:25.868 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 61.1063 ms
+2024-01-04 11:05:38.202 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 48.0112 ms
+2024-01-04 11:05:38.976 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 47.0541 ms
+2024-01-04 11:05:39.025 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 47.3714 ms
+2024-01-04 11:05:40.973 +07:00 [INF] Make call to product list
+2024-01-04 11:05:41.021 +07:00 [INF] HTTP GET /api/Product responded 200 in 47.8851 ms
+2024-01-04 11:05:43.876 +07:00 [INF] HTTP GET /api/Product/4 responded 200 in 47.7451 ms
+2024-01-04 11:05:47.430 +07:00 [INF] HTTP GET /api/Product/4 responded 200 in 47.7116 ms
+2024-01-04 11:42:56.801 +07:00 [INF] Now listening on: http://localhost:54532
+2024-01-04 11:42:56.977 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 11:42:56.988 +07:00 [INF] Hosting environment: Development
+2024-01-04 11:42:56.988 +07:00 [INF] Content root path: C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-04 11:42:57.051 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 11:42:57.161 +07:00 [INF] HTTP GET / responded 404 in 110.2216 ms
+2024-01-04 11:43:05.087 +07:00 [INF] Make call to product list
+2024-01-04 11:43:07.426 +07:00 [INF] HTTP GET /api/Product responded 200 in 2669.8339 ms
+2024-01-04 11:45:44.018 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 120.4682 ms
+2024-01-04 11:45:47.287 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 56.0259 ms
+2024-01-04 11:45:47.324 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 32.8558 ms
+2024-01-04 11:45:47.953 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 30.1917 ms
+2024-01-04 11:45:51.377 +07:00 [INF] HTTP POST /api/Login responded 200 in 377.1182 ms
+2024-01-04 11:45:51.434 +07:00 [INF] Make call to product list
+2024-01-04 11:45:51.459 +07:00 [INF] HTTP GET /api/Product responded 200 in 25.1275 ms
+2024-01-04 11:45:51.567 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 88.3302 ms
+2024-01-04 11:45:51.655 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 82.1633 ms
+2024-01-04 11:45:57.946 +07:00 [INF] Make call to product list
+2024-01-04 11:45:57.971 +07:00 [INF] HTTP GET /api/Product responded 200 in 25.9359 ms
+2024-01-04 11:46:33.630 +07:00 [INF] Now listening on: http://localhost:54660
+2024-01-04 11:46:33.731 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 11:46:33.733 +07:00 [INF] Hosting environment: Development
+2024-01-04 11:46:33.733 +07:00 [INF] Content root path: C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-04 11:46:33.824 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 11:46:33.903 +07:00 [INF] HTTP GET / responded 404 in 81.0259 ms
+2024-01-04 11:46:37.871 +07:00 [INF] Make call to product list
+2024-01-04 11:46:39.805 +07:00 [INF] HTTP GET /api/Product responded 200 in 2117.7045 ms
+2024-01-04 11:46:44.032 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 155.4217 ms
+2024-01-04 11:46:46.116 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 40.0773 ms
+2024-01-04 11:46:56.195 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 30.4227 ms
+2024-01-04 11:47:14.272 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 47.8856 ms
+2024-01-04 11:47:14.315 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 38.0413 ms
+2024-01-04 11:47:15.065 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 28.0920 ms
+2024-01-04 11:48:51.909 +07:00 [INF] Now listening on: http://localhost:54768
+2024-01-04 11:48:52.006 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 11:48:52.007 +07:00 [INF] Hosting environment: Development
+2024-01-04 11:48:52.007 +07:00 [INF] Content root path: C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-04 11:48:52.194 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 11:48:52.282 +07:00 [INF] HTTP GET / responded 404 in 87.9022 ms
+2024-01-04 11:48:54.080 +07:00 [INF] Make call to product list
+2024-01-04 11:48:56.382 +07:00 [INF] HTTP GET /api/Product responded 200 in 2490.9753 ms
+2024-01-04 11:49:23.392 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 114.3295 ms
+2024-01-04 11:49:29.541 +07:00 [INF] HTTP POST /api/Login responded 200 in 363.6413 ms
+2024-01-04 11:49:43.173 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 117.8863 ms
+2024-01-04 11:49:43.226 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 45.0521 ms
+2024-01-04 11:49:43.267 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 33.3281 ms
+2024-01-04 11:49:43.439 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 167.6362 ms
+2024-01-04 11:49:43.482 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 27.6828 ms
+2024-01-04 11:49:48.889 +07:00 [INF] HTTP POST /api/ShoppingCart responded 201 in 388.8979 ms
+2024-01-04 11:49:53.305 +07:00 [INF] HTTP DELETE /api/ShoppingCart/13 responded 200 in 136.3451 ms
+2024-01-04 11:49:55.633 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 44.1547 ms
+2024-01-04 11:49:55.676 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 37.3380 ms
+2024-01-04 11:57:16.777 +07:00 [INF] Now listening on: http://localhost:54945
+2024-01-04 11:57:17.037 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 11:57:17.039 +07:00 [INF] Hosting environment: Development
+2024-01-04 11:57:17.039 +07:00 [INF] Content root path: C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-04 11:57:17.046 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 11:57:17.180 +07:00 [INF] HTTP GET / responded 404 in 136.4415 ms
+2024-01-04 11:57:20.065 +07:00 [INF] Make call to product list
+2024-01-04 11:57:22.252 +07:00 [INF] HTTP GET /api/Product responded 200 in 2399.0943 ms
+2024-01-04 11:57:22.516 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 191.2788 ms
+2024-01-04 11:57:22.637 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 110.3273 ms
+2024-01-04 11:57:24.142 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 38.2364 ms
+2024-01-04 11:57:24.198 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 52.0287 ms
+2024-01-04 11:57:24.254 +07:00 [INF] HTTP GET /api/Product/7 responded 200 in 48.4483 ms
+2024-01-04 11:57:26.370 +07:00 [INF] HTTP POST /api/ShoppingCart responded 204 in 83.6527 ms
+2024-01-04 11:57:29.170 +07:00 [INF] Make call to product list
+2024-01-04 11:57:29.207 +07:00 [INF] HTTP GET /api/Product responded 200 in 37.0848 ms
+2024-01-04 11:57:30.826 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 53.6790 ms
+2024-01-04 11:57:30.876 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 44.9218 ms
+2024-01-04 11:57:31.789 +07:00 [INF] HTTP GET /api/Product/4 responded 200 in 120.4778 ms
+2024-01-04 11:57:34.595 +07:00 [INF] HTTP POST /api/Login responded 200 in 303.3014 ms
+2024-01-04 11:57:34.651 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 34.7662 ms
+2024-01-04 11:57:34.687 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 33.9344 ms
+2024-01-04 11:57:34.725 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 33.8114 ms
+2024-01-04 11:57:34.811 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 81.2961 ms
+2024-01-04 11:57:34.852 +07:00 [INF] HTTP GET /api/Product/4 responded 200 in 33.8122 ms
+2024-01-04 11:57:35.852 +07:00 [INF] HTTP POST /api/ShoppingCart responded 204 in 38.7478 ms
+2024-01-04 11:57:38.910 +07:00 [INF] HTTP DELETE /api/ShoppingCart/11 responded 200 in 258.3183 ms
+2024-01-04 11:57:41.779 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 34.6686 ms
+2024-01-04 11:57:41.815 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 33.9038 ms
+2024-01-04 11:57:44.454 +07:00 [INF] Make call to product list
+2024-01-04 11:57:44.489 +07:00 [INF] HTTP GET /api/Product responded 200 in 34.4996 ms
+2024-01-04 11:57:45.857 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 34.3233 ms
+2024-01-04 11:57:49.170 +07:00 [INF] HTTP POST /api/Login responded 200 in 173.0720 ms
+2024-01-04 11:57:49.215 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 34.0785 ms
+2024-01-04 11:57:49.250 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 33.4202 ms
+2024-01-04 11:57:49.287 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 32.8248 ms
+2024-01-04 11:57:49.356 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 67.3173 ms
+2024-01-04 11:57:49.397 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 35.6795 ms
+2024-01-04 11:58:35.579 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 34.6913 ms
+2024-01-04 11:58:35.616 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 34.2457 ms
+2024-01-04 11:58:36.611 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 33.3334 ms
+2024-01-04 11:58:36.646 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 32.7779 ms
+2024-01-04 11:58:36.683 +07:00 [INF] HTTP GET /api/Product/4 responded 200 in 32.8925 ms
+2024-01-04 11:58:38.146 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 33.5090 ms
+2024-01-04 11:58:38.181 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 32.8542 ms
+2024-01-04 11:58:38.995 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 33.5656 ms
+2024-01-04 11:58:39.029 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 32.7903 ms
+2024-01-04 11:58:39.065 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 32.4636 ms
+2024-01-04 11:58:43.095 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 33.8678 ms
+2024-01-04 11:58:43.131 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 34.8729 ms
+2024-01-04 11:58:43.723 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 34.3572 ms
+2024-01-04 11:58:43.758 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 33.1346 ms
+2024-01-04 11:58:43.795 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 33.6338 ms
+2024-01-04 11:58:44.773 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 33.8914 ms
+2024-01-04 11:58:44.808 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 33.8447 ms
+2024-01-04 11:58:45.645 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 33.7153 ms
+2024-01-04 11:58:45.681 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 33.8897 ms
+2024-01-04 11:58:45.718 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 33.4740 ms
+2024-01-04 11:58:49.841 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 34.9612 ms
+2024-01-04 11:58:49.877 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 34.9748 ms
+2024-01-04 11:58:51.022 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 34.3910 ms
+2024-01-04 11:58:51.058 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 33.6995 ms
+2024-01-04 11:58:51.095 +07:00 [INF] HTTP GET /api/Product/4 responded 200 in 33.9768 ms
+2024-01-04 11:58:52.013 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 33.2827 ms
+2024-01-04 11:58:52.048 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 33.5850 ms
+2024-01-04 11:58:52.585 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 34.0168 ms
+2024-01-04 11:58:52.619 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 32.8141 ms
+2024-01-04 11:58:52.657 +07:00 [INF] HTTP GET /api/Product/3 responded 200 in 34.2492 ms
+2024-01-04 11:58:53.715 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 34.2853 ms
+2024-01-04 11:58:53.750 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 34.0167 ms
+2024-01-04 11:58:54.415 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 32.6072 ms
+2024-01-04 11:58:54.450 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 32.7983 ms
+2024-01-04 11:58:54.486 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 33.2263 ms
+2024-01-04 11:59:02.330 +07:00 [INF] Make call to product list
+2024-01-04 11:59:02.363 +07:00 [INF] HTTP GET /api/Product responded 200 in 33.4859 ms
+2024-01-04 11:59:04.959 +07:00 [INF] HTTP POST /api/Login responded 200 in 177.3536 ms
+2024-01-04 11:59:05.010 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 32.6362 ms
+2024-01-04 11:59:05.045 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 33.1286 ms
+2024-01-04 11:59:05.080 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 32.3536 ms
+2024-01-04 11:59:05.147 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 64.9966 ms
+2024-01-04 11:59:05.185 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 33.4491 ms
+2024-01-04 11:59:12.377 +07:00 [INF] Make call to product list
+2024-01-04 11:59:12.410 +07:00 [INF] HTTP GET /api/Product responded 200 in 33.3950 ms
+2024-01-04 11:59:17.145 +07:00 [INF] Make call to product list
+2024-01-04 11:59:17.180 +07:00 [INF] HTTP GET /api/Product responded 200 in 34.3817 ms
+2024-01-04 11:59:21.055 +07:00 [INF] HTTP POST /api/Login responded 200 in 156.9395 ms
+2024-01-04 11:59:21.103 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 38.7209 ms
+2024-01-04 11:59:21.141 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 34.7038 ms
+2024-01-04 11:59:21.183 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 38.8969 ms
+2024-01-04 11:59:21.253 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 68.0776 ms
+2024-01-04 11:59:21.291 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 34.1688 ms
+2024-01-04 11:59:34.294 +07:00 [INF] Make call to product list
+2024-01-04 11:59:34.327 +07:00 [INF] HTTP GET /api/Product responded 200 in 33.8140 ms
+2024-01-04 11:59:39.965 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 35.6542 ms
+2024-01-04 11:59:39.999 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 32.8652 ms
+2024-01-04 11:59:45.826 +07:00 [INF] HTTP POST /api/Login responded 200 in 155.4350 ms
+2024-01-04 11:59:45.867 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 32.1034 ms
+2024-01-04 11:59:45.901 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 32.6455 ms
+2024-01-04 11:59:45.937 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 32.3915 ms
+2024-01-04 11:59:46.005 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 66.2714 ms
+2024-01-04 11:59:46.043 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 33.0515 ms
+2024-01-04 11:59:53.441 +07:00 [INF] Make call to product list
+2024-01-04 11:59:53.474 +07:00 [INF] HTTP GET /api/Product responded 200 in 33.4504 ms
+2024-01-04 11:59:54.885 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 33.1810 ms
+2024-01-04 11:59:54.919 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 33.4039 ms
+2024-01-04 11:59:55.720 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 32.1730 ms
+2024-01-04 11:59:58.100 +07:00 [INF] HTTP POST /api/Login responded 200 in 178.3936 ms
+2024-01-04 11:59:58.145 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 33.4006 ms
+2024-01-04 11:59:58.180 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 33.5424 ms
+2024-01-04 11:59:58.217 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 33.4828 ms
+2024-01-04 11:59:58.285 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 65.7993 ms
+2024-01-04 11:59:58.325 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 33.9392 ms
+2024-01-04 12:00:16.080 +07:00 [INF] HTTP DELETE /api/ShoppingCart/10 responded 200 in 187.2365 ms
+2024-01-04 12:00:17.978 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 33.0735 ms
+2024-01-04 12:00:18.013 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 33.2208 ms
+2024-01-04 12:00:18.992 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 33.7760 ms
+2024-01-04 12:00:19.027 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 33.7639 ms
+2024-01-04 12:00:19.064 +07:00 [INF] HTTP GET /api/Product/4 responded 200 in 33.2077 ms
+2024-01-04 12:00:20.090 +07:00 [INF] HTTP POST /api/ShoppingCart responded 201 in 215.0801 ms
+2024-01-04 12:00:22.077 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 34.3610 ms
+2024-01-04 12:00:22.114 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 34.9547 ms
+2024-01-04 12:00:25.799 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 33.8670 ms
+2024-01-04 12:00:25.834 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 33.6967 ms
+2024-01-04 12:00:25.870 +07:00 [INF] HTTP GET /api/Product/4 responded 200 in 33.2173 ms
+2024-01-04 12:00:26.693 +07:00 [INF] HTTP POST /api/ShoppingCart responded 204 in 34.6011 ms
+2024-01-04 12:00:29.767 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 32.9785 ms
+2024-01-04 12:00:29.801 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 33.0669 ms
+2024-01-04 12:00:30.538 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 33.6373 ms
+2024-01-04 12:00:30.574 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 34.0186 ms
+2024-01-04 12:00:30.610 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 34.0627 ms
+2024-01-04 12:00:31.460 +07:00 [INF] HTTP POST /api/ShoppingCart responded 201 in 141.8267 ms
+2024-01-04 12:00:33.267 +07:00 [INF] HTTP PATCH /api/ShoppingCart/15 responded 200 in 117.0604 ms
+2024-01-04 12:00:33.637 +07:00 [INF] HTTP PATCH /api/ShoppingCart/15 responded 200 in 106.7563 ms
+2024-01-04 12:00:34.330 +07:00 [INF] HTTP PATCH /api/ShoppingCart/15 responded 200 in 107.0894 ms
+2024-01-04 12:00:36.485 +07:00 [INF] HTTP PATCH /api/ShoppingCart/14 responded 200 in 80.8900 ms
+2024-01-04 12:00:36.707 +07:00 [INF] HTTP PATCH /api/ShoppingCart/14 responded 200 in 67.4969 ms
+2024-01-04 12:00:36.893 +07:00 [INF] HTTP PATCH /api/ShoppingCart/14 responded 200 in 67.6713 ms
+2024-01-04 12:00:37.518 +07:00 [INF] HTTP PATCH /api/ShoppingCart/14 responded 200 in 107.8346 ms
+2024-01-04 12:00:38.845 +07:00 [INF] HTTP PATCH /api/ShoppingCart/15 responded 200 in 107.0906 ms
+2024-01-04 12:00:39.844 +07:00 [INF] Make call to product list
+2024-01-04 12:00:39.878 +07:00 [INF] HTTP GET /api/Product responded 200 in 34.0014 ms
+2024-01-04 12:00:39.924 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 34.1043 ms
+2024-01-04 12:00:39.993 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 67.3313 ms
+2024-01-04 12:00:41.394 +07:00 [INF] Make call to product list
+2024-01-04 12:00:41.428 +07:00 [INF] HTTP GET /api/Product responded 200 in 34.0766 ms
+2024-01-04 12:00:43.413 +07:00 [INF] HTTP POST /api/Login responded 200 in 159.6123 ms
+2024-01-04 12:00:43.456 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 32.8997 ms
+2024-01-04 12:00:43.490 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 33.2426 ms
+2024-01-04 12:00:43.526 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 33.2784 ms
+2024-01-04 12:00:43.597 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 69.2830 ms
+2024-01-04 12:00:43.637 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 34.7870 ms
+2024-01-04 13:09:39.061 +07:00 [INF] Now listening on: http://localhost:55316
+2024-01-04 13:09:39.246 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 13:09:39.248 +07:00 [INF] Hosting environment: Development
+2024-01-04 13:09:39.248 +07:00 [INF] Content root path: C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-04 13:09:39.569 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 13:09:40.130 +07:00 [INF] Make call to product list
+2024-01-04 13:09:41.004 +07:00 [INF] Make call to product list
+2024-01-04 13:09:43.216 +07:00 [INF] HTTP GET /api/Product responded 200 in 3647.3929 ms
+2024-01-04 13:09:43.337 +07:00 [INF] HTTP GET /api/Product responded 200 in 2336.6130 ms
+2024-01-04 13:09:43.427 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 144.4156 ms
+2024-01-04 13:09:43.586 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 153.3945 ms
+2024-01-04 13:09:44.061 +07:00 [INF] HTTP POST /api/Login responded 200 in 489.1371 ms
+2024-01-04 13:09:44.094 +07:00 [INF] Make call to product list
+2024-01-04 13:09:44.148 +07:00 [INF] HTTP GET /api/Product responded 200 in 54.6290 ms
+2024-01-04 13:09:44.263 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 102.1232 ms
+2024-01-04 13:09:44.376 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 109.9466 ms
+2024-01-04 13:09:47.273 +07:00 [INF] Make call to product list
+2024-01-04 13:09:47.329 +07:00 [INF] HTTP GET /api/Product responded 200 in 57.5025 ms
+2024-01-04 13:09:48.591 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 83.1095 ms
+2024-01-04 13:09:48.669 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 71.1307 ms
+2024-01-04 13:09:49.337 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 71.5237 ms
+2024-01-04 13:09:51.556 +07:00 [INF] HTTP POST /api/Login responded 200 in 201.9499 ms
+2024-01-04 13:09:51.579 +07:00 [INF] Make call to product list
+2024-01-04 13:09:51.634 +07:00 [INF] HTTP GET /api/Product responded 200 in 54.8028 ms
+2024-01-04 13:09:51.703 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 57.2317 ms
+2024-01-04 13:09:51.822 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 116.5430 ms
+2024-01-04 13:09:53.991 +07:00 [INF] Make call to product list
+2024-01-04 13:09:54.046 +07:00 [INF] HTTP GET /api/Product responded 200 in 55.9200 ms
+2024-01-04 13:09:56.549 +07:00 [INF] HTTP POST /api/Login responded 200 in 288.2449 ms
+2024-01-04 13:09:56.572 +07:00 [INF] Make call to product list
+2024-01-04 13:09:56.626 +07:00 [INF] HTTP GET /api/Product responded 200 in 54.6927 ms
+2024-01-04 13:09:56.693 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 54.5745 ms
+2024-01-04 13:09:56.802 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 107.3233 ms
+2024-01-04 13:14:12.949 +07:00 [INF] Now listening on: http://localhost:55431
+2024-01-04 13:14:13.074 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 13:14:13.074 +07:00 [INF] Hosting environment: Development
+2024-01-04 13:14:13.075 +07:00 [INF] Content root path: C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-04 13:14:13.093 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 13:14:13.167 +07:00 [INF] HTTP GET / responded 404 in 77.9635 ms
+2024-01-04 13:14:16.232 +07:00 [INF] Make call to product list
+2024-01-04 13:14:18.124 +07:00 [INF] HTTP GET /api/Product responded 200 in 2099.6814 ms
+2024-01-04 13:14:18.373 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 166.1939 ms
+2024-01-04 13:14:18.478 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 96.9653 ms
+2024-01-04 13:14:20.858 +07:00 [INF] Make call to product list
+2024-01-04 13:14:20.887 +07:00 [INF] HTTP GET /api/Product responded 200 in 32.3783 ms
+2024-01-04 13:14:23.946 +07:00 [INF] HTTP POST /api/Login responded 200 in 621.1339 ms
+2024-01-04 13:14:23.988 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 27.5311 ms
+2024-01-04 13:14:24.070 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 79.7169 ms
+2024-01-04 13:14:24.095 +07:00 [INF] Make call to product list
+2024-01-04 13:14:24.128 +07:00 [INF] HTTP GET /api/Product responded 200 in 32.6226 ms
+2024-01-04 13:14:24.186 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 41.4397 ms
+2024-01-04 13:14:24.259 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 70.9364 ms
+2024-01-04 13:14:25.800 +07:00 [INF] Make call to product list
+2024-01-04 13:14:25.830 +07:00 [INF] HTTP GET /api/Product responded 200 in 29.8478 ms
+2024-01-04 13:14:27.042 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 49.7635 ms
+2024-01-04 13:14:27.092 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 42.1135 ms
+2024-01-04 13:14:27.795 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 42.8302 ms
+2024-01-04 13:14:30.199 +07:00 [INF] HTTP POST /api/Login responded 200 in 156.7064 ms
+2024-01-04 13:14:30.235 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 26.5310 ms
+2024-01-04 13:14:30.290 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 53.4616 ms
+2024-01-04 13:14:30.340 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 27.5470 ms
+2024-01-04 13:14:30.394 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 50.2591 ms
+2024-01-04 13:14:30.427 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 27.3532 ms
+2024-01-04 13:14:33.452 +07:00 [INF] HTTP POST /api/ShoppingCart responded 201 in 388.3600 ms
+2024-01-04 13:14:37.171 +07:00 [INF] HTTP PATCH /api/ShoppingCart/14 responded 200 in 142.6350 ms
+2024-01-04 13:14:38.328 +07:00 [INF] HTTP PATCH /api/ShoppingCart/14 responded 200 in 126.9441 ms
+2024-01-04 13:14:38.825 +07:00 [INF] HTTP PATCH /api/ShoppingCart/14 responded 200 in 85.4452 ms
+2024-01-04 14:59:12.573 +07:00 [INF] Now listening on: http://localhost:56808
+2024-01-04 14:59:12.782 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 14:59:12.784 +07:00 [INF] Hosting environment: Development
+2024-01-04 14:59:12.784 +07:00 [INF] Content root path: C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Api
+2024-01-04 14:59:23.785 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 14:59:24.168 +07:00 [INF] Make call to product list
+2024-01-04 14:59:26.412 +07:00 [INF] HTTP GET /api/Product responded 200 in 2629.6421 ms
+2024-01-04 14:59:26.590 +07:00 [INF] HTTP GET /api/Product/GetProductCategories responded 200 in 114.8395 ms
+2024-01-04 14:59:26.828 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 121.7245 ms
+2024-01-04 14:59:26.952 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 118.9409 ms
+2024-01-04 14:59:32.143 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 39.5581 ms
+2024-01-04 14:59:32.197 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 50.8610 ms
+2024-01-04 14:59:32.255 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 50.0329 ms
+2024-01-04 14:59:59.460 +07:00 [INF] HTTP GET /api/Product/GetCategory/2 responded 200 in 55.9906 ms
+2024-01-04 14:59:59.516 +07:00 [INF] HTTP GET /api/Product/2/GetItemsByCategory responded 200 in 52.4099 ms
+2024-01-04 15:00:01.185 +07:00 [INF] HTTP GET /api/Product/GetCategory/3 responded 200 in 78.8119 ms
+2024-01-04 15:00:01.223 +07:00 [INF] HTTP GET /api/Product/3/GetItemsByCategory responded 200 in 35.8079 ms
+2024-01-04 15:00:06.459 +07:00 [INF] HTTP GET /api/Product/GetCategory/4 responded 200 in 35.5377 ms
+2024-01-04 15:00:06.495 +07:00 [INF] HTTP GET /api/Product/4/GetItemsByCategory responded 200 in 34.9698 ms
+2024-01-04 15:00:08.608 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 36.0030 ms
+2024-01-04 15:00:08.654 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 44.2205 ms
+2024-01-04 15:00:10.150 +07:00 [INF] HTTP GET /api/Product/GetCategory/2 responded 200 in 35.3298 ms
+2024-01-04 15:00:10.190 +07:00 [INF] HTTP GET /api/Product/2/GetItemsByCategory responded 200 in 38.2606 ms
+2024-01-04 15:00:12.091 +07:00 [INF] HTTP GET /api/Product/GetCategory/3 responded 200 in 34.7960 ms
+2024-01-04 15:00:12.140 +07:00 [INF] HTTP GET /api/Product/3/GetItemsByCategory responded 200 in 46.6503 ms
+2024-01-04 15:00:13.511 +07:00 [INF] Make call to product list
+2024-01-04 15:00:13.546 +07:00 [INF] HTTP GET /api/Product responded 200 in 35.5691 ms
+2024-01-04 15:00:13.603 +07:00 [INF] HTTP GET /api/Product/GetProductCategories responded 200 in 46.5026 ms
+2024-01-04 15:00:16.948 +07:00 [INF] HTTP POST /api/Login responded 200 in 363.2199 ms
+2024-01-04 15:00:16.996 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 34.0243 ms
+2024-01-04 15:00:17.072 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 72.4070 ms
+2024-01-04 15:00:17.094 +07:00 [INF] Make call to product list
+2024-01-04 15:00:17.132 +07:00 [INF] HTTP GET /api/Product responded 200 in 38.3332 ms
+2024-01-04 15:00:17.183 +07:00 [INF] HTTP GET /api/Product/GetProductCategories responded 200 in 36.0042 ms
+2024-01-04 15:00:17.224 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 37.0466 ms
+2024-01-04 15:00:17.299 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 72.8322 ms
+2024-01-04 15:00:42.699 +07:00 [INF] Make call to product list
+2024-01-04 15:00:42.737 +07:00 [INF] HTTP GET /api/Product responded 200 in 38.5285 ms
+2024-01-04 15:00:42.785 +07:00 [INF] HTTP GET /api/Product/GetProductCategories responded 200 in 35.4513 ms
+2024-01-04 15:00:42.829 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 40.2316 ms
+2024-01-04 15:00:42.903 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 72.5720 ms
+2024-01-04 15:00:44.005 +07:00 [INF] Make call to product list
+2024-01-04 15:00:44.042 +07:00 [INF] HTTP GET /api/Product responded 200 in 36.4998 ms
+2024-01-04 15:00:44.087 +07:00 [INF] HTTP GET /api/Product/GetProductCategories responded 200 in 33.8728 ms
+2024-01-04 15:00:55.834 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 41.5348 ms
+2024-01-04 15:00:58.049 +07:00 [INF] HTTP POST /api/Login responded 200 in 163.1579 ms
+2024-01-04 15:00:58.108 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 37.7263 ms
+2024-01-04 15:00:58.183 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 71.8243 ms
+2024-01-04 15:00:58.229 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 35.4763 ms
+2024-01-04 15:00:58.266 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 35.3988 ms
+2024-01-04 15:00:58.306 +07:00 [INF] HTTP GET /api/Product/2 responded 200 in 36.9133 ms
+2024-01-04 15:01:15.564 +07:00 [INF] HTTP GET /api/Product/GetCategory/1 responded 200 in 38.6038 ms
+2024-01-04 15:01:15.622 +07:00 [INF] HTTP GET /api/Product/1/GetItemsByCategory responded 200 in 40.3562 ms
+2024-01-04 15:01:17.052 +07:00 [INF] Make call to product list
+2024-01-04 15:01:17.089 +07:00 [INF] HTTP GET /api/Product responded 200 in 36.9278 ms
+2024-01-04 15:01:17.138 +07:00 [INF] HTTP GET /api/Product/GetProductCategories responded 200 in 35.4348 ms
+2024-01-04 15:01:17.176 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 35.0549 ms
+2024-01-04 15:01:17.249 +07:00 [INF] HTTP GET /api/ShoppingCart/13/GetItems responded 200 in 71.5475 ms
+2024-01-04 15:01:24.190 +07:00 [INF] HTTP GET /api/Users/test1@gmail.com responded 200 in 34.7449 ms
+2024-01-04 15:01:24.226 +07:00 [INF] HTTP GET /api/Carts/User/13 responded 200 in 34.5435 ms
+2024-01-04 15:01:24.265 +07:00 [INF] HTTP GET /api/Product/1 responded 200 in 35.3996 ms
+2024-01-04 15:01:30.464 +07:00 [INF] HTTP DELETE /api/ShoppingCart/15 responded 200 in 402.8041 ms
+2024-01-04 15:01:32.328 +07:00 [INF] HTTP DELETE /api/ShoppingCart/16 responded 200 in 112.7679 ms
+2024-01-04 15:01:35.422 +07:00 [INF] Make call to product list
+2024-01-04 15:01:35.458 +07:00 [INF] HTTP GET /api/Product responded 200 in 36.4156 ms
+2024-01-04 15:01:35.507 +07:00 [INF] HTTP GET /api/Product/GetProductCategories responded 200 in 35.3001 ms

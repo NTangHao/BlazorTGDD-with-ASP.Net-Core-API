@@ -46,9 +46,14 @@ main[b-0bvrwx9b4l] {
         background-color: #5e5e60;
     }
 
+.navbar-brand[b-wtpn9tvros]{
+    cursor: pointer;
+}
+
 .menu li[b-wtpn9tvros] {
     width: 14%;
     transition: opacity .2s cubic-bezier(.645,.045,.355,1);
+    cursor: pointer;
 }
 
     .menu li:hover a[b-wtpn9tvros] {
@@ -168,8 +173,9 @@ main[b-0bvrwx9b4l] {
     color: #000;
 }
 
-.nav-LogIn[b-wtpn9tvros]{
-    margin-left: 3%;
+.nav-right[b-wtpn9tvros] {
+    display: flex;
+    align-items: center; 
 }
 
 
@@ -205,4 +211,283 @@ main[b-0bvrwx9b4l] {
     .search-results[b-wtpn9tvros] {
         max-width: 450px
     }
+}
+/* _content/TGDD.Web/Components/Pages/Category.razor.rz.scp.css */
+
+
+.carousel-control-prev[b-3olg56wi76], .carousel-control-next[b-3olg56wi76] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background: #3e3f41;
+    color: lightgray;
+    border-radius: 100%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+.carousel-indicators li[b-3olg56wi76] {
+    background-color: #007bff; 
+}
+/* _content/TGDD.Web/Components/Pages/Home.razor.rz.scp.css */
+.custom-carousel[b-u8vtm47s09] {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.carousel-control-prev[b-u8vtm47s09], .carousel-control-next[b-u8vtm47s09] {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3e3f41;
+    background: #3e3f41;
+    color: lightgray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+.carousel-control-prev[b-u8vtm47s09] {
+    left: 15px;
+}
+
+.carousel-control-next[b-u8vtm47s09] {
+    right: 15px;
+}
+
+.carousel-indicators li[b-u8vtm47s09] {
+    background-color: #3e3f41; /* or any color you prefer */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-fade .carousel-item[b-u8vtm47s09] {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-fade .carousel-item-next.carousel-item-left[b-u8vtm47s09],
+.carousel-fade .carousel-item-prev.carousel-item-right[b-u8vtm47s09],
+.carousel-fade .carousel-item.active[b-u8vtm47s09] {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-item-left[b-u8vtm47s09],
+.carousel-fade .carousel-item-right[b-u8vtm47s09] {
+    opacity: 0;
+}
+
+.carousel-inner img[b-u8vtm47s09] {
+    max-height: 600px;
+    object-fit: cover;
+}
+/* _content/TGDD.Web/Components/Pages/Login.razor.rz.scp.css */
+.login-container[b-3um6wsa4si] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.login-card[b-3um6wsa4si] {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-title[b-3um6wsa4si] {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.login-form .form-group[b-3um6wsa4si] {
+    margin-bottom: 1rem;
+}
+
+.login-form .form-control[b-3um6wsa4si] {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.login-button[b-3um6wsa4si] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.register-option[b-3um6wsa4si] {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+    .register-option .register[b-3um6wsa4si] {
+        color: #007bff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .register-option .register:hover[b-3um6wsa4si] {
+        text-decoration: underline;
+    }
+/* _content/TGDD.Web/Components/Pages/LoginDisplay.razor.rz.scp.css */
+.btn-nav[b-rf46ndlagg] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background: #3e3f41;
+    color: white;
+    border-radius: 100%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+    .btn-nav:hover[b-rf46ndlagg] {
+        background-color: #5e5e60;
+        color: white;
+    }
+
+.user-hello[b-rf46ndlagg] {
+    color: lightgray; 
+    font-size: 1rem; 
+    margin-right: 10px; 
+    display: flex; 
+    align-items: center; 
+}
+
+/* _content/TGDD.Web/Components/Pages/ProductDetail.razor.rz.scp.css */
+.carousel[b-2204l5aaw2] {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+    scroll-snap-type: x mandatory;
+    margin: 20px 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+    .carousel.active[b-2204l5aaw2] {
+        background: rgba(255,255,255,0.3);
+        cursor: grabbing;
+        cursor: -webkit-grabbing;
+        transform: scale(1);
+    }
+
+.box[b-2204l5aaw2] {
+    background: #fff;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px 0 0;
+    border-radius: 8px;
+    height: 80px;
+    width: 80px;
+    border: 3px solid transparent;
+    padding: 0;
+    overflow: hidden;
+}
+
+    .box img[b-2204l5aaw2] {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .box.active[b-2204l5aaw2] {
+        border: 3px solid dimgray;
+    }
+/* _content/TGDD.Web/Components/Pages/Register.razor.rz.scp.css */
+.register-container[b-xyhkie1s0c] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+
+.register-card[b-xyhkie1s0c] {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.register-title[b-xyhkie1s0c] {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.register-form .form-group[b-xyhkie1s0c] {
+    margin-bottom: 1rem;
+}
+
+.register-form .form-control[b-xyhkie1s0c] {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.register-button[b-xyhkie1s0c] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.login-option[b-xyhkie1s0c] {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+    .login-option .login[b-xyhkie1s0c] {
+        color: #007bff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+        .login-option .login:hover[b-xyhkie1s0c] {
+            text-decoration: underline;
+        }
+
+.alert-danger[b-xyhkie1s0c] {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 0.75rem 1.25rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
 }

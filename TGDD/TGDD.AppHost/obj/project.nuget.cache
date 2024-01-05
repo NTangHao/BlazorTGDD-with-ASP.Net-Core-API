@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X13OQV6KEmqhMLHrk8uKvZgb13yjYGdQ84Hj+H36kyIp7zJtQvfBiT1K6UehlQmhqGpg4UiQwC2UVwJ1WL0mtw==",
+  "dgSpecHash": "xyQ0qYUOgBWESB2Vs3RvaIifuuPd02otZGJ3v5QmKNOI9go+690pJOzyamxdZIh8o9Reo1EmbIo/wGzhjQq0Jg==",
   "success": true,
-  "projectFilePath": "C:\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.AppHost\\TGDD.AppHost.csproj",
+  "projectFilePath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.AppHost\\TGDD.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dung Bui\\.nuget\\packages\\aspire.azure.messaging.servicebus\\8.0.0-preview.2.23619.3\\aspire.azure.messaging.servicebus.8.0.0-preview.2.23619.3.nupkg.sha512",
     "C:\\Users\\Dung Bui\\.nuget\\packages\\aspire.dashboard\\8.0.0-preview.2.23619.3\\aspire.dashboard.8.0.0-preview.2.23619.3.nupkg.sha512",

@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDDMessaging", "TGDDMessag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGDDMessaging.Worker", "TGDDMessaging.Worker\TGDDMessaging.Worker.csproj", "{C1521D19-1ADB-4AE3-9AD2-30C90269F345}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGDDProduct.Test", "TGDDProduct.Test\TGDDProduct.Test.csproj", "{35F3D0FD-EB0D-4347-BB42-075DC74BFC24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C1521D19-1ADB-4AE3-9AD2-30C90269F345}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1521D19-1ADB-4AE3-9AD2-30C90269F345}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1521D19-1ADB-4AE3-9AD2-30C90269F345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F3D0FD-EB0D-4347-BB42-075DC74BFC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F3D0FD-EB0D-4347-BB42-075DC74BFC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F3D0FD-EB0D-4347-BB42-075DC74BFC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F3D0FD-EB0D-4347-BB42-075DC74BFC24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TGDD.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81ef4c26d3d1fcc6da99565b06df29c55dea939c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef84c70af5f96faefd1d98c8662c222c197d4fd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("TGDD.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TGDD.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

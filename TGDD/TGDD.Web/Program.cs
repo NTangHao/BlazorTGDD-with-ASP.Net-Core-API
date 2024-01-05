@@ -21,7 +21,7 @@ builder.Services.AddRazorComponents()
 
 // Configure the HTTP request pipeline for this blazor app
 
-string baseAddress = builder.Environment.IsDevelopment() ? "http://localhost:5282" : "https://tgddapi.ashybeach-12aeeffe.southeastasia.azurecontainerapps.io/";
+string baseAddress = builder.Environment.IsDevelopment() ? "http://localhost:5282" : "https://tgddapi.jollywater-d3fc2aed.southeastasia.azurecontainerapps.io";
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(baseAddress) });
 
 //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5282") });

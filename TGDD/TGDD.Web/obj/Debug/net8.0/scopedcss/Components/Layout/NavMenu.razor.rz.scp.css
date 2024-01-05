@@ -17,9 +17,14 @@
         background-color: #5e5e60;
     }
 
+.navbar-brand[b-wtpn9tvros]{
+    cursor: pointer;
+}
+
 .menu li[b-wtpn9tvros] {
     width: 14%;
     transition: opacity .2s cubic-bezier(.645,.045,.355,1);
+    cursor: pointer;
 }
 
     .menu li:hover a[b-wtpn9tvros] {

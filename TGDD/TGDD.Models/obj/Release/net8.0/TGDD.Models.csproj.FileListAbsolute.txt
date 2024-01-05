@@ -21,3 +21,15 @@ C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\TGDD.Mod
 C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\refint\TGDD.Models.dll
 C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\TGDD.Models.pdb
 C:\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\ref\TGDD.Models.dll
+C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\bin\Release\net8.0\TGDD.Models.deps.json
+C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\bin\Release\net8.0\TGDD.Models.dll
+C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\bin\Release\net8.0\TGDD.Models.pdb
+C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\TGDD.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\TGDD.Models.AssemblyInfoInputs.cache
+C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\TGDD.Models.AssemblyInfo.cs
+C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\TGDD.Models.csproj.CoreCompileInputs.cache
+C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\TGDD.Models.sourcelink.json
+C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\TGDD.Models.dll
+C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\refint\TGDD.Models.dll
+C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\TGDD.Models.pdb
+C:\New Clone\BlazorTGDD-with-ASP.Net-Core-API\TGDD\TGDD.Models\obj\Release\net8.0\ref\TGDD.Models.dll

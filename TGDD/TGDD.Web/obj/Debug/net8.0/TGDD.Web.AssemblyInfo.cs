@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TGDD.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82c4ef990973e994798464d96cbd2dc4001a72e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef84c70af5f96faefd1d98c8662c222c197d4fd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("TGDD.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TGDD.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

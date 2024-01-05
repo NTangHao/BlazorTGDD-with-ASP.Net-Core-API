@@ -166,6 +166,8 @@ namespace TGDD.Api.Data
 
             });
 
+
+
             //Create Shopping Cart for Users
             modelBuilder.Entity<Cart>().HasData(new Cart
             {

@@ -62,11 +62,15 @@ namespace TGDD.Api.Controllers
         {
             try
             {
+                if (id < 0)
+                {
+                    return BadRequest();
+                }
                 var product = await this.productRepository.GetItem(id);
 
                 if (product == null)
                 {
-                    return BadRequest();
+                    return NotFound();
                 }
                 else
                 {
@@ -93,9 +97,19 @@ namespace TGDD.Api.Controllers
             {
                 var productCategories = await productRepository.GetCategories();
 
-                var productCategoryDtos = productCategories.ConvertToDto();
 
-                return Ok(productCategoryDtos);
+
+                if (productCategories == null)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    var productCategoryDtos = productCategories.ConvertToDto();
+                    return Ok(productCategoryDtos);
+                }
+
+
 
             }
             catch (Exception)
@@ -112,11 +126,20 @@ namespace TGDD.Api.Controllers
         {
             try
             {
-                var products = await productRepository.GetCategory(categoryId);
+                var categories = await productRepository.GetCategory(categoryId);
 
-                var productDtos = products.ConvertToDto();
+                if (categories == null)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    var productDtos = categories.ConvertToDto();
 
-                return Ok(productDtos);
+                    return Ok(productDtos);
+                }
+
+
 
             }
             catch (Exception)

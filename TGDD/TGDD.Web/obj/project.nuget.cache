@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vlCcnIkYLlMk0bdH/dNeo6CAhNN1L3fAvxtSAdfoMRucMRwDBphg82uHqgyUdlgAONWnsJC4YHXDCIx3RZi4CA==",
+  "dgSpecHash": "5b2b3TQF4cNfbcQMOv6u+91xebsEO1GsOYYdgcc6VXDzwOnrPudAtn6R1YP1urjf83bLI+jwaCqMMfiXXT4DTg==",
   "success": true,
-  "projectFilePath": "C:\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\TGDD.Web.csproj",
+  "projectFilePath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.Web\\TGDD.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dung Bui\\.nuget\\packages\\aspire.stackexchange.redis\\8.0.0-preview.2.23619.3\\aspire.stackexchange.redis.8.0.0-preview.2.23619.3.nupkg.sha512",
     "C:\\Users\\Dung Bui\\.nuget\\packages\\aspire.stackexchange.redis.distributedcaching\\8.0.0-preview.2.23619.3\\aspire.stackexchange.redis.distributedcaching.8.0.0-preview.2.23619.3.nupkg.sha512",

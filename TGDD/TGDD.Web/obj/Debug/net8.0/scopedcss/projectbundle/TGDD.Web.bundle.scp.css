@@ -48,9 +48,14 @@ main[b-0bvrwx9b4l] {
         background-color: #5e5e60;
     }
 
+.navbar-brand[b-wtpn9tvros]{
+    cursor: pointer;
+}
+
 .menu li[b-wtpn9tvros] {
     width: 14%;
     transition: opacity .2s cubic-bezier(.645,.045,.355,1);
+    cursor: pointer;
 }
 
     .menu li:hover a[b-wtpn9tvros] {
@@ -231,15 +236,56 @@ main[b-0bvrwx9b4l] {
     background-color: #007bff; 
 }
 /* _content/TGDD.Web/Components/Pages/Home.razor.rz.scp.css */
+.custom-carousel[b-u8vtm47s09] {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.carousel-control-prev[b-u8vtm47s09], .carousel-control-next[b-u8vtm47s09] {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3e3f41;
+    background: #3e3f41;
+    color: lightgray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+.carousel-control-prev[b-u8vtm47s09] {
+    left: 15px;
+}
+
+.carousel-control-next[b-u8vtm47s09] {
+    right: 15px;
+}
+
+.carousel-indicators li[b-u8vtm47s09] {
+    background-color: #3e3f41; /* or any color you prefer */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
 .carousel-fade .carousel-item[b-u8vtm47s09] {
     transition: opacity 0.5s ease-in-out;
 }
 
-    .carousel-fade .carousel-item-next.carousel-item-left[b-u8vtm47s09],
-    .carousel-fade .carousel-item-prev.carousel-item-right[b-u8vtm47s09],
-    .carousel-fade .carousel-item.active[b-u8vtm47s09] {
-        opacity: 1;
-    }
+.carousel-fade .carousel-item-next.carousel-item-left[b-u8vtm47s09],
+.carousel-fade .carousel-item-prev.carousel-item-right[b-u8vtm47s09],
+.carousel-fade .carousel-item.active[b-u8vtm47s09] {
+    opacity: 1;
+}
 
 .carousel-fade .carousel-item-left[b-u8vtm47s09],
 .carousel-fade .carousel-item-right[b-u8vtm47s09] {
@@ -250,38 +296,6 @@ main[b-0bvrwx9b4l] {
     max-height: 600px;
     object-fit: cover;
 }
-
-/*.product-container {
-    cursor: pointer;
-    transition: transform .2s;
-}
-    .product-container:hover {
-        transform: scale(1.05);
-    }
-
-.product-container img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-
-}
-
-.product-name h5 {
-    font-size: 1.1em;
-    color: #333;
-    font-weight: bold;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.price {
-    font-size: 1.2em;
-}
-
-    .price span {
-        color: #0078d4;
-    }*/
 /* _content/TGDD.Web/Components/Pages/Login.razor.rz.scp.css */
 .login-container[b-3um6wsa4si] {
     display: flex;
@@ -365,6 +379,56 @@ main[b-0bvrwx9b4l] {
     align-items: center; 
 }
 
+/* _content/TGDD.Web/Components/Pages/ProductDetail.razor.rz.scp.css */
+.carousel[b-2204l5aaw2] {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+    scroll-snap-type: x mandatory;
+    margin: 20px 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+    .carousel.active[b-2204l5aaw2] {
+        background: rgba(255,255,255,0.3);
+        cursor: grabbing;
+        cursor: -webkit-grabbing;
+        transform: scale(1);
+    }
+
+.box[b-2204l5aaw2] {
+    background: #fff;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px 0 0;
+    border-radius: 8px;
+    height: 80px;
+    width: 80px;
+    border: 3px solid transparent;
+    padding: 0;
+    overflow: hidden;
+}
+
+    .box img[b-2204l5aaw2] {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .box.active[b-2204l5aaw2] {
+        border: 3px solid dimgray;
+    }
 /* _content/TGDD.Web/Components/Pages/Register.razor.rz.scp.css */
 .register-container[b-xyhkie1s0c] {
     display: flex;

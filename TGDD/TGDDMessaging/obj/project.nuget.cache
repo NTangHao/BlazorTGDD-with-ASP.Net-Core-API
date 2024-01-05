@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5gkRIsqajpfjKcpiNHVhrnn2LLakAXLHSmihCNpdDDsyqD60s0n+Nr+xv7qwkQTH8ve1vKb2qsTsC7JF8Kc/Eg==",
+  "dgSpecHash": "i7dOcmCPHMLHkjiNGaUQjjmVryToieQmvACp3PoOcXkWnDJEf4m4wjrEUfO1J1+Rvy0dxpLHge2vqJsBxylZMw==",
   "success": true,
-  "projectFilePath": "C:\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging\\TGDDMessaging.csproj",
+  "projectFilePath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDDMessaging\\TGDDMessaging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dung Bui\\.nuget\\packages\\aspire.azure.messaging.servicebus\\8.0.0-preview.2.23619.3\\aspire.azure.messaging.servicebus.8.0.0-preview.2.23619.3.nupkg.sha512",
     "C:\\Users\\Dung Bui\\.nuget\\packages\\aspnetcore.healthchecks.azureservicebus\\7.0.0\\aspnetcore.healthchecks.azureservicebus.7.0.0.nupkg.sha512",

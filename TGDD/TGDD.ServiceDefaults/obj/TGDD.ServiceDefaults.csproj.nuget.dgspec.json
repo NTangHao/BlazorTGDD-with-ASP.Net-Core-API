@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj": {}
+    "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj": {}
   },
   "projects": {
-    "C:\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj": {
+    "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
         "projectName": "TGDD.ServiceDefaults",
-        "projectPath": "C:\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
+        "projectPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\TGDD.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\Dung Bui\\.nuget\\packages\\",
-        "outputPath": "C:\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\obj\\",
+        "outputPath": "C:\\New Clone\\BlazorTGDD-with-ASP.Net-Core-API\\TGDD\\TGDD.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
